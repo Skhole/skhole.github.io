@@ -1,0 +1,20 @@
+.svg-best-education {
+  max-width: 612px;
+}
+
+@media only screen
+and (min-width: 769px) {
+  .svg-best-education {
+    padding-top: 145px;
+  }
+}
+
+@media only screen
+and (min-width: 1281px) {
+  .svg-best-education {
+    padding-top: 145px;
+  }
+  .section-1 .text-container {
+    padding-top: 490px;
+  }
+}
