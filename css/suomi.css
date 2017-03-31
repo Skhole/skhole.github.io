@@ -2,6 +2,14 @@
   max-width: 612px;
 }
 
+#References h1 {
+  width: 200px;
+}
+
+.section-contacts h1 {
+  width: 270px;
+}
+
 @media only screen
 and (max-width: 500px) {
   .header a.lang {
@@ -9,6 +17,13 @@ and (max-width: 500px) {
   }
   .header a.lang:after {
     content: 'EN';
+  }
+}
+
+@media only screen
+and (max-width: 768px) {
+  .section-contacts .header-line {
+      margin-left: 158px;
   }
 }
 
