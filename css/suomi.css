@@ -3,6 +3,16 @@
 }
 
 @media only screen
+and (max-width: 500px) {
+  .header a.lang {
+    line-height: 6px;
+  }
+  .header a.lang:after {
+    content: 'EN';
+  }
+}
+
+@media only screen
 and (min-width: 769px) {
   .svg-best-education {
     padding-top: 145px;
