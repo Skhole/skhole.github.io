@@ -2996,7 +2996,7 @@ $( document ).ready(function() {
     $(".general-modal").hide();
   });
 
-  $(".sample-sign").click(function(e){
+  $(".previewable-course").click(function(e){
     e.preventDefault();
     $("#video-modal").show();
     $(".video-holder").show();
