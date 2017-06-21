@@ -2988,13 +2988,60 @@ $( document ).ready(function() {
     $(".login-modal").show();
   });
 
-  /* close modals */
-  $(".close").click(function(e){
+  /* trial button opens modal */
+  $(".finnish button.trial").click(function(e){
     e.preventDefault();
+    $("#wufoo-m1s3bssk06socjh").show();
+    $(".inbound-modal").show();
+  });
+  $(".finnish #inbound-button").click(function(e){
+    e.preventDefault();
+    $("#wufoo-z145jjw91794jxa").show();
+    $(".inbound-modal").show();
+  });
+  $(".finnish #inbound-button-mobile").click(function(e){
+    e.preventDefault();
+    $("#wufoo-z145jjw91794jxa").show();
+    $(".inbound-modal").show();
+  });
+  /* close modals */
+  $(".finnish .close").click(function(e){
+    e.preventDefault();
+    $("#wufoo-z145jjw91794jxa").hide();
+    $("#wufoo-m1s3bssk06socjh").hide();
     $(".login-modal").hide();
+    $(".inbound-modal").hide();
     $(".video-modal").hide();
     $(".general-modal").hide();
   });
+
+  /* trial button opens modal */
+  $(".english button.trial").click(function(e){
+    e.preventDefault();
+    $("#wufoo-rhm39i009v8a9a").show();
+    $(".inbound-modal").show();
+  });
+  $(".english #inbound-button").click(function(e){
+    e.preventDefault();
+    $("#wufoo-q14pwxh7068i1wc").show();
+    $(".inbound-modal").show();
+  });
+  $(".english #inbound-button-mobile").click(function(e){
+    e.preventDefault();
+    $("#wufoo-q14pwxh7068i1wc").show();
+    $(".inbound-modal").show();
+  });
+  /* close modals */
+  $(".english .close").click(function(e){
+    e.preventDefault();
+    $("#wufoo-q14pwxh7068i1wc").hide();
+    $("#wufoo-rhm39i009v8a9a").hide();
+    $(".login-modal").hide();
+    $(".inbound-modal").hide();
+    $(".video-modal").hide();
+    $(".general-modal").hide();
+  });
+
 
   $(".previewable-course").click(function(e){
     e.preventDefault();
