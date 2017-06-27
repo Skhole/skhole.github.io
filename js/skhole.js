@@ -3007,12 +3007,14 @@ $( document ).ready(function() {
   /* close modals */
   $(".finnish .close").click(function(e){
     e.preventDefault();
+    $('body').css('position','relative');
     $("#wufoo-z145jjw91794jxa").hide();
     $("#wufoo-m1s3bssk06socjh").hide();
     $(".login-modal").hide();
     $(".inbound-modal").hide();
     $(".video-modal").hide();
     $(".general-modal").hide();
+    $(".all-courses-modal").hide();
   });
 
   /* trial button opens modal */
@@ -3042,6 +3044,11 @@ $( document ).ready(function() {
     $(".general-modal").hide();
   });
 
+  $("button.all-courses").click(function(e){
+    e.preventDefault();
+    $('body').css('position','fixed');
+    $(".all-courses-modal").show();
+  });
 
   $(".previewable-course").click(function(e){
     e.preventDefault();
