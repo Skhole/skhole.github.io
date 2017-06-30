@@ -41,11 +41,22 @@ and (min-width: 769px) {
 }
 
 @media only screen
+and (min-width: 768px)
+and (max-width: 1280px) {
+  .svg-best-education {
+    padding-top: 80px;
+  }
+  .section-1 .text-container {
+    padding-top: 300px;
+  }
+}
+
+@media only screen
 and (min-width: 1281px) {
   .svg-best-education {
     padding-top: 145px;
   }
   .section-1 .text-container {
-    padding-top: 490px;
+    padding-top: 460px;
   }
 }
