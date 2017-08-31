@@ -3050,64 +3050,10 @@ $( document ).ready(function() {
     $(".all-courses-modal").show();
   });
 
-  $(".info-course-kunto").click(function(e){
-    e.preventDefault();
-    $("#info-modal-kunto").show();
-    $(".login-holder").show();
-  });
-
-  $(".info-course-kipu").click(function(e){
-    e.preventDefault();
-    $("#info-modal-kipu").show();
-    $(".login-holder").show();
-  });
-
-  $(".info-course-painehaava").click(function(e){
-    e.preventDefault();
-    $("#info-modal-painehaava").show();
-    $(".login-holder").show();
-  });
-
-  $(".info-course-alaselka").click(function(e){
-    e.preventDefault();
-    $("#info-modal-alaselka").show();
-    $(".login-holder").show();
-  });
-
-  $(".info-course-kasihygi").click(function(e){
-    e.preventDefault();
-    $("#info-modal-kasihygi").show();
-    $(".login-holder").show();
-  });
-
-  $(".info-course-saatto").click(function(e){
-    e.preventDefault();
-    $("#info-modal-saatto").show();
-    $(".login-holder").show();
-  });
-
-  $(".info-course-vammainen").click(function(e){
-    e.preventDefault();
-    $("#info-modal-vammainen").show();
-    $(".login-holder").show();
-  });
-
   $(".previewable-course").click(function(e){
     e.preventDefault();
     $("#video-modal").show();
     $(".video-holder").show();
-  });
-
-  $(".info-course-laake").click(function(e){
-    e.preventDefault();
-    $("#info-modal-laake").show();
-    $(".login-holder").show();
-  });
-
-  $(".info-course-muistisairas").click(function(e){
-    e.preventDefault();
-    $("#info-modal-muistisairas").show();
-    $(".login-holder").show();
   });
 
   $(".terms").click(function(e){
