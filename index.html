@@ -13,9 +13,10 @@
       <meta property="og:image" content="https://www.skhole.fi/img/fb.jpg" />
       <script>
         var target = [];
-        target.All = "https://www.skhole.fi/best-healthcare-education-in-the-world.html";
+        var englishPage = "https://www.skhole.fi/best-healthcare-education-in-the-world.html";
+        target.All = englishPage;
         target.FI  = "https://www.skhole.fi/index.html";
-        function geoip(g){if(g.country_code!='FI'){window.top.location.href=target[g.country_code]||target.All}}
+        function geoip(g){if(g.country_code!='FI'&&document.referrer!=englishPage){window.top.location.href=target[g.country_code]||target.All}}
         (function(g,e,o,i,p){i=g.createElement(e),p=g.getElementsByTagName(e)[0];i.async=0;i.src=o;p.parentNode.insertBefore(i,p)})(document,'script','https://freegeoip.net/json/?callback=geoip');
       </script>
       <script src="https://use.typekit.net/ywl4mbi.js"></script>
