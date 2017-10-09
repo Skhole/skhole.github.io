@@ -7,12 +7,28 @@
     height: 600px;
   }
 
-}
+  h2 {
+    display: none;
+  }
 
-h2 {
-  display: none;
 }
 
 form .errorLi {
+  display: none !important;
+}
+
+.errorLi {
+  display: none !important;
+}
+
+form .error {
+  display: none !important;
+}
+
+p.error {
+  display: none !important;
+}
+
+.error {
   display: none !important;
 }
