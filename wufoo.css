@@ -6,22 +6,6 @@
     display: none;
   }
 
-  form .header.info {
-  display: none !important;
-  }
-
-  form .info {
-  display: none !important;
-  }
-
-  .header.info {
-  display: none !important;
-  }
-
-  .info {
-  display: none !important;
-  }
-
 }
 
 form .errorLi {
