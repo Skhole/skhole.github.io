@@ -1,14 +1,24 @@
 /** Mobile **/
 
-@media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
-
-  .form2.wufoo.topLabel1.page1 {
-    width: 280px;
-    height: 600px;
-  }
-
+@media only screen and (max-width: 432px), only screen and (max-device-width: 432px) {
   h2 {
     display: none;
+  }
+
+  form .header.info {
+  display: none !important;
+  }
+
+  form .info {
+  display: none !important;
+  }
+
+  .header.info {
+  display: none !important;
+  }
+
+  .info {
+  display: none !important;
   }
 
 }
