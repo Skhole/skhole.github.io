@@ -1,6 +1,6 @@
 /** Mobile **/
 
-@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+/*@media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
 
   h2 {
     display: none;
@@ -10,7 +10,7 @@
     display: none;
   }
 
-}
+}*/
 
 form .errorLi {
   display: none !important;
