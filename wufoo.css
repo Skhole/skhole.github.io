@@ -6,13 +6,13 @@
     display: none;
   }
 
-  li.errorLi {
-    display: none !important;
-  }
-
 }
 
 p.error {
+  display: none !important;
+}
+
+#errorLi {
   display: none !important;
 }
 
