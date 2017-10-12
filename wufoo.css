@@ -1,33 +1,26 @@
 /** Mobile **/
 
-/*@media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
+@media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
 
   h2 {
     display: none;
   }
 
-  div {
-    display: none;
+  li.errorLi {
+    display: none !important;
   }
 
-}*/
-
-form .errorLi {
-  display: none !important;
-}
-
-.errorLi {
-  display: none !important;
-}
-
-form .error {
-  display: none !important;
 }
 
 p.error {
   display: none !important;
 }
 
-.error {
+/* .error {
   display: none !important;
 }
+
+form .error {
+  display: none !important;
+}
+*/
