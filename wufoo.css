@@ -1,0 +1,26 @@
+/** Mobile **/
+
+@media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
+
+  h2 {
+    display: none;
+  }
+
+}
+
+p.error {
+  display: none !important;
+}
+
+#errorLi {
+  display: none !important;
+}
+
+/* .error {
+  display: none !important;
+}
+
+form .error {
+  display: none !important;
+}
+*/
