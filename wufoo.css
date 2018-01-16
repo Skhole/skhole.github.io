@@ -21,14 +21,14 @@ p.error {
 }
 
 .centerFormProp {
-  visibility: hidden;
+  display: hidden;
 }
 
   .kauppaotsikko {
   font-size: 33px !important;
   }
 
-form li div label{
+form li div label {
   display: none;
 }
 
