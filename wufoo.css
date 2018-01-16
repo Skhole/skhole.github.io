@@ -21,9 +21,11 @@ p.error {
   font-size: 33px !important;
   }
 
-.sk1 form li div label{
+form li div label{
   display: none !important;
 }
+
+
 
 /* .error {
   display: none !important;
