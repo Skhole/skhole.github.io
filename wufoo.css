@@ -25,6 +25,10 @@ form li div label{
   display: none;
 }
 
+.info div {
+  color: #ffffff
+}
+
 
 
 /* .error {
