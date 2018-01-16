@@ -16,6 +16,13 @@ p.error {
   display: none !important;
 }
 
+.wufoo li {
+  width: 90%;
+}
+
+.centerFormProp {
+  visibility: hidden;
+}
 
   .kauppaotsikko {
   font-size: 33px !important;
