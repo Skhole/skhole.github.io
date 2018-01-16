@@ -2,10 +2,10 @@
 
 @media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
 
-  h2 {
+/*  h2 {
     display: none;
   }
-
+*/
 }
 
 p.error {
