@@ -21,10 +21,8 @@ p.error {
   font-size: 33px !important;
   }
 
-#wufoo-skhole-kauppa{
-  form li div label {
+.sk1 form li div label{
   display: none !important;
-  }
 }
 
 /* .error {
