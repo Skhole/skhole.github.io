@@ -7,27 +7,34 @@ body {
     background-position: center;
 }
 
-@media (min-height: 920px)  {
+@media (max-height: 820px)  {
   #otsikkokuva {
-    padding: 60px;
-    width: 700px;
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: block !important;
+    display: none !important;
   }
 
 }
 
+@media (max-height: 1100px)  {
+  #otsikkokuva {
+   padding: 1px !important;
+  }
+
+  .flex-item {
+    padding: 241px 30px 0 30px !important;
+    width: 350px;
+    height: 600px;
+  }
+
+}
+
+
 #otsikkokuva {
-  padding: 60px;
+  padding: 110px;
   width: 700px;
   height: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  display: none;
 }
 
 
