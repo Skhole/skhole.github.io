@@ -7,24 +7,16 @@ body {
     background-position: center;
 }
 
-@media (max-height: 720px)  {
-  #otsikkokuva {
-    display: none !important;
-  }
-
-}
-
 @media (max-height: 1100px)  {
   #otsikkokuva {
    padding: 1px !important;
   }
 
   .flex-item {
-    padding: 241px 30px 0 30px !important;
+    padding: 345px 30px 0 30px !important;
     width: 350px;
     height: 600px;
   }
-
 }
 
 
