@@ -1,7 +1,7 @@
 body {
   color: #0d2b5c;
   font-family: "jaf-domus";
-    background-image: url('../img/tausta.jpg');
+    background-image: url('../img/tausta2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -167,7 +167,7 @@ button {
   height: 20px;
 }
 
-.flex-item:nth-child(1) {
+.flex-item:nth-child(2) {
   background-repeat: no-repeat;
   background-position: bottom;
   -webkit-order: 0;
@@ -181,7 +181,7 @@ button {
   align-self: auto;
 }
 
-.flex-item:nth-child(2) {
+.flex-item:nth-child(3) {
   font-size: 18px;
   background-repeat: no-repeat;
   background-position: bottom;
