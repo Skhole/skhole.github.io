@@ -7,6 +7,11 @@ p {
 font-size: 19px;
 }
 
+#logopic {
+  z-index: 999999;
+}
+
+
 .flex-container {
   margin: auto;
   position: absolute;
