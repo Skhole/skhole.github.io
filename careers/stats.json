@@ -4,10 +4,6 @@
       "component---src-pages-index-js-445480bac959a67f185d.js",
       "component---src-pages-index-js-445480bac959a67f185d.js.map"
     ],
-    "path---b-2-b-manager-in-south-africa": [
-      "path---b-2-b-manager-in-south-africa-ca721e5953cd418bdcf5.js",
-      "path---b-2-b-manager-in-south-africa-ca721e5953cd418bdcf5.js.map"
-    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
@@ -21,12 +17,16 @@
       "component---src-layouts-index-js-41fcc943fb1c30734210.js.map"
     ],
     "path---b-2-b-manager-in-south-africa-55": [
-      "path---b-2-b-manager-in-south-africa-55-e00a07aa8410a5391b3a.js",
-      "path---b-2-b-manager-in-south-africa-55-e00a07aa8410a5391b3a.js.map"
+      "path---b-2-b-manager-in-south-africa-55-48a0f6807d3d0141f3ce.js",
+      "path---b-2-b-manager-in-south-africa-55-48a0f6807d3d0141f3ce.js.map"
     ],
     "path---index": [
-      "path---index-d19f864aad9aa818ea86.js",
-      "path---index-d19f864aad9aa818ea86.js.map"
+      "path---index-ab903e01c23a817eaa40.js",
+      "path---index-ab903e01c23a817eaa40.js.map"
+    ],
+    "path---b-2-b-sales-manager-sa": [
+      "path---b-2-b-sales-manager-sa-06b258c712fcdef07a51.js",
+      "path---b-2-b-sales-manager-sa-06b258c712fcdef07a51.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -43,9 +43,9 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-ea81449b70b4c791411a.js",
+      "app-39c4ce43d8f5bf060929.js",
       "build-js-styles.css",
-      "app-ea81449b70b4c791411a.js.map",
+      "app-39c4ce43d8f5bf060929.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
