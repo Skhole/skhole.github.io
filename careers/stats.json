@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e9821d6498458833e7da.js",
-      "component---src-pages-index-js-e9821d6498458833e7da.js.map"
+      "component---src-pages-index-js-a26d779b28a6a749f0a4.js",
+      "component---src-pages-index-js-a26d779b28a6a749f0a4.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -13,25 +13,25 @@
       "component---src-templates-blog-post-js-965ede76363dd0127c68.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-ddae0ba329268d68ea46.js",
-      "component---src-layouts-index-js-ddae0ba329268d68ea46.js.map"
+      "component---src-layouts-index-js-149442a4dce0e23e7293.js",
+      "component---src-layouts-index-js-149442a4dce0e23e7293.js.map"
     ],
     "path---index": [
       "path---index-6fe329a809b6d88b2e44.js",
       "path---index-6fe329a809b6d88b2e44.js.map"
     ],
     "path---b-2-b-sales-manager-sa": [
-      "path---b-2-b-sales-manager-sa-57eb91dbe1870a2a9ec5.js",
-      "path---b-2-b-sales-manager-sa-57eb91dbe1870a2a9ec5.js.map"
+      "path---b-2-b-sales-manager-sa-3adc315c5c69bb34979d.js",
+      "path---b-2-b-sales-manager-sa-3adc315c5c69bb34979d.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-5cf4acbe160167cec565.js",
+      "commons-68aad81503ae45628ade.js",
       "build-js-styles.css",
-      "commons-5cf4acbe160167cec565.js.map",
+      "commons-68aad81503ae45628ade.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -39,9 +39,9 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-1a0b3769a1ee59572ce5.js",
+      "app-865656e37e33252e6b1b.js",
       "build-js-styles.css",
-      "app-1a0b3769a1ee59572ce5.js.map",
+      "app-865656e37e33252e6b1b.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
