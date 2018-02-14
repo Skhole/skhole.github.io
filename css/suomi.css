@@ -60,3 +60,801 @@ and (min-width: 1281px) {
     padding-top: 460px;
   }
 }
+
+
+/* Tästä alkaa etusivu uudistus */
+
+#buy {
+  background: #ff9080;
+  color: #FFFFFF;
+  border: 2px solid #ff9080;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+#suositush2vol2 {
+  display: none;
+}
+
+#trial2 {
+  background: #ffffff;
+  color: #0034a0;
+  border: 2px solid #0034a0;
+  margin-right: 5px;
+  margin-left: 0;
+}
+
+#buttonit {
+  padding-top: 20px;
+}
+
+.flex-holder {
+  margin-left: 0px;
+}
+
+#koulutusteksti{
+  width: 65%;
+  padding-left: 30px;
+    padding-top: 23px;
+    text-align: left;
+}
+
+#slideshow {
+    margin-left: 560px;
+    position: absolute;
+    width: 600px;
+    height: 360px;
+    padding-top: 40px;
+    overflow: hidden !important;
+}
+
+.section-courses-info {
+  margin-top:10px;
+  margin-left: -10px;
+  float:left;
+}
+
+.section-courses-text {
+  width:475px;
+  order:3;
+  font-weight: 200;
+  letter-spacing: 0.32px;
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 36px;
+  font-style: normal;
+}
+
+.mainospic {
+  width: 600px;
+  height: 353px;
+}
+
+.section-1 {
+  height: 300px;
+  padding-top: 35px;
+  background: none;
+}
+
+
+
+.section-1-image {
+  margin-top: 400px;
+  width: 500px;
+  height: 300px;
+  background-color: #f6f6f6;
+  position: absolute;
+  margin-left: 580px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.section-2-image {
+  width: 775px;
+  height: 840px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+img.always-effective {
+  position: absolute;
+  padding-top: 100px;
+}
+
+
+.fullwidth-container-grey {
+  margin-top: 90px;
+  width: 100%;
+  background-color: #f6f6f6;
+  padding-bottom: 100px;
+  overflow: visible;
+}
+
+.fullwidth-container-white {
+  margin-top: 222px !important;
+  width: 100%;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+.section-courses {
+  padding-top: 66px;
+}
+
+.section-courses-info {
+  margin-left:50px;
+  margin-right:30px;
+  float:left;
+}
+
+.section-courses span.info {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 40px;
+  padding-top:20px;
+}
+
+.section-courses-samples {
+  order:4;
+  width:250px;
+  text-align:right;
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+#References h3 {
+  letter-spacing: 1.12px;
+  line-height: 48px;
+  width: 333px;
+  text-align: right;
+}
+
+.section-contacts .map-holder {
+  z-index:9999;
+  position:absolute;
+  width:50%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f6f6f6;
+  height: 375px;
+  text-align:right;
+}
+
+.section-contacts .map {
+  margin-top:6px;
+  width:676px;
+  height:362px;
+  margin-right: -101px;
+}
+
+  .trialsmaller {
+    background: #ff9080;
+    border: 1px solid #ff9080;
+    color: #0034a0;
+  }
+
+  .section-4-image {
+    background-image: none;
+    float: right;
+  }
+
+  .section-1 {
+     height: 420px;
+   }
+
+   .section-1-image {
+   width: 500px;
+   height: 333px;
+   background-color: #f6f6f6;
+   position: absolute;
+   margin-left: 400px;
+   background-size: contain;
+   background-position: -220px 0;
+   background-repeat: no-repeat;
+   border-bottom: 50px solid #f6f6f6;
+ }
+
+ #hoitoh3 {
+   width: 400px;
+   font-size: 40px !important;
+   line-height: 39px;
+ }
+
+ .section-courses span.info {
+   border-top: none;
+ }
+
+ #desktoprefe2 {
+   display: none;
+ }
+
+#refes {
+  width: auto;
+  height: 550px;
+  margin-left: 300px;
+  position: relative !important;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+#refeholder {
+  margin-left: 300px;
+  width: 777px;
+  height: 420px;
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+
+.refeteksti {
+  margin-top: 10px;
+  margin-left: 130px;
+  font-size: 23px;
+  width: 520px;
+  height: 300px;
+}
+
+#suositush2 {
+  margin-top: 25px;
+  margin-left: 150px;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  z-index: 99 !important;
+  font-size: 17px;
+}
+
+.refekuva {
+  width: 190px;
+  height: 255px;
+  margin-top: 15px;
+}
+
+#lainausmerkki {
+  width: 70px;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 130px;
+}
+
+.section-4-image {
+  width: 555px;
+  height: 404px;
+  background-color: #f6f6f6;
+}
+}
+#klikki {
+  cursor: pointer;
+}
+
+#koulutuskuva {
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 404px;
+  height: 60px;
+}
+
+#laskejaosta {
+  margin-top: 40px;
+  width: 300px;
+  height: 40px;
+}
+
+
+#kasvuh3 {
+line-height: 55px;
+}
+
+#toimivuusdiv {
+margin-top: 25px;
+width: 505px;
+}
+
+.border {
+border-bottom: 2px solid #003399;
+padding-top: 25px;
+width: 80px;
+}
+
+#kurssih3 {
+font-size: 33px;
+}
+
+#koulutushoidossadiv {
+  width: 600px;
+  height: 440px !important;
+  background-color: #f6f6f6;
+  float: left;
+  padding: 60px 30px 0 30px;
+  height: auto;
+}
+
+#teksti {
+  padding-left: 30px;
+  padding-top: 35px;
+}
+
+.range1 {
+margin-left: 25px;
+margin-top: 25px;
+margin-right: 55px;
+  }
+
+.range2 {
+  margin-top: 25px;
+}
+
+  .active {
+    color: #000000;
+  }
+
+  .selected::before {
+    background: #ff9080;
+  }
+
+  .active.selected::before {
+    display: none;
+  }
+
+  .section-courses-samples {
+    display: block;
+  }
+
+
+  /* Tästä alkaa etusivu uudistus MEDIA */
+
+  @media only screen and (max-width: 1400px) {
+     #refes {
+       margin-left: 250px !important;
+     }
+  }
+
+  @media only screen and (max-width: 1280px) {
+
+    .refeteksti {
+      width: 500px;
+    }
+
+    #toimivuusdiv {
+      margin-left: 40px;
+    }
+    .border {
+      margin-left: 40px;
+    }
+
+    #borderi2 {
+            margin-left: 0;
+    }
+
+    #hoitoh3 {
+     margin-left: 40px;
+    }
+
+    .refeteksti {
+      margin-left: 110px;
+    }
+
+    #lainausmerkki {
+      margin-left: 110px;
+    }
+
+    .section-1 {
+      height: 440px;
+    }
+
+    .section-2-image {
+      padding-top: 1%;
+      width: 455;
+      margin-right: 0;
+      padding-bottom: 15px;
+        }
+      .section-4 {
+        width: 444px;
+        float: right;
+      }
+
+      .section-4-image {
+        float: left;
+      }
+
+      .range1 {
+        width: 345px;
+      }
+
+
+      .section-1-image {
+        width: 500px;
+        height: 300px;
+        margin-left: 494px;
+        background-position: -20px 0;
+        }
+
+         #hoitoh3 {
+           margin-top: 123px;
+         }
+     #kuluh3 {
+       width: 100px;
+       font-size: 30px !important;
+       line-height: 25px;
+     }
+
+     #refes {
+       margin-left: 0px !important;
+     }
+     #refeholder {
+       margin-left: 200px !important;
+     }
+     #suositush2 {
+       margin-left: 50px !important;
+     }
+  }
+
+  @media only screen and (max-width: 1111px) {
+
+
+    .section-courses-text {
+      width: 333px;
+      margin-right: 10px;
+    }
+
+    .section-courses-samples {
+      width: 350px;
+    }
+
+  .mainospic {
+    width: 100%;
+    height: 100%;
+  }
+  #slideshow {
+    margin-left: 480px;
+    width: 434px;
+  }
+  a.customerservice {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .header a {
+    padding: 10px 10px;
+  }
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    #koulutusteksti{
+      width: 95%;
+      padding-left: 30px;
+        padding-top: 23px;
+        text-align: left;
+    }
+
+    #buy {
+      font-size: 14px;
+      padding: 1px 8px 1px 8px;
+      border: 0px solid #ff9080;
+    }
+
+    #refeholder {
+      margin-left: 150px !important;
+    }
+
+    .range1 {
+      width: 91%;
+    }
+
+    .section-courses h3 {
+      margin-left: 0;
+    }
+
+    .section-courses span.info {
+      margin-left: 0;
+    }
+
+    #koulutusteksti{
+      padding-left: 0;
+    }
+
+    .section-4-image {
+   width: 100%;
+    }
+
+    #buttonit {
+      margin-bottom: 80px;
+    }
+
+    .section-courses-text {
+    margin-left: 0;
+    width: auto;
+    }
+
+    .section-courses-info {
+  margin-left: 0;
+  }
+
+  .section-courses-samples {
+  padding-top: 30px;
+  display: inline-flex;
+  }
+  .section-courses {
+     padding-top: 30px;
+  }
+
+    #lainausmerkki {
+      margin-left: 21px;
+    }
+
+    .refeteksti {
+      width: 333px;
+      margin-left: 20px;
+      margin-right: 8px;
+      margin-top: 0px;
+    }
+    #koulutuskuva {
+    margin: 0;
+       width: 75%;
+       height: auto;
+       padding-bottom: 20px;
+       padding-top: 10px;
+    }
+    .border {
+      display: none;
+    }
+    #refeholder{
+      height: 505px;
+      width: 444px;
+    }
+    .refekuva {
+      width: 170px;
+      height: 230px;
+      margin-top: -25px;
+      margin-left: -30px;
+    }
+
+    #suositush2vol2 {
+      display: block !important;
+      margin-top: -400px;
+      margin-left: 330px;
+    }
+
+    #suositush2 {
+      display: none !important;
+    }
+
+    #desktoprefe {
+      display: none !important;
+    }
+    #desktoprefe2 {
+      display: block !important;
+      font-size: 18px;
+    }
+
+    #trial2 {
+      display: block;
+      float:left;
+      border: 1px solid #0034a0;
+    }
+
+
+    a.customerservice {
+      display: none;
+    }
+    a.lang {
+      margin-right: 10px;
+    }
+  .mainospic {
+    width: 100%;
+    height: 70%;
+  }
+  #slideshow {
+    margin-left: 0px;
+    height: 420px;
+    width: 100%;
+    margin-top: -40px;
+  }
+
+  #koulutushoidossadiv {
+    width: auto;
+   float: left;
+   padding: 444px 30px 0 30px;
+   height: auto;
+}
+  .section-1 {
+    height: 828px;
+    text-align: left;
+  }
+   #hoitoh3 {
+    width: 90%;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
+   }
+   #toimivuusdiv {
+   position: absolute;
+   margin-top: 171px;
+   width: 90%;
+   margin-left: 30px;
+   }
+   .section-2-image {
+     margin-top: 386px;
+   }
+
+   .section-4 {
+     width: 800px;
+   }
+   .header-line {
+     background: #FFFFFF;
+   }
+  }
+
+  @media only screen and (max-width: 606px) {
+
+    .refekuva {
+      margin-left: -100px;
+      width: 140px;
+      height: 180px;
+      margin-top: -25px;
+    }
+
+    #kasvuh3 {
+      margin-top: 40px;
+    }
+
+    #refeholder{
+      height: 575px;
+      width: 333px;
+      margin-left: 100px !important;
+    }
+
+    .refeteksti {
+      width: 253px;
+      margin-left: 20px;
+      margin-right: 5px;
+    }
+
+    #koulutuskuva {
+    margin: 0;
+       width: 75%;
+       height: auto;
+       padding-bottom: 20px;
+       padding-top: 0px;
+    }
+
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    #hoitoh3 {
+      margin-top: 30px;
+    }
+
+    .section-courses-text {
+      font-size: 14px;
+    }
+
+    #kurssih3 {
+    font-size: 28px;
+    }
+
+    .range1 {
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 14px;
+    }
+
+    .section-1 {
+      height: 600px;
+    }
+
+    #slideshow {
+      margin-left: 0px;
+      margin-top: -40px;
+      height: 275px;
+      width: 100%;
+    }
+
+    #koulutushoidossadiv {
+      padding: 344px 30px 0 30px;
+    }
+
+    .mainospic {
+      margin-left: 0px;
+      height: 100%;
+      width: 100%;
+    }
+
+  #koulutushoidossadiv {
+    height: 500px;
+  }
+  #koulutusteksti {
+  width: auto;
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+  }
+
+  .section-1 {
+    text-align: left;
+  }
+
+  .section-2-image {
+    margin-top: 360px;
+  }
+
+  .section-4-image {
+    width: 100%;
+  }
+
+#laskejaosta {
+  width: 200px;
+  height: 30px;
+  margin-top: 22px;
+}
+  #hoitoh3 {
+      font-size: 28px !important;
+      width: 250px;
+  }
+
+  #toimivuusdiv {
+    width: 80%;
+    font-size: 15px;
+  }
+
+  #refeholder{
+    position: relative;
+    height: 525px;
+    margin-left: 40px !important;
+  }
+
+  .refeteksti {
+    width: 253px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 0px;
+  }
+
+  #desktoprefe2 {
+    font-size: 14px !important;
+  }
+
+  .refekuva {
+    margin-left: -121px;
+  }
+
+      #refes{
+        margin-left: -30px !important;
+  }
+
+
+    @media only screen and (max-width: 430px) {
+
+      #refeholder{
+        margin-left: 50px !important;
+      }
+
+      .refekuva {
+        margin-left: -131px;
+      }
+
+      #koulutuskuva {
+         padding-top: 10px;
+      }
+
+
+  .section-2-image {
+    margin-top: 474px;
+  }
+
+  #koulutushoidossadiv {
+    padding: 259px 30px 0 30px;
+  }
+
+}
+
+
+}
