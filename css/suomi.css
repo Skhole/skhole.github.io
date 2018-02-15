@@ -692,6 +692,18 @@ margin-right: 55px;
 
   @media only screen and (max-width: 606px) {
 
+    .section-contacts .map {
+      width: 500px;
+      height: 282px;
+    }
+
+
+    .section-contacts .map-holder {
+      width: 400px;
+      height: 222px;
+    }
+
+
     #kokeile {
       display: none;
     }
@@ -734,6 +746,17 @@ margin-right: 55px;
   }
 
   @media only screen and (max-width: 500px) {
+
+    .section-contacts .map {
+      width: 400px;
+      height: 222px;
+    }
+
+
+    .section-contacts .map-holder {
+      width: 400px;
+      height: 222px;
+    }
 
 
     #hoitoh3 {
@@ -841,6 +864,18 @@ margin-right: 55px;
 
 
     @media only screen and (max-width: 430px) {
+
+      .section-contacts .map {
+        width: 370px;
+        height: 205px;
+      }
+
+
+      .section-contacts .map-holder {
+        width: 370px;
+        height: 205px;
+      }
+
 
       #slideshow {
         height: 250px;
