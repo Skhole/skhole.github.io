@@ -692,6 +692,14 @@ margin-right: 55px;
 
   @media only screen and (max-width: 606px) {
 
+    #kokeile {
+      display: none;
+    }
+
+    .header #buy {
+      display: none;
+    }
+
     .refekuva {
       margin-left: -100px;
       width: 140px;
@@ -727,6 +735,7 @@ margin-right: 55px;
 
   @media only screen and (max-width: 500px) {
 
+
     #hoitoh3 {
       margin-top: 30px;
     }
@@ -753,7 +762,7 @@ margin-right: 55px;
 
     #slideshow {
       margin-left: 0px;
-      margin-top: -40px;
+      margin-top: -60px;
       height: 275px;
       width: 100%;
     }
@@ -833,6 +842,10 @@ margin-right: 55px;
 
     @media only screen and (max-width: 430px) {
 
+      #slideshow {
+        height: 250px;
+      }
+
       #refeholder{
         margin-left: 50px !important;
       }
@@ -851,7 +864,7 @@ margin-right: 55px;
   }
 
   #koulutushoidossadiv {
-    padding: 259px 30px 0 30px;
+    padding: 220px 30px 0 30px;
   }
 
 }
