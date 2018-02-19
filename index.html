@@ -12,23 +12,23 @@
       <meta property="og:description" content="Skhole nostaa terveydenhuollon koulutuksen laadun universaalisti uudelle tasolle. Suomalainen osaaminen voidaan jalostaa palveluksi koko maailmalle." />
       <meta property="og:image" content="https://www.skhole.fi/img/fb.jpg" />
       <script>
-      var target = [];
-var englishPage =
-  'https://www.skhole.fi/best-healthcare-education-in-the-world.html';
-target.All = englishPage;
-target.FI = 'https://www.skhole.fi/index.html';
-function geoip(g) {
-  if (g.country_code != 'FI' && document.referrer != englishPage) {
-    window.top.location.href = target[g.country_code] || target.All;
-  }
-}
-(function(g, e, o, i, p) {
-  (i = g.createElement(e)), (p = g.getElementsByTagName(e)[0]);
-  i.async = 0;
-  i.src = o;
-  p.parentNode.insertBefore(i, p);
-})(document, 'script', 'https://freegeoip.net/json/?callback=geoip');
-</script>
+        var target = [];
+        var englishPage =
+          'https://www.skhole.fi/best-healthcare-education-in-the-world.html';
+        target.All = englishPage;
+        target.FI = 'https://www.skhole.fi/index.html';
+        function geoip(g) {
+          if (g.country_code != 'FI' && document.referrer != englishPage) {
+            window.top.location.href = target[g.country_code] || target.All;
+          }
+        }
+        (function(g, e, o, i, p) {
+          (i = g.createElement(e)), (p = g.getElementsByTagName(e)[0]);
+          i.async = 0;
+          i.src = o;
+          p.parentNode.insertBefore(i, p);
+        })(document, 'script', 'https://freegeoip.net/json/?callback=geoip');
+      </script>
       <script src="https://use.typekit.net/ywl4mbi.js"></script>
       <script>try{Typekit.load({ async: false });}catch(e){}</script>
       <link rel="stylesheet" href="css/skhole.css?v=4">
@@ -60,12 +60,12 @@ function geoip(g) {
           thistext = '20 lisenssiä = 3000€ / vuosi';
           break;
         case 5:
-          thistext = 'Kysy';
+          thistext = '<a href="/osta/myynti.html">Ota yhteyttä ja teemme tarjouksen</a>';
           break;
         default:
           break;
       }
-      $('#sliderinfo').text(thistext);
+      $('#sliderinfo').html(thistext);
     }
   });
   //$( "#sliderinfo" ).val( "$" + $( "#slider" ).slider( "value" ) );
@@ -232,7 +232,30 @@ fbq('track', 'PageView');
       </div>
       <div style="clear:both;"></div>
 
-      <!--grey fullwidth holder-->
+      <div id="refes">
+        <h2 id="suositush2">
+          <img src="img/katriinakuva.jpg" class="refekuva"></br>
+          Katriina Niemelä </br>
+          Palvelujohtaja  </br>
+          Coronaria Hoiva Oy
+        </h2>
+        <div id="refeholder">
+          <img src="img/lainausmerkki.svg" id="lainausmerkki">
+        <div class="refeteksti" id="desktoprefe">
+            Skholen käyttöönotto antaa meille uudenlaisen mahdollisuuden kattavaan hoitajien täydennyskoulutuksen suunnitteluun ja toteutukseen. Pystymme huolehtimaan koulutuksista aikaisempaa huomattavasti laajemmin, laadukkaammin ja edullisemmin. Skhole on helppokäyttöinen ja tuo opiskeluun vapautta.
+        </div>
+        <div class="refeteksti" id="desktoprefe2">
+          Katriina Niemelä </br>
+          Palvelujohtaja  </br>
+          Coronaria Hoiva Oy </br></br></br>
+          Skholen käyttöönotto antaa meille uudenlaisen mahdollisuuden kattavaan hoitajien täydennyskoulutuksen suunnitteluun ja toteutukseen. Pystymme huolehtimaan koulutuksista aikaisempaa huomattavasti laajemmin, laadukkaammin ja edullisemmin. Skhole on helppokäyttöinen ja tuo opiskeluun vapautta.
+        </div>
+        <h2 id="suositush2vol2">
+          <img src="img/katriinakuva.jpg" class="refekuva"></br>
+        </h2>
+      </div>
+      </div>
+
       <div id="Skhole Courses" class="fullwidth-container-grey">
         <div class="container wow fadeIn">
           <div class="section-courses">
@@ -364,29 +387,7 @@ fbq('track', 'PageView');
     <!-- Not gray area anymore -->
 
     <div id="References" class="section wow fadeIn">
-      <div id="refes">
-        <h2 id="suositush2">
-          <img src="img/katriinakuva.jpg" class="refekuva"></br>
-          Katriina Niemelä </br>
-          Palvelujohtaja  </br>
-          Coronaria Hoiva Oy
-        </h2>
-        <div id="refeholder">
-          <img src="img/lainausmerkki.svg" id="lainausmerkki">
-        <div class="refeteksti" id="desktoprefe">
-            Skholen käyttöönotto antaa meille uudenlaisen mahdollisuuden kattavaan hoitajien täydennyskoulutuksen suunnitteluun ja toteutukseen. Pystymme huolehtimaan koulutuksista aikaisempaa huomattavasti laajemmin, laadukkaammin ja edullisemmin. Skhole on helppokäyttöinen ja tuo opiskeluun vapautta.
-        </div>
-        <div class="refeteksti" id="desktoprefe2">
-          Katriina Niemelä </br>
-          Palvelujohtaja  </br>
-          Coronaria Hoiva Oy </br></br></br>
-          Skholen käyttöönotto antaa meille uudenlaisen mahdollisuuden kattavaan hoitajien täydennyskoulutuksen suunnitteluun ja toteutukseen. Pystymme huolehtimaan koulutuksista aikaisempaa huomattavasti laajemmin, laadukkaammin ja edullisemmin. Skhole on helppokäyttöinen ja tuo opiskeluun vapautta.
-        </div>
-        <h2 id="suositush2vol2">
-          <img src="img/katriinakuva.jpg" class="refekuva"></br>
-        </h2>
-      </div>
-      </div>
+
       <div class="container" style="overflow-y: hidden;">
         <div class="flex-holder">
           <div class="flex-header">
@@ -762,7 +763,6 @@ fbq('track', 'PageView');
         Kurssilla opit perusasiat farmakologiasta ja toksikologiasta, lääkkeiden käsittelystä, annostelusta sekä monilääkityksen tuomista haasteista.
         Erittäin kattava kurssikokonaisuus sisältää lääkehoidon perusteiden lisäksi IV- ja nestehoidon, lääkeaineryhmät ja lääkelaskennan.
         Kurssiin kuuluu lääkelupatentit sairaanhoitajille, lähihoitajille ja hoiva-avustajille.</p>
-
         </div>
       </div>
     </div>
