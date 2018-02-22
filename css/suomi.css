@@ -330,7 +330,7 @@ img.always-effective {
 
 .refeh2 {
   margin-top: 25px;
-  margin-left: 20%;
+  margin-left: 16%;
   width: 200px;
   height: 300px;
   position: absolute;
@@ -352,8 +352,8 @@ img.always-effective {
 }
 
 .section-4-image {
-  width: 555px;
-  height: 370px;
+  width: 575px;
+  height: 390px;
   background-color: #f6f6f6;
 }
 }
@@ -379,7 +379,7 @@ line-height: 55px;
 
 .professional-holder {
 margin-top: 25px;
-width: 505px;
+width: 450px;
 margin-left: 70px;
 }
 
@@ -453,7 +453,7 @@ width: 80px;
   }
 
   .refeh2 {
-    margin-left: 10%;
+    margin-left: 7%;
   }
 
 
@@ -853,7 +853,7 @@ width: 80px;
     #refeholder{
       height: 575px;
       width: 333px;
-      margin-left: 100px !important;
+      margin-left: 11% !important;
     }
 
     .refeteksti {
@@ -945,7 +945,7 @@ width: 80px;
   #refeholder{
     position: relative;
     height: 525px;
-    margin-left: 40px !important;
+    margin-left: 11% !important;
   }
 
   .refeteksti {
