@@ -121,6 +121,10 @@ and (min-width: 1281px) {
   display: none;
 }
 
+#testimonials2 {
+  display: none;
+}
+
 .slideshow {
     position: absolute;
     margin-left: 48%;
@@ -300,7 +304,7 @@ img.always-effective {
   margin-top: 0
 }
 
-.allrefes {
+.testimonials {
   padding-top: 100px;
   width: auto;
   height: 550px;
@@ -330,7 +334,7 @@ img.always-effective {
 
 .refeh2 {
   margin-top: 25px;
-  margin-left: 16%;
+  margin-left: 17%;
   width: 200px;
   height: 300px;
   position: absolute;
@@ -453,7 +457,7 @@ width: 80px;
   }
 
   .refeh2 {
-    margin-left: 7%;
+    margin-left: 5%;
   }
 
 
@@ -461,7 +465,7 @@ width: 80px;
   /* Tästä alkaa etusivu uudistus MEDIA */
 
   @media only screen and (max-width: 1400px) {
-     .allrefes {
+     .testimonials {
        margin-left: 150px !important;
      }
   }
@@ -539,7 +543,7 @@ width: 80px;
            margin-top: 123px;
          }
 
-     .allrefes {
+     .testimonials {
        margin-left: 40px !important;
      }
      #refeholder {
@@ -579,7 +583,7 @@ width: 80px;
       display: none;
     }
 
-    .allrefes {
+    .testimonials {
       margin-left: 0px !important;
     }
 
@@ -670,17 +674,18 @@ width: 80px;
     }
 
     .section-courses-text {
-    margin-left: 0;
+    margin-left: 25px;
     width: auto;
     }
 
     .section-courses-info {
-  margin-left: 0;
+  margin-left: 25px;
   }
 
   .section-courses-samples {
   padding-top: 30px;
   display: inline-flex;
+  margin-left: 25px;
   }
   .section-courses {
      padding-top: 30px;
@@ -707,7 +712,7 @@ width: 80px;
       display: none;
     }
 
-    .allrefes {
+    .testimonials {
       margin-bottom: 0;
       padding-top: 40px;
     }
@@ -846,7 +851,7 @@ width: 80px;
       margin-top: 40px;
     }
 
-    .allrefes {
+    .testimonials {
       margin-bottom: 100px;
     }
 
@@ -917,7 +922,7 @@ width: 80px;
   }
 
   .section-4-image {
-    width: 91%;
+    width: 93%;
   }
 
   .slider-img {
@@ -963,7 +968,7 @@ width: 80px;
     margin-left: -121px;
   }
 
-      .allrefes{
+      .testimonials{
         margin-left: -30px !important;
         margin-bottom: 0;
   }
@@ -976,6 +981,10 @@ width: 80px;
 
 
     @media only screen and (max-width: 430px) {
+
+      .section-courses-text {
+        width: 75% !important;
+      }
 
       .section-2-image {
         margin-left: 15px;
