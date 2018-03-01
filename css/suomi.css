@@ -121,9 +121,6 @@ and (min-width: 1281px) {
   display: none;
 }
 
-#testimonials2 {
-  display: none;
-}
 
 .slideshow {
     position: absolute;
@@ -225,13 +222,42 @@ img.always-effective {
 
 .section-courses-samples {
   order:4;
-  width:250px;
+  width: 350px;
   text-align:right;
   font-weight: 400;
   font-size: 19px;
   letter-spacing: 0;
   line-height: 28px;
 }
+
+.testimonials {
+  padding-top: 100px;
+  width: 777px;
+  height: 550px;
+  position: relative !important;
+  margin: auto;
+}
+
+
+.testimonial-arrow {
+  z-index: 9999;
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+  margin-top: 150px;
+}
+
+
+#arrow-right {
+    float: right;
+    margin-right: -155px;
+}
+
+#arrow-left {
+    float: left;
+    margin-left: -210px;
+}
+
 
 #References h3 {
   letter-spacing: 1.12px;
@@ -304,19 +330,8 @@ img.always-effective {
   margin-top: 0
 }
 
-.testimonials {
-  padding-top: 100px;
-  width: auto;
-  height: 550px;
-  margin-left: 300px;
-  position: relative !important;
-  flex-direction: row;
-  display: flex;
-  justify-content: space-between;
-}
-
 #refeholder {
-  margin-left: 26%;
+  margin-left: 50px;
   width: 777px;
   height: 420px;
   background-color: #f6f6f6;
@@ -326,15 +341,16 @@ img.always-effective {
 
 .refeteksti {
   margin-top: 10px;
-  margin-left: 130px;
+  margin-left: 100px;
   font-size: 23px;
-  width: 520px;
+  width: 590px;
   height: 300px;
 }
 
 .refeh2 {
-  margin-top: 25px;
-  margin-left: 17%;
+  margin-top: 20px;
+  float:left;
+  margin-left: -90px;
   width: 200px;
   height: 300px;
   position: absolute;
@@ -343,16 +359,16 @@ img.always-effective {
 }
 
 .refe-pic {
-  width: 190px;
-  height: 255px;
-  margin-top: 15px;
+  width: 180px;
+  height: 257px;
+  margin-top: 35px;
 }
 
 .quotepic {
   width: 70px;
   height: 70px;
   margin-top: 30px;
-  margin-left: 130px;
+  margin-left: 100px;
 }
 
 .section-4-image {
@@ -450,28 +466,7 @@ width: 80px;
     float: none !important;
   }
 
-    @media only screen and (max-width: 1800px) {
 
-  #refeholder {
-    margin-left: 16%;
-  }
-
-  .refeh2 {
-    margin-left: 5%;
-  }
-
-
-
-  /* Tästä alkaa etusivu uudistus MEDIA */
-
-  @media only screen and (max-width: 1400px) {
-     .testimonials {
-       margin-left: 150px !important;
-     }
-  }
-
-
-  /* Tästä alkaa etusivu uudistus MEDIA */
   @media only screen
   and (min-width: 801px)
   and (max-width: 1280px) {
@@ -506,13 +501,6 @@ width: 80px;
     #border2 {
             margin-left: 0;
     }
-    .refeteksti {
-      margin-left: 110px;
-    }
-
-    .quotepic {
-      margin-left: 110px;
-    }
 
     .section-1 {
       height: 440px;
@@ -542,20 +530,26 @@ width: 80px;
          .educationh3 {
            margin-top: 123px;
          }
+         #arrow-right {
+             margin-right: -105px;
+         }
 
-     .testimonials {
-       margin-left: 40px !important;
-     }
-     #refeholder {
-       margin-left: 200px !important;
-     }
-     .refeh2{
-       margin-left: 50px !important;
-     }
+         #arrow-left {
+             margin-left: -150px;
+         }
+
   }
 
   @media only screen and (max-width: 1111px) {
 
+
+    #arrow-right {
+        margin-right: -22px;
+    }
+
+    #arrow-left {
+        margin-left: 0;
+    }
 
     .section-courses-text {
       width: 333px;
@@ -576,19 +570,26 @@ width: 80px;
     margin-left: 0px;
   }
 
+  #refeholder {
+    width: 552px;
+    margin-left: 200px !important;
+  }
+  .refeh2{
+    margin-left: 50px !important;
+  }
+
+  .refeteksti {
+    width: 70%;
+  }
+
   }
 
   @media only screen and (max-width: 960px) {
     a.customerservice {
       display: none;
     }
-
-    .testimonials {
-      margin-left: 0px !important;
-    }
-
     .slideshow {
-        padding-top: 60px;
+      padding-top: 60px;
     }
   }
 
@@ -650,8 +651,17 @@ width: 80px;
     }
 
     #refeholder {
-      margin-left: 150px !important;
+      margin-left: 10% !important;
     }
+
+    #arrow-right {
+        margin-right: 200px;
+    }
+
+    #arrow-left {
+        margin-left: 20px;
+    }
+
 
     .section-courses h3 {
       margin-left: 0;
@@ -696,7 +706,7 @@ width: 80px;
     }
 
     .refeteksti {
-      width: 333px;
+      width: 380px;
       margin-left: 20px;
       margin-right: 8px;
       margin-top: 0px;
@@ -722,17 +732,21 @@ width: 80px;
       width: 444px;
     }
     .refe-pic {
-      width: 170px;
-      height: 230px;
+      width: 150px;
       margin-top: -25px;
       margin-left: -30px;
     }
 
+    .testimonial-arrow {
+      margin-top: 250px;
+      width: 25px;
+      height: 25px;
+    }
+
     #refe-pic-mobile {
-      width: 70%;
       height: auto;
       margin-top: -145px;
-      margin-left: 210px;
+      margin-left: 255px;
     }
 
     #desktoprefeh2 {
@@ -799,12 +813,17 @@ width: 80px;
     }
   }
 
-  @media only screen and (max-width: 606px) {
+  @media only screen and (max-width: 616px) {
+
+    .quotepic {
+      margin-left: 15px;
+    }
+
 
     #refe-pic-mobile {
-      margin-top: -145px;
-      margin-left: 130px;
+      margin-left: 185px;
     }
+
 
     .section-2 {
         margin-top: 60px;
@@ -840,13 +859,6 @@ width: 80px;
       display: none;
     }
 
-    .refe-pic {
-      margin-left: -100px;
-      width: 140px;
-      height: 180px;
-      margin-top: -25px;
-    }
-
     .grow-h3-holder {
       margin-top: 40px;
     }
@@ -857,20 +869,28 @@ width: 80px;
 
     #refeholder{
       height: 575px;
-      width: 333px;
-      margin-left: 11% !important;
+      width: 363px;
+      margin-left: 8% !important;
     }
 
     .refeteksti {
-      width: 253px;
+      width: 293px;
       margin-left: 20px;
       margin-right: 5px;
     }
 
+    #arrow-right {
+        margin-right: 315px;
+    }
 
   }
 
   @media only screen and (max-width: 500px) {
+
+    #arrow-right {
+        margin-right: 370px;
+    }
+
 
     .section-contacts .map {
       width: 400px;
@@ -944,13 +964,13 @@ width: 80px;
 
   .professional-holder {
     width: 80%;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #refeholder{
     position: relative;
     height: 525px;
-    margin-left: 11% !important;
+    width: 303px;
   }
 
   .refeteksti {
@@ -968,9 +988,12 @@ width: 80px;
     margin-left: -121px;
   }
 
-      .testimonials{
-        margin-left: -30px !important;
+  .testimonials{
         margin-bottom: 0;
+  }
+
+  #refe-pic-mobile {
+    margin-left: 150px;
   }
 
   .section-1 {
@@ -982,8 +1005,17 @@ width: 80px;
 
     @media only screen and (max-width: 430px) {
 
+      .refeteksti {
+        width: 203px;
+        margin-left: 15px;
+        margin-right: 5px;
+        height: 400px;
+      }
+
+
       .section-courses-text {
         width: 75% !important;
+        font-size: 12px;
       }
 
       .section-2-image {
@@ -997,6 +1029,7 @@ width: 80px;
 
       .professional-holder {
         margin-top: 140px;
+        font-size: 12px;
       }
 
       .educationh3 {
@@ -1011,14 +1044,17 @@ width: 80px;
         padding: 40px 30px 0 30px;
       }
 
+      .educationtextholder {
+        font-size: 12px;
+      }
+
       #refe-pic-mobile {
       margin-top: -145px;
-      margin-left: 110px;
+      margin-left: 75px;
     }
       #future-best-edu {
         width: 84%
       }
-
 
       .section-contacts .map {
         width: 370px;
@@ -1031,8 +1067,17 @@ width: 80px;
         height: 205px;
       }
 
+      #mobile-refe-div {
+        font-size: 12px !important;
+      }
+
+      #arrow-right {
+          margin-right: 420px;
+      }
 
       #refeholder{
+        width: 280px;
+        height: 535px;
         margin-left: 50px !important;
       }
 
@@ -1041,7 +1086,7 @@ width: 80px;
       }
 
   .section-2-image {
-    margin-top: 474px;
+    margin-top: 390px;
   }
 
   .section-2 {
@@ -1049,5 +1094,34 @@ width: 80px;
   }
 
 
-}
+  .testimonial-arrow {
+    width: 20px;
+    height: 20px;
+  }
+  img.logo {
+    width: 85px;
+    height: 26px;
+  }
+
+      @media only screen and (max-width: 385px) {
+
+        #refeholder{
+          width: 265px;
+          height: 535px;
+          margin-left: 30px !important;
+        }
+
+        #arrow-right {
+            margin-right: 457px;
+        }
+
+        #arrow-left {
+            margin-left: 5px;
+        }
+
+        .section-2-image {
+          margin-top: 414px;
+        }
+
+
 }

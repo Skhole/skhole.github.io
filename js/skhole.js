@@ -2988,12 +2988,6 @@ $( document ).ready(function() {
     $(".login-modal").show();
   });
 
-  /* trial button opens modal */
-  $(".finnish button.trial").click(function(e){
-    e.preventDefault();
-    $("#wufoo-m1s3bssk06socjh").show();
-    $(".inbound-modal").show();
-  });
   $(".finnish #inbound-button").click(function(e){
     e.preventDefault();
     $("#wufoo-z145jjw91794jxa").show();
