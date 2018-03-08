@@ -255,7 +255,7 @@ img.always-effective {
 
 
 #growh3 {
-  margin-top: 40px;
+  margin-top: 1px;
 }
 
 #arrow-right {
@@ -372,7 +372,7 @@ img.always-effective {
 }
 
 #grow-line {
-  margin-top: 115px;
+  margin-top: 80px;
 }
 
 .refe-pic {
@@ -491,6 +491,10 @@ width: 80px;
 
 
   @media only screen and (max-width: 1280px) {
+
+    #References .flex-content {
+      padding-top: 0;
+    }
 
 
     .educationholder {
@@ -729,7 +733,14 @@ width: 80px;
 
     .section-courses-text {
     margin-left: 25px;
+    font-size: 15px;
+    line-height: 21px;
     width: auto;
+    }
+
+    #grow-text {
+      font-size: 15px;
+      line-height: 21px;
     }
 
     .section-courses-info {
@@ -865,6 +876,18 @@ width: 80px;
   }
 
   @media only screen and (max-width: 616px) {
+
+    #References {
+      padding-top: 0px !important;
+    }
+
+    .fullwidth-container-grey {
+      padding-bottom: 10px;
+    }
+
+    #growh3 {
+      margin-top: 2px;
+    }
 
     .testimonials {
       width: 100%;
