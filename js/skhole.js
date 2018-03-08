@@ -3036,6 +3036,11 @@ $( document ).ready(function() {
     $(".inbound-modal").hide();
     $(".video-modal").hide();
     $(".general-modal").hide();
+    jQuery.each($("iframe"), function() {
+      $(this).attr({
+          src: $(this).attr("src")
+      });
+  });
   });
 
   $("button.all-courses").click(function(e){

@@ -10,12 +10,6 @@
   width: 270px;
 }
 
-.section-courses-text {
-  font-size: 20px;
-  line-height: 30px;
-  font-style: italic;
-}
-
 .header a.lang {
   padding: 10px 24px;
 }
@@ -83,6 +77,10 @@ and (min-width: 1281px) {
 
 }
 
+.absolute-courses-holder {
+  margin-right: -1100px;
+}
+
 
 /* Tästä alkaa etusivu uudistus */
 
@@ -92,12 +90,14 @@ and (min-width: 1281px) {
   border: 2px solid #ff9080;
   margin-right: 5px;
   margin-left: 0px;
+  letter-spacing: 2px;
 }
 
 #trial2 {
-  background: #ffffff;
-  color: #d3cfda;
-  border: 2px solid #d3cfda;
+  background: none;
+  color: #0030a0;;
+  border: 2px solid  #0030a0;
+  letter-spacing: 2px;
   margin-right: 5px;
   margin-left: 0;
 }
@@ -111,10 +111,10 @@ and (min-width: 1281px) {
 }
 
 .educationtextholder{
-  width: 80%;
+  width: 79%;
   padding-left: 30px;
-    padding-top: 23px;
-    text-align: left;
+  padding-top: 23px;
+  text-align: left;
 }
 
 #slide2, #slide3 {
@@ -139,14 +139,14 @@ and (min-width: 1281px) {
 }
 
 .section-courses-text {
-  width:475px;
+  width:405px;
   order:3;
-  font-weight: 200;
-  letter-spacing: 0.32px;
+  font-weight: 300;
   margin-left: 20px;
-  font-size: 20px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 25px;
   font-style: normal;
+  margin-top: 5px;
 }
 
 .mainospic {
@@ -179,6 +179,11 @@ and (min-width: 1281px) {
   background-size: contain;
   background-repeat: no-repeat;
   float: left;
+}
+
+/*hintasliderin pallukka */
+.ui-state-default {
+  margin-top: -4px;
 }
 
 img.always-effective {
@@ -228,6 +233,7 @@ img.always-effective {
   font-size: 19px;
   letter-spacing: 0;
   line-height: 28px;
+  margin-top: 15px;
 }
 
 .testimonials {
@@ -247,6 +253,10 @@ img.always-effective {
   margin-top: 150px;
 }
 
+
+#growh3 {
+  margin-top: 40px;
+}
 
 #arrow-right {
     float: right;
@@ -311,11 +321,12 @@ img.always-effective {
    border-bottom: 50px solid #f6f6f6;
  }
 
- .educationh3 {
+ .educationh3, .course-h3, .grow-h3 {
    width: 400px;
-   font-size: 40px !important;
-   line-height: 39px;
-   margin-left: 70px;
+   font-size: 44px;
+   font-weight: 300;
+   line-height: 48px;
+   margin-left: 65px;
  }
 
  .section-courses span.info {
@@ -342,7 +353,8 @@ img.always-effective {
 .refeteksti {
   margin-top: 10px;
   margin-left: 100px;
-  font-size: 23px;
+  font-size: 22px;
+  line-height: 30px;
   width: 590px;
   height: 300px;
 }
@@ -355,7 +367,12 @@ img.always-effective {
   height: 300px;
   position: absolute;
   z-index: 99 !important;
-  font-size: 17px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#grow-line {
+  margin-top: 115px;
 }
 
 .refe-pic {
@@ -367,7 +384,7 @@ img.always-effective {
 .quotepic {
   width: 70px;
   height: 70px;
-  margin-top: 30px;
+  margin-top: 45px;
   margin-left: 100px;
 }
 
@@ -400,7 +417,7 @@ line-height: 55px;
 .professional-holder {
 margin-top: 25px;
 width: 450px;
-margin-left: 70px;
+margin-left: 65px;
 }
 
 #mobile-refe-div {
@@ -415,7 +432,7 @@ width: 80px;
 
 
 #education-border {
-  margin-left: 70px;
+  margin-left: 65px;
 }
 
 .educationpicture {
@@ -456,10 +473,6 @@ width: 80px;
 
   .section-courses-samples {
     display: block;
-  }
-
-  .course-h3 {
-    font-size: 33px;
   }
 
   .range2 #buy, .section-courses-samples #buy {
@@ -554,6 +567,11 @@ width: 80px;
     .section-courses-text {
       width: 333px;
       margin-right: 10px;
+      margin-left: 35px;
+    }
+
+    button.primary {
+      padding: 5px 10px 5px 10px;
     }
 
     .section-courses-samples {
@@ -594,6 +612,25 @@ width: 80px;
   }
 
   @media only screen and (max-width: 800px) {
+
+
+    .refeh2 {
+      margin-top: 35px;
+    }
+
+    button.trial {
+      background: none;
+      color: #0034a0;
+      border: 1px solid #0034a0;
+
+    }
+
+    .educationh3, .course-h3, .grow-h3 {
+      width: 400px;
+      font-size: 32px;
+      line-height: 35px;
+    }
+
 
     .range2 #buy, .section-courses-samples #buy, .educationtextholder #buy {
       border: 10px solid #ff9080;
@@ -673,6 +710,13 @@ width: 80px;
 
     .educationtextholder{
       padding-left: 0;
+      font-size: 15px;
+      line-height: 21px;
+    }
+
+    .professional-holder {
+      font-size: 15px;
+      line-height: 21px;
     }
 
     .section-4-image {
@@ -710,6 +754,8 @@ width: 80px;
       margin-left: 20px;
       margin-right: 8px;
       margin-top: 0px;
+      font-size: 15px !important;
+      line-height: 21px !important;
     }
     .koulutuskuva {
     margin: 0;
@@ -724,11 +770,11 @@ width: 80px;
 
     .testimonials {
       margin-bottom: 0;
-      padding-top: 40px;
+      padding-top: 35px;
     }
 
     #refeholder{
-      height: 505px;
+      height: 525px;
       width: 444px;
     }
     .refe-pic {
@@ -774,6 +820,11 @@ width: 80px;
     height: auto;
   }
 
+  button.primary {
+    padding: 1px 2px 1px 2px;
+  }
+
+
   .section-1 {
     height: auto;
     text-align: left;
@@ -815,10 +866,17 @@ width: 80px;
 
   @media only screen and (max-width: 616px) {
 
-    .quotepic {
-      margin-left: 15px;
+    .testimonials {
+      width: 100%;
+      height: 100%;
     }
 
+    .quotepic {
+      margin-left: 15px;
+      width: 60px;
+      height: 60px;
+      margin-top: 30px;
+      }
 
     #refe-pic-mobile {
       margin-left: 185px;
@@ -864,31 +922,31 @@ width: 80px;
     }
 
     .testimonials {
-      margin-bottom: 100px;
+      margin-bottom: 35px;
     }
 
     #refeholder{
-      height: 575px;
-      width: 363px;
+      height: 455px;
+      width: 83%;
       margin-left: 8% !important;
     }
 
     .refeteksti {
-      width: 293px;
+      width: 80%;
       margin-left: 20px;
       margin-right: 5px;
     }
 
     #arrow-right {
-        margin-right: 315px;
+        margin-right: 22px;
     }
 
   }
 
   @media only screen and (max-width: 500px) {
 
-    #arrow-right {
-        margin-right: 370px;
+    .ui-state-default {
+      margin-top: -3px;
     }
 
 
@@ -929,7 +987,8 @@ width: 80px;
 
   .educationtextholder {
   text-align: left;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 21px;
   }
 
   .section-1 {
@@ -958,19 +1017,22 @@ width: 80px;
   }
 
   .educationh3 {
-      font-size: 28px !important;
-      width: 250px;
+      width: 290px;
   }
 
   .professional-holder {
     width: 80%;
-    font-size: 14px;
+  }
+
+  #arrow-right {
+    margin-right: 14px;
   }
 
   #refeholder{
     position: relative;
-    height: 525px;
-    width: 303px;
+    height: 500px;
+    width: 79%;
+    margin-left: 12% !important;
   }
 
   .refeteksti {
@@ -980,17 +1042,11 @@ width: 80px;
     margin-top: 0px;
   }
 
-  #mobile-refe-div {
-    font-size: 14px !important;
-  }
 
   .refe-pic {
     margin-left: -121px;
   }
 
-  .testimonials{
-        margin-bottom: 0;
-  }
 
   #refe-pic-mobile {
     margin-left: 150px;
@@ -1006,7 +1062,7 @@ width: 80px;
     @media only screen and (max-width: 430px) {
 
       .refeteksti {
-        width: 203px;
+        width: 243px;
         margin-left: 15px;
         margin-right: 5px;
         height: 400px;
@@ -1028,14 +1084,8 @@ width: 80px;
       }
 
       .professional-holder {
-        margin-top: 140px;
-        font-size: 12px;
+        margin-top: 155px;
       }
-
-      .educationh3 {
-        line-height: 30px;
-      }
-
       .educationtextholder #trial2, .section-courses-samples #trial2 {
         padding: 5px 10px 5px 10px;
       }
@@ -1044,13 +1094,9 @@ width: 80px;
         padding: 40px 30px 0 30px;
       }
 
-      .educationtextholder {
-        font-size: 12px;
-      }
-
       #refe-pic-mobile {
       margin-top: -145px;
-      margin-left: 75px;
+      margin-left: 95px;
     }
       #future-best-edu {
         width: 84%
@@ -1067,19 +1113,6 @@ width: 80px;
         height: 205px;
       }
 
-      #mobile-refe-div {
-        font-size: 12px !important;
-      }
-
-      #arrow-right {
-          margin-right: 420px;
-      }
-
-      #refeholder{
-        width: 280px;
-        height: 535px;
-        margin-left: 50px !important;
-      }
 
       .refe-pic {
         margin-left: -131px;
@@ -1105,15 +1138,25 @@ width: 80px;
 
       @media only screen and (max-width: 385px) {
 
-        #refeholder{
-          width: 265px;
-          height: 535px;
-          margin-left: 30px !important;
+        .refeteksti {
+          width: 210px;
+        }
+
+        .educationh3, .course-h3, .grow-h3 {
+          width: 290px;
+          font-size: 28px;
+          line-height: 32px;
         }
 
         #arrow-right {
-            margin-right: 457px;
+          margin-right: 10px;
         }
+
+        #refeholder{
+          height: 535px;
+          margin-left: 40px !important;
+        }
+
 
         #arrow-left {
             margin-left: 5px;

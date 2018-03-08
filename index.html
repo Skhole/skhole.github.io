@@ -16,12 +16,12 @@
   $('#slideshow > div:gt(0)').hide();
   setInterval(function() {
     $('#slideshow > div:first')
-      .fadeOut(1)
+      .fadeOut(0)
       .next()
-      .fadeIn(2)
+      .fadeIn(999)
       .end()
       .appendTo('#slideshow');
-  }, 5555);
+  }, 4567);
 };
 </script>
       <script>
@@ -279,7 +279,7 @@ fbq('track', 'PageView');
           </h2>
           Katriina Niemelä </br>
           Palvelujohtaja  </br>
-          Coronaria Hoiva Oy </br></br></br>
+          Coronaria Hoiva Oy </br></br></br></br>
           Skholen käyttöönotto antaa meille uudenlaisen mahdollisuuden kattavaan hoitajien täydennyskoulutuksen suunnitteluun ja toteutukseen. Pystymme huolehtimaan koulutuksista aikaisempaa huomattavasti laajemmin, laadukkaammin ja edullisemmin. Skhole on helppokäyttöinen ja tuo opiskeluun vapautta.
       </div>
     </div>
@@ -307,7 +307,7 @@ fbq('track', 'PageView');
       </h2>
       Outi Koskinen </br>
       KunTeko 2020 -palkittu </br>terveydenhoitaja
-    </br></br></br>
+    </br></br></br></br>
     Mulla nyt sekka aikaa töissä, joten katson juuri skholen lääkelaskentakurssia. Älyttömän hyvä. Tämän enempää ei voi rautalangasta vääntää. Kunpa olisin älynnyt ennen tenttiä tsekata.
   </div>
 </div>
@@ -335,7 +335,7 @@ fbq('track', 'PageView');
     </h2>
       Britta Dölling-Hasu </br>
       Kotipalvelupäällikkö</br>
-      Kotipalvelut | Posti Oy </br></br></br>
+      Kotipalvelut | Posti Oy </br></br></br></br>
       Skhole sisältää valtavan määrän tietoa ja todella on helppokäyttöinen oppimisalusta. Erityisesti mahdollisuus opiskella materiaalia sekä teksti, ääni, että videomuodossa mahdollistaa erilaisten opiskelutapojen moninaisen käytön erilaisille oppijoille.
   </div>
 </div>
@@ -478,9 +478,9 @@ fbq('track', 'PageView');
       <div class="container" style="overflow-y: hidden;">
         <div class="flex-holder">
           <div class="flex-header">
-            <div class="header-line"></div>
+            <div class="header-line" id="grow-line"></div>
           <div class="grow-h3-holder">
-            <h3 class="grow-h3">
+            <h3 class="grow-h3" id="growh3">
               Skhole kasvaa
             </h3>
           </div>
@@ -490,7 +490,7 @@ fbq('track', 'PageView');
           </div>
         </div>
 
-        <div style="padding-top:60px;"></div>
+        <div style="padding-top:100px;"></div>
 
         <div class="references-holder">
 
@@ -577,8 +577,8 @@ fbq('track', 'PageView');
 
     <div id="Contacts" class="section-contacts">
       <div class="contacts-textcontainer">
-        <div class="header-line"></div>
         <h3>Yhteydet & Henkilöt</h3>
+        <div class="header-line" id="orange-line"></div>
         <span>
           Sähköpostiosoitteemme ovat muotoa <br />
           etunimi.sukunimi@skhole.fi
