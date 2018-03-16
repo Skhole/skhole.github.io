@@ -40,6 +40,14 @@ font-size: 19px;
   align-items: center;
 }
 
+.bottom-pic-1 {
+width: 100%;
+}
+
+li {
+  font-size: 19px;
+}
+
 h1, h2 {
   color: #0034a0;
 }
@@ -49,8 +57,12 @@ h1 img {
 }
 
 h2 {
-  font-size: 19px;
+  font-size: 22px;
   font-weight: 400;
+}
+
+h3 {
+  font-size: 26px;
 }
 
 hr {
