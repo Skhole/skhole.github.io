@@ -1,0 +1,52 @@
+/** Mobile **/
+
+@media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
+
+/*  h2 {
+    display: none;
+  }
+*/
+}
+
+p.error {
+  display: none !important;
+}
+
+#errorLi {
+  display: none !important;
+}
+
+.wufoo li {
+  width: 90%;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.centerFormProp {
+  display: none;
+}
+
+  .kauppaotsikko {
+  font-size: 33px !important;
+  }
+
+form li div label {
+  display: none;
+}
+
+.wufoo .info div {
+  color: #ffffff
+}
+
+
+
+/* .error {
+  display: none !important;
+}
+
+form .error {
+  display: none !important;
+}
+*/
