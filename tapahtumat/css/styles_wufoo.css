@@ -1,8 +1,8 @@
 /** Mobile **/
 
-@media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
-
-/*  h2 {
+@media only screen and (max-height: 678px),
+  only screen and (max-device-height: 678px) {
+  /*  h2 {
     display: none;
   }
 */
@@ -10,6 +10,21 @@
 
 p.error {
   display: none !important;
+}
+
+#saveForm {
+  background: #0034a0;
+  border: 2px solid #0034a0;
+  margin-left: 5px;
+  color: #ffffff;
+  font-family: jaf-domus;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.29px;
+  line-height: 26px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
 }
 
 #errorLi {
@@ -32,19 +47,17 @@ h2 {
   display: none;
 }
 
-  .kauppaotsikko {
+.kauppaotsikko {
   font-size: 33px !important;
-  }
+}
 
 form li div label {
   display: none;
 }
 
 .wufoo .info div {
-  color: #ffffff
+  color: #ffffff;
 }
-
-
 
 /* .error {
   display: none !important;
