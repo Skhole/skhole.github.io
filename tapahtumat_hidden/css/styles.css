@@ -1,98 +1,30 @@
 body {
   color: #0d2b5c;
   font-family: "jaf-domus";
-    background-image: url('../img/tausta2.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 }
 
-/*
-@media (max-height: 606px)  {
-  #otsikkokuva {
-    display: none !important;
-  }
+p {
+font-size: 19px;
+font-weight: 300;
 }
-
-}*/
 
 #logopic {
   z-index: 999999;
 }
 
-
-@media (max-height: 666px) and (min-width: 768px) {
-  .flex-container {
-    margin-top: 100px;
-    position: relative;
-  }
-  #otsikkokuva {
-    display: none !important;
-  }
+a {
+  color: #0d2b5c;
 }
 
-@media (max-height: 1100px)  {
-  #otsikkokuva {
-   padding: 1px !important;
-  }
+@media (min-width: 1300px) {
+
   .flex-item {
-    padding: 441px 30px 0 30px !important;
-    width: 350px;
-    height: 600px;
-  }
-}
-
-@media (max-width: 768px) {
-  .flex-container {
-    margin-top: 200px !important;
-    width: 100% !important;
-    display: inline !important;
-  }
-  .flex-item {
-    width: auto !important;
-    height: auto !important;
-    padding: 30px !important;
+    padding: 10px 30px 0 30px;
+    width: 796px !important;
+    height: 80%;
   }
 
-  #otsikkokuva {
-    width: auto !important;
-    height: auto !important;
-    padding: 110px 0px !important;
-    margin-left: 0px !important;
-  }
 
-}
-
-
-#otsikkokuva {
-  padding: 110px 0px;
-  width: 700px;
-  height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
- p {
-  font-size: 17px;
-}
-
-.otsikko {
-  font-size: 18px;
-  padding-bottom: 4px;
-
-}
-
-
-#linkki2 {
-  text-decoration: none;
-  color: #0d2b5c
-}
-
-.hotus p {
-  color: #0034a0;
-  font-size: 22px;
 }
 
 
@@ -124,8 +56,19 @@ body {
   align-items: center;
 }
 
+.bottom-pic-1 {
+width: 100%;
+margin-top: 35px;
+}
+
+li {
+  font-size: 19px;
+}
+
 h1, h2 {
   color: #0034a0;
+  font-size: 38px;
+  font-weight: 300;
 }
 
 h1 img {
@@ -133,17 +76,35 @@ h1 img {
 }
 
 h2 {
-  font-size: 19px;
+  font-size: 26px;
   font-weight: 400;
 }
+
+h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.wufoo .info h2 {
+  font-size: 26px;
+}
+
 
 hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #0034a0;
-  margin: 1em 0;
+  border-top: 2px solid #0034a0;
+  margin: 2em 0;
   padding: 0;
+}
+
+b {
+  font-weight: 600;
+}
+
+.signup-h2 {
+  margin-left: 5px;
 }
 
 img.logo {
@@ -163,9 +124,9 @@ button {
 }
 
 .flex-item {
-  padding: 141px 30px 0 30px;
-  width: 350px;
-  height: 600px;
+  padding: 10px 30px 0 30px;
+  width: 50%;
+  height: 80%;
 }
 
 .flex-item input[type="text"] {
@@ -173,7 +134,7 @@ button {
   height: 20px;
 }
 
-.flex-item:nth-child(2) {
+.flex-item:nth-child(1) {
   background-repeat: no-repeat;
   background-position: bottom;
   -webkit-order: 0;
@@ -187,10 +148,7 @@ button {
   align-self: auto;
 }
 
-.flex-item:nth-child(3) {
-  font-size: 18px;
-  background-repeat: no-repeat;
-  background-position: bottom;
+.flex-item:nth-child(2) {
   -webkit-order: 0;
   -ms-flex-order: 0;
   order: 0;
@@ -200,4 +158,50 @@ button {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+  background: #f6f6f7;
 }
+
+#form-holder {
+  background-color: #f6f6f6;
+}
+
+.formi {
+margin-left: 6%;
+margin-top: 6%;
+margin-right: 6%;
+}
+
+
+@media (max-height: 845px) and (min-width: 768px) {
+  .flex-container {
+    margin-top: 100px;
+    position: relative;
+  }
+}
+
+@media (max-width: 1111px) {
+  .flex-container {
+    width: 100%;
+  }
+  .flex-item {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    margin-top: 100px;
+    width: 100%;
+    display: inline;
+  }
+  .flex-item {
+    width: auto;
+    height: auto;
+    padding: 30px;
+  }
+  .flex-item:nth-child(1) {
+    background-image: none;
+  }
+}
+
+´
