@@ -90,7 +90,7 @@ button {
 }
 
 .flex-item:nth-child(1) {
-  background-image: url('../img/art-blue.png');
+  background-image: url('../img/kuvio.svg');
   background-repeat: no-repeat;
   background-position: bottom;
   -webkit-order: 0;
