@@ -25,6 +25,29 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+<!--<script>
+
+var tag = document.createElement('script');
+
+tag.src = "//www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('skholeVideo', {
+        events: {
+            'onReady': onPlayerReady
+        }
+    });
+}
+
+function onPlayerReady(event) {
+    player.mute();
+}
+
+</script> -->
       <script>
       var target = [];
 var englishPage =
@@ -46,7 +69,7 @@ function geoip(g) {
       <script src="https://use.typekit.net/ywl4mbi.js"></script>
       <script>try{Typekit.load({ async: false });}catch(e){}</script>
       <link rel="stylesheet" href="css/skhole.css?v=4.2">
-      <link rel="stylesheet" href="css/suomi.css?v=1.5">
+      <link rel="stylesheet" href="css/suomi.css?v=2.0">
       <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -186,48 +209,11 @@ fbq('track', 'PageView');
           <a href="/best-healthcare-education-in-the-world.html" class="lang">In English</a>
         </div>
         <!--section 1-->
-
         <div class="slideshow" id="slideshow">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" id="carousel-in">
-
-
-            <div class="carousel-inner">
-
-      <div class="item active">
-                   <img src="img/kaikki-yhdella-lisenssilla.jpg" class="mainospic">
-      </div>
-
-      <div class="item">
-           <img src="img/lakisaateiset-taydennyskoulutukset.jpg" class="mainospic">
-      </div>
-
-      <div class="item">
-        <img src="img/lahes-50-vapaasti-valittavaa-kurssia.jpg" class="mainospic">
-      </div>
-
-
-    </div>
-  </div>
-
-            <!--
-         <div class="slideshow-img" id="slide1">
-           <img src="img/kaikki-yhdella-lisenssilla.jpg" class="mainospic">
-         </div>
-         <div class="slideshow-img" id="slide2">
-           <img src="img/lakisaateiset-taydennyskoulutukset.jpg" class="mainospic">
-         </div>
-         <div class="slideshow-img" id="slide3">
-           <img src="img/lahes-50-vapaasti-valittavaa-kurssia.jpg" class="mainospic">
-         </div>
-       </div>  -->
-      </div>
-    </div>
+          <iframe class="skhole-video-holder" id="skholeVideo" frameBorder="0"
+src="https://www.youtube.com/embed/jhoKppiv94M?rel=0&enablejsapi=1&controls=0&showinfo=0&loop=1&iv_load_policy=3" allowfullscreen>
+</iframe>
+        </div>
 
 
         <div id="The best healthcare education in the world" class="section section-1 wow fadeIn">
@@ -237,7 +223,7 @@ fbq('track', 'PageView');
           Skhole tarjoaa sosiaali- ja terveydenhuollon ammattilaisille joustavan ja kustannustehokkaan oppimisympäristön lakisääteisistä kursseista syvällisempään ammatilliseen kehittymiseen. Yksi vuosilisenssi kattaa sisältöjemme rajoittamattoman käytön ajasta ja paikasta riippumatta!
           <div class="buttons">
             <button align="left" class="primary buy" id="buy" style="float:left;" onclick="location.href = '/osta';"/>OSTA HETI</button>
-            <button class="primary trial" id="trial2" style="float:left;" onclick="location.href = '/kokeile';"/>TILAA DEMO</button>
+            <button class="primary trial" id="trial2" style="float:left;" onclick="location.href = '/kokeile';"/>KOKEILE</button>
           </div>
           </div>
           </div>
@@ -392,7 +378,7 @@ fbq('track', 'PageView');
             </div>
               <div class="section-courses-samples">
                 <button align="left" class="primary buy" id="buy" style="float:right;" onclick="location.href = '/osta';"/>OSTA HETI</button>
-                <button align class="primary trial" id="trial2" style="float:right;" onclick="location.href = '/kokeile';"/>TILAA DEMO</button>
+                <button align class="primary trial" id="trial2" style="float:right;" onclick="location.href = '/kokeile';"/>KOKEILE</button>
               </div>
             </div>
 
@@ -644,10 +630,6 @@ fbq('track', 'PageView');
           <div class="staff-image" style="background-image: url('img/staff-anttoni.jpg');">
             <div class="staff-desc">Anttoni Palm <br />
             Producer</div>
-          </div>
-          <div class="staff-image" style="background-image: url('img/staff-vilma.jpg');">
-            <div class="staff-desc">Vilma Lehtinen <br />
-            Community Manager</div>
           </div>
           <div class="staff-image" style="background-image: url('img/staff-kauppila.jpg');">
             <div class="staff-desc">Joonas Kauppila <br />
