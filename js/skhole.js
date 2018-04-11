@@ -3051,44 +3051,37 @@ $( document ).ready(function() {
 
   $(".info-course-kunto").click(function(e){
     e.preventDefault();
-    $("#info-modal-kunto").show();
-    $(".login-holder").show();
+    window.location.replace("http://skhole.fi/kurssit/kuntouttamista-edistava-hoitotyo");
   });
 
   $(".info-course-kipu").click(function(e){
     e.preventDefault();
-    $("#info-modal-kipu").show();
-    $(".login-holder").show();
+    window.location.replace("http://skhole.fi/kurssit/kivunhoito");
   });
 
   $(".info-course-painehaava").click(function(e){
     e.preventDefault();
-    $("#info-modal-painehaava").show();
-    $(".login-holder").show();
+    window.location.replace("http://skhole.fi/kurssit/painehaavojen-tunnistaminen-ja-ehkaisy");
   });
 
   $(".info-course-alaselka").click(function(e){
     e.preventDefault();
-    $("#info-modal-alaselka").show();
-    $(".login-holder").show();
+    window.location.replace("http://skhole.fi/kurssit/alaselkakipu");
   });
 
   $(".info-course-kasihygi").click(function(e){
     e.preventDefault();
-    $("#info-modal-kasihygi").show();
-    $(".login-holder").show();
+    window.location.replace("http://skhole.fi/kurssit/kasihygienia");
   });
 
   $(".info-course-saatto").click(function(e){
     e.preventDefault();
-    $("#info-modal-saatto").show();
-    $(".login-holder").show();
+    window.location.replace("http://skhole.fi/kurssit/saattohoito");
   });
 
   $(".info-course-vammainen").click(function(e){
     e.preventDefault();
-    $("#info-modal-vammainen").show();
-    $(".login-holder").show();
+    window.location.replace("http://skhole.fi/kurssit/vammaistyon-perusteet");
   });
 
   $(".previewable-course").click(function(e){
@@ -3099,14 +3092,12 @@ $( document ).ready(function() {
 
   $(".info-course-laake").click(function(e){
     e.preventDefault();
-    $("#info-modal-laake").show();
-    $(".login-holder").show();
+    window.location.replace("http://skhole.fi/kurssit/laakehoito");
   });
 
   $(".info-course-muistisairas").click(function(e){
     e.preventDefault();
-    $("#info-modal-muistisairas").show();
-    $(".login-holder").show();
+    window.location.replace("http://skhole.fi/kurssit/muistisairaan-kohtaaminen");
   });
 
   $(".terms").click(function(e){
