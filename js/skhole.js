@@ -3049,55 +3049,10 @@ $( document ).ready(function() {
     $(".all-courses-modal").show();
   });
 
-  $(".info-course-kunto").click(function(e){
-    e.preventDefault();
-    window.location.replace("http://skhole.fi/kurssit/kuntouttamista-edistava-hoitotyo");
-  });
-
-  $(".info-course-kipu").click(function(e){
-    e.preventDefault();
-    window.location.replace("http://skhole.fi/kurssit/kivunhoito");
-  });
-
-  $(".info-course-painehaava").click(function(e){
-    e.preventDefault();
-    window.location.replace("http://skhole.fi/kurssit/painehaavojen-tunnistaminen-ja-ehkaisy");
-  });
-
-  $(".info-course-alaselka").click(function(e){
-    e.preventDefault();
-    window.location.replace("http://skhole.fi/kurssit/alaselkakipu");
-  });
-
-  $(".info-course-kasihygi").click(function(e){
-    e.preventDefault();
-    window.location.replace("http://skhole.fi/kurssit/kasihygienia");
-  });
-
-  $(".info-course-saatto").click(function(e){
-    e.preventDefault();
-    window.location.replace("http://skhole.fi/kurssit/saattohoito");
-  });
-
-  $(".info-course-vammainen").click(function(e){
-    e.preventDefault();
-    window.location.replace("http://skhole.fi/kurssit/vammaistyon-perusteet");
-  });
-
   $(".previewable-course").click(function(e){
     e.preventDefault();
     $("#video-modal").show();
     $(".video-holder").show();
-  });
-
-  $(".info-course-laake").click(function(e){
-    e.preventDefault();
-    window.location.replace("http://skhole.fi/kurssit/laakehoito");
-  });
-
-  $(".info-course-muistisairas").click(function(e){
-    e.preventDefault();
-    window.location.replace("http://skhole.fi/kurssit/muistisairaan-kohtaaminen");
   });
 
   $(".terms").click(function(e){
