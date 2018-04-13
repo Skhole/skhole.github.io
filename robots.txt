@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-SITEMAP: https://www.skhole.fi/sitemap.txt
+SITEMAP: www.skhole.fi/sitemap.txt
