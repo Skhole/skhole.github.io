@@ -1,7 +1,7 @@
 /** Mobile **/
 
-.wufoo-form-container {
-  height: 888px !important
+iframe {
+  height: 888px !important;
 }
 
 @media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
