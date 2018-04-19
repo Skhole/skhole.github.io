@@ -5,7 +5,8 @@ www.skhole.fi/kurssit/painehaavojen-tunnistaminen-ja-ehkaisy/index.html
 www.skhole.fi/kurssit/alaselkakipu/index.html
 www.skhole.fi/kurssit/kuntoutumista-edistava-hoitotyo/index.html
 www.skhole.fi/kurssit/laakehoito/index.html
-www.skhole.fi/kurssit/kasihygienia/index.html
+www.skhole.fi/kurssit/laakehoito/index.html
+www.skhole.fi/kurssit/ravitsemus-ja-terveys/index.html
 www.skhole.fi/kurssit/saattohoito/index.html
 www.skhole.fi/kurssit/vammaistyon-perusteet/index.html
 www.skhole.fi/
