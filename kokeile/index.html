@@ -19,7 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta property="og:image" content="https://www.skhole.fi/img/fb.jpg" />
   <meta property="og:title" content="Skhole | Kokeile" />
   <meta property="og:description" content="Voit tutustua Skholeen ilmaiseksi viikon ajan" />
-
+  <link rel="stylesheet" href="../kurssit/css/header.css">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   <script src="https://use.typekit.net/ywl4mbi.js"></script>
   <script>try{Typekit.load({ async: false });}catch(e){}</script>
@@ -60,6 +60,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!--<script src="js/scripts.js"></script>-->
 
   <a href="https://www.skhole.fi" target="_blank"><img id="logopic" src="img/skhole-logo.png" alt="Skhole" border="0" class="logo" /></a>
+  <div class="header" id="alaheader">
+    <button class="primary login" style="float:right;" onclick="location.href = 'http://app.skhole.fi/kirjaudu';"/>Kirjaudu</button>
+    <button class="primary trial" style="float:right;" id="get-trial" onclick="location.href = 'http://skhole.fi/kokeile';"/>Kokeile!</button>
+    <button class="primary buy" id="buy-header" style="float:right;" onclick="location.href = 'http://skhole.fi/osta';" />Osta!</button>
+    <a href="https://www.facebook.com/SkholeFI/" target="_blank" class="fb-link"><img class="fb-logo-pic-1" src="https://www.skhole.fi/img/FB-f-Logo__blue_50.png" alt="Skhole Facebookissa" border="0" width="25" height="25"></a>
+    <a href="https://support.skhole.fi" class="customerservice">Usein Kysyttyä</a>
+    <a href="https://www.skhole.fi/#Skhole%20Courses" class="customerservice">Kurssit</a>
+  </div>
 
   <div class="flex-container">
 
@@ -85,7 +93,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'userName':'skhole',
   'formHash':'m1s3bssk06socjh',
   'autoResize':true,
-  'height':'828',
+  'height':'728',
   'async':true,
   'host':'wufoo.eu',
   'header':'show',

@@ -117,6 +117,12 @@ button {
   background: #f6f6f7;
 }
 
+@media (max-height: 1100px) and (min-width: 768px) {
+  #alaheader {
+    display: none;
+  }
+}
+
 @media (max-height: 845px) and (min-width: 768px) {
   .flex-container {
     margin-top: 100px;
