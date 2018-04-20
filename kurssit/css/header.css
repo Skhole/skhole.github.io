@@ -50,20 +50,6 @@ button.trial {
     float: right;
 }
 
-
-@media (min-width: 800px) and (max-height: 848px) {
-
-  #alaheader {
-    display: none;
-  }
-
-
-#alaheader {
-  margin-left: 20%;
-}
-
-}
-
 @media (max-width: 1300px) {
 
 #alaheader {

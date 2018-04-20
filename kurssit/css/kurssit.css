@@ -203,13 +203,6 @@ margin-right: 6%;
 }
 
 
-@media (max-height: 845px) and (min-width: 768px) {
-  .flex-container {
-    margin-top: 100px;
-    position: relative;
-  }
-}
-
 @media (max-width: 1111px) {
   .flex-container {
     width: 100%;
