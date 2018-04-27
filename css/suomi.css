@@ -195,7 +195,7 @@ and (min-width: 1281px) {
 }
 
 .skhole-video-holder {
-  width: 598px;
+  width: 596px;
   height: 336px;
 }
 
@@ -443,8 +443,7 @@ button.all-courses {
 .refe-pic {
   width: 180px;
   height: 257px;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 35px;
 }
 
 .quotepic {
