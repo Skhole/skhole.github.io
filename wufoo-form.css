@@ -3,6 +3,15 @@
     background:#0034a0;
     border: #0034a0;
     color: #ffffff;
-    float: left;
+    float: right;
     margin-right: 0;
+}
+
+
+.form li div label {
+display: none;
+}
+
+.info h2 {
+margin-bottom: 20px;
 }
