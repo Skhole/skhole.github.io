@@ -1225,6 +1225,10 @@ and (max-width: 399px) {
   line-height: 22px;
   }
 
+  #course-11-h2 {
+    width: 99%;
+  }
+
   .logo-holder {
     width: 100px;
     height: 50px;
