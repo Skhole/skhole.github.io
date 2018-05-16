@@ -1,153 +1,645 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T2PXCJ2');</script>
-<!-- End Google Tag Manager -->
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width" />
   <title>Skhole | Kokeile</title>
-  <meta name="description" content="Voit tutustua Skholeen ilmaiseksi viikon ajan">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="description" content="Kokeile kaksi viikkoa ilmaiseksi">
   <meta name="author" content="Skhole">
   <meta property="og:image" content="https://www.skhole.fi/img/fb.jpg" />
-  <meta property="og:title" content="Skhole | Kokeile" />
-  <meta property="og:description" content="Voit tutustua Skholeen ilmaiseksi viikon ajan" />
+  <meta property="og:title" content="Skhole | Kokeile Skholea kaksi viikkoa ilmaiseksi!" />
+  <meta property="og:description" content="Kokeile Skholea kaksi viikkoa ilmaiseksi!" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T2PXCJ2');</script>
+  <!-- End Google Tag Manager -->
+  <link rel="stylesheet" href="../css/skhole.css?v=4.2">
+  <link rel="stylesheet" href="../css/suomi.css?v=2.0">
   <link rel="stylesheet" href="../kurssit/css/header.css">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.5">
   <script src="https://use.typekit.net/ywl4mbi.js"></script>
-  <script>try{Typekit.load({ async: false });}catch(e){}</script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>try { Typekit.load({ async: false }); } catch (e) { }</script>
   <script>
-(function(h,o,t,j,a,r){
-  h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-  h._hjSettings={hjid:786282,hjsv:6};
-  a=o.getElementsByTagName('head')[0];
-  r=o.createElement('script');r.async=1;
-  r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-  a.appendChild(r);
-})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-<!-- Facebook Pixel Code -->
-<script>
- !function(f,b,e,v,n,t,s)
- {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
- n.callMethod.apply(n,arguments):n.queue.push(arguments)};
- if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
- n.queue=[];t=b.createElement(e);t.async=!0;
- t.src=v;s=b.getElementsByTagName(e)[0];
- s.parentNode.insertBefore(t,s)}(window, document,'script',
- 'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '206356489913305');
- fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
- src="https://www.facebook.com/tr?id=206356489913305&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 786282, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '206356489913305');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=206356489913305&ev=PageView&noscript=1"
+    />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
 </head>
+
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2PXCJ2"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
   <!--<script src="js/scripts.js"></script>-->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2PXCJ2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <a href="https://www.skhole.fi" target="_blank">
+    <img id="logopic" src="img/skhole-logo.png" alt="Skhole" border="0" class="logo" />
+  </a>
 
-  <a href="https://www.skhole.fi" target="_blank"><img id="logopic" src="img/skhole-logo.png" alt="Skhole" border="0" class="logo" /></a>
   <div class="header" id="alaheader">
-    <button class="primary login" style="float:right;" onclick="location.href = 'http://app.skhole.fi/kirjaudu';"/>Kirjaudu</button>
-    <button class="primary trial" style="float:right;" id="get-trial" onclick="location.href = 'http://skhole.fi/kokeile';"/>Kokeile!</button>
-    <button class="primary buy" id="buy-header" style="float:right;" onclick="location.href = 'http://skhole.fi/osta';" />Osta!</button>
-    <a href="https://www.facebook.com/SkholeFI/" target="_blank" class="fb-link"><img class="fb-logo-pic-1" src="https://www.skhole.fi/img/FB-f-Logo__blue_50.png" alt="Skhole Facebookissa" border="0" width="25" height="25"></a>
+    <button class="primary login" style="float:right;" onclick="location.href = 'http://app.skhole.fi/kirjaudu';" />Kirjaudu</button>
+    <button class="primary trial" style="float:right;" id="get-trial" onclick="location.href = '#kokeile-skholea-ilmaiseksi';"
+    />Kokeile!</button>
+    <button class="primary buy" id="buy-header" style="float:right;" onclick="location.href = 'https://www.skhole.fi/osta';"
+    />Osta!</button>
+    <a href="https://www.facebook.com/SkholeFI/" target="_blank" class="fb-link">
+      <img class="fb-logo-pic-1" src="https://www.skhole.fi/img/FB-f-Logo__blue_50.png" alt="Skhole Facebookissa" border="0" style="height:25px; width: 25px;">
+    </a>
     <a href="https://support.skhole.fi" class="customerservice">Usein Kysyttyä</a>
     <a href="https://www.skhole.fi/#Skhole%20Courses" class="customerservice">Kurssit</a>
   </div>
+  <div class="skhole-is-best">
+    <div class="skhole-buy-education">
 
-  <div class="flex-container">
+      <div class="section-all-starts-here">
+        <div class="study-image-holder">
+          <img class "study-image" src="img/use-skhole-everywhere.jpg" style="width: 100%; height: auto;">
+        </div>
+        <div class="buy-skhole">
 
-    <div class="flex-item">
-      <h1>
-     Kokeile ilmaiseksi
-      </h1>
-      <hr align="left" width="33%">
-      <p>Skhole tarjoaa sosiaali- ja terveydenhuollon ammattilaisille joustavan ja kustannustehokkaan oppimisympäristön lakisääteisistä kursseista syvällisempään ammatilliseen kehittymiseen. Lisenssi kattaa sisältöjemme rajoittamattoman käytön ajasta ja paikasta riippumatta!</p>
-      <img class="vinkkaa-pomolle" src="img/vinkkaa-pomolle.png" alt="Skhole" border="0"/>
-      <p>Osta Skhole yrityksellesi <a href="/osta">täältä</a></p>
-      <p>Tilaa Skholen uutiskirje <a href="/uutiskirje">täältä</a></p>
+          <h2 class="buy-skhole-h2" id="buy-skhole-opener">Opiskele Skholessa kaksi viikkoa ilmaiseksi</h2>
+          <div class="border-buy"></div>
+          <div class="buy-skole-text">
+            <p class="basic-text-css"> Skhole on sosiaali- ja terveydenhuoltoalan verkkokoulutuspalvelu, joka kulkee mukana sekä koulutuksen järjestäjän
+              että työntekijän matkalla. Palvelu sopii täydennyskoulutukseen niin sosiaali- ja terveydenhuoltoalan yrityksille
+              kuin opiskelun tueksi alan opiskelijoille.
+            </p>
+          </div>
+        </div>
+        <div class="better-more-cheaper-holder">
+          <div class="better-more-text-holder">
+            <div class="better-desktop-holder">
+              <div class="better-more-cheaper" id="better-holder-left-desktop">
+                <div class="who-should-use-skhole" id="what-you-get-2w">
+                  <h2 class="cheaper-h2">SAAT KAHDEKSI VIIKOKSI</h2>
+                  <ul class="list-ul-text">
+                    <li>50 kurssia suomeksi, 14 kurssia ruotsiksi ja 8 kurssia englanniksi</li>
+                    <li>Yhteensä lähes 900 luentoa</li>
+                    <li>Itseopiskelutestejä omaan harjoitteluun</li>
+                    <li>Kirjoittaa muistiinpanoja opiskelemistasi luennoista ja kursseista</li>
+                    <li>Omat opiskelutilastot</li>
+                    <li>Vapauden valita mitä opiskelet ja milloin</li>
+                    <li>Skholen asiakaspalvelun täyden palvelun</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="better-more-cheaper" id="better-holder-right">
+              <div class="more-cheap-text-mobile">
+                <div class="who-should-use-skhole" id="what-you-get-2w">
+                  <h2 class="cheaper-h2">NÄIN HELPPOA SE ON</h2>
+                  <ul class="list-ul-text">
+                    <li>Täytä Kokeile ilmaiseksi -lomake</li>
+                    <li>Saat kahden viikon ilmaiset kokeilutunnukset sähköpostiisi viimeistään seuraavana arkipäivänä</li>
+                    <li>Ennen kokeilujakson päättymistä lähetämme sinulle kyselylomakkeen, jossa voit antaa palautetta Skholesta</li>
+                    <li>Kokeilujakso ei sido sinua mihinkään ja se umpeutuu automaattisesti 14 vrk kuluttua siitä, kun olet saanut
+                      tunnukset sähköpostiisi</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="better-mobile-holder">
+              <div class="better-more-cheaper" id="better-holder-left-desktop">
+                <div class="who-should-use-skhole" id="what-you-get-2w">
+                  <h2 class="cheaper-h2">SAAT KAHDEKSI VIIKOKSI</h2>
+                  <ul class="list-ul-text">
+                    <li>50 kurssia suomeksi, 14 kurssia ruotsiksi ja 8 kurssia englanniksi</li>
+                    <li>Yhteensä lähes 1000 luentoa</li>
+                    <li>Itseopiskelutestejä omaan harjoitteluun</li>
+                    <li>Kirjoittaa muistiinpanoja opiskelemistasi luennoista ja kursseista</li>
+                    <li>Omat opiskelutilastot</li>
+                    <li>Vapauden valita mitä opiskelet ja milloin</li>
+                    <li>Skholen asiakaspalvelun täyden palvelun</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buy-form-holder" id="first-trial-button-holder">
+            <div class="desktop-button-buy">
+              <button class="primary buy" id="buy-skhole-button" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+            </div>
+            <div class="buy-text-holder">Haluan parempaa, enemmän ja halvemalla</div>
+            <div class="mobile-button-buy">
+              <button class="primary buy" id="buy-skhole-button" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+
+
+      <div class="flex-item">
+      </div>
+
+      <div style="clear:both;"></div>
+      <div class="section-to-who">
+        <div class="to-who-texts">
+          <h2 class="buy-skhole-h2" id="who-should-use-h2">Kenelle kurssit on tarkoitettu</h2>
+          <div class="border-buy"></div>
+          <div class "buy-skole-text" id="what-skhole-contains">
+            <p class="basic-text-css">
+            Skholessa on koulutusmateriaalia monille sosiaali- ja terveydenhuoltoalan ammattiryhmille. Voit itse suodattaa kursseja ammattisi
+            ja kiinnostuksesi mukaan.</p>
+          </div>
+        </div>
+        <div class="who-should-use-skhole">
+          <h2 class="use-skhole-h2">LÄHIHOITAJAT</h2>
+          <ul class="list-ul-text">
+            <li>37 suoraan sinulle suunnattua kurssia</li>
+            <li>Lähihoito</li>
+            <li>Lääkelaskenta</li>
+            <li>Hoitotyön kirjaaminen</li>
+            <li>Tietosuoja- ja tietoturva</li>
+            <li>Ravitsemus ja terveys</li>
+            <li>Monikulttuurisuus hoitotyössä</li>
+            <li>Vammaistyön perusteet</li>
+          </ul>
+        </div>
+        <div class="who-should-use-skhole">
+          <h2 class="use-skhole-h2">VANHUSTYÖ</h2>
+          <ul class="list-ul-text">
+            <li>Ikääntyneiden lääkehoito</li>
+            <li>Geriatria: ikääntyneiden yleisimmät sairaudet</li>
+            <li>Muistisairaan kohtaaminen</li>
+            <li>Saattohoito</li>
+            <li>Kivunhoito</li>
+            <li>Tietosuoja ja tietoturva</li>
+            <li>kuntoutumista edistävä hoitotyö</li>
+          </ul>
+          <p class="basic-text-css" id="to-who-plus">+15 muuta vanhustyöhön suunnattua kurssia</p>
+        </div>
+        <div class="who-should-use-skhole">
+          <h2 class="use-skhole-h2">SAIRAANHOITAJA</h2>
+          <ul class="list-ul-text">
+            <li>Lääkehoito</li>
+            <li>Lääkelaskenta</li>
+            <li>Iv- ja nestehoito</li>
+            <li>Ravitsemus ja terveys</li>
+            <li>Hoitotyön kirjaaminen</li>
+            <li>Anatomia ja fysiologia</li>
+          </ul>
+          <p class="basic-text-css" id="to-who-plus">+ 39 muuta Sairaanhoitajille suunnattua kurssia</p>
+        </div>
+        <div class="who-should-use-skhole">
+          <h2 class="use-skhole-h2">HOIVA-AVUSTAJA</h2>
+          <ul class="list-ul-text">
+            <li>Suppea lääkehoito</li>
+            <li>Anatomia ja fysiologia</li>
+            <li>Hoitotyön etiikka</li>
+            <li>Asiakaslähtöisyys ja asiakkaan kohtaaminen</li>
+            <li>Käsihygienia</li>
+          </ul>
+          <p class="basic-text-css" id="to-who-plus">+ 15 muuta Hoiva-avustajille suunnattua kurssia</p>
+        </div>
+        <div class="all-courses-button-holder">
+          <button class="primary buy" id="all-courses-button" onclick="location.href = 'https://www.skhole.fi/courses.html#/';">Kaikki kurssit</button>
+          <div class="buy-text-holder" id="courses-for-everyone">
+            <p class="basic-text-css">Myös kursseja, geronomeille, sosionomeille, fysioterapeuteille, amk-opiskelijoille, 2. asteen opiskelijoille</div>
+        </div>
+        <div class="buy-form-holder-right">
+          <div class="desktop-button-buy">
+            <button class="primary buy" id="buy-form-holder-right-bu" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+          </div>
+          <div class="buy-text-holder" id="buy-form-holder-right-text">Haluan kaikki 50 kurssia käyttööni</div>
+          <div class="mobile-button-buy" id="i-want-all-div-holder">
+            <button class="primary buy" id="buy-form-holder-right-bu" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+          </div>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <div class="skhole-courses-sector">
+        <div class "course-pages-holder">
+          <div class="course-page">
+
+
+          </div>
+        </div>
+      </div>
+
+      <div style="clear:both;"></div>
+      <div class="section-references">
+        <div class="allrefes">
+          <div class="customer-references-h2">
+            <h2 class="buy-skhole-h2" id="refe-h2">Mitä asiakkaamme sanovat Skholesta?</h2>
+            <div class="border-buy"></div>
+          </div>
+          <div class="testimonials" id="testimonial1">
+            <div class="testimonial-arrow" id="arrow-left">
+              <a class="left" onclick="plusSlides(-1)">
+                <img src="../img/nuoli_vasen.svg">
+              </a>
+            </div>
+            <div class="testimonial-arrow" id="arrow-right">
+              <a class="right" onclick="plusSlides(1)">
+                <img src="../img/nuoli_oikea.svg">
+              </a>
+            </div>
+            <h2 class="refeh2" id="desktoprefeh2">
+              <img src="../img/easy-and-cheap.jpg" class="refe-pic">
+              </br>
+              <div class="referer-div-margin">
+                Katriina Niemelä </br>
+                Palvelujohtaja </br>
+                Coronaria Hoiva Oy</div>
+            </h2>
+            <div id="refeholder">
+              <img src="../img/lainausmerkki.svg" class="quotepic">
+              <div class="refeteksti" id="desktoprefe">
+                Skholen käyttöönotto antaa meille uudenlaisen mahdollisuuden kattavaan hoitajien täydennyskoulutuksen suunnitteluun ja toteutukseen.
+                Pystymme huolehtimaan koulutuksista aikaisempaa huomattavasti laajemmin, laadukkaammin ja edullisemmin. Skhole
+                on helppokäyttöinen ja tuo opiskeluun vapautta.
+              </div>
+
+              <div class="refeteksti" id="mobile-refe-div">
+                <h2 class="refeh2" id="mobilerefeh2">
+                  <img src="../img/easy-and-cheap.jpg" class="refe-pic" id="refe-pic-mobile">
+                  </br>
+                </h2>
+                Katriina Niemelä </br>
+                Palvelujohtaja </br>
+                Coronaria Hoiva Oy </br>
+                </br>
+                </br>
+                </br>
+                Skholen käyttöönotto antaa meille uudenlaisen mahdollisuuden kattavaan hoitajien täydennyskoulutuksen suunnitteluun ja toteutukseen.
+                Pystymme huolehtimaan koulutuksista aikaisempaa huomattavasti laajemmin, laadukkaammin ja edullisemmin. Skhole
+                on helppokäyttöinen ja tuo opiskeluun vapautta.
+              </div>
+            </div>
+          </div>
+          <div class="testimonials" id="testimonial2">
+            <div class="testimonial-arrow" id="arrow-left">
+              <a class="left" onclick="plusSlides(-1)">
+                <img src="../img/nuoli_vasen.svg">
+              </a>
+            </div>
+            <div class="testimonial-arrow" id="arrow-right">
+              <a class="right" onclick="plusSlides(1)">
+                <img src="../img/nuoli_oikea.svg">
+              </a>
+            </div>
+            <h2 class="refeh2" id="desktoprefeh2">
+              <img src="../img/fast-and-good2.jpg" class="refe-pic">
+              </br>
+              <div class="referer-div-margin">
+                Outi Koskinen </br>
+                KunTeko 2020 -palkittu</br> terveydenhoitaja </div>
+            </h2>
+            <div id="refeholder">
+              <img src="../img/lainausmerkki.svg" class="quotepic">
+              <div class="refeteksti" id="desktoprefe">
+                Mulla nyt sekka aikaa töissä, joten katson juuri skholen lääkelaskentakurssia. Älyttömän hyvä. Tämän enempää ei voi rautalangasta
+                vääntää. Kunpa olisin älynnyt ennen tenttiä tsekata.
+              </div>
+
+              <div class="refeteksti" id="mobile-refe-div">
+                <h2 class="refeh2" id="mobilerefeh2">
+                  <img src="../img/fast-and-good2.jpg" class="refe-pic" id="refe-pic-mobile">
+                  </br>
+                </h2>
+                Outi Koskinen </br>
+                KunTeko 2020 -palkittu </br>terveydenhoitaja
+                </br>
+                </br>
+                </br>
+                </br>
+                Mulla nyt sekka aikaa töissä, joten katson juuri skholen lääkelaskentakurssia. Älyttömän hyvä. Tämän enempää ei voi rautalangasta
+                vääntää. Kunpa olisin älynnyt ennen tenttiä tsekata.
+              </div>
+            </div>
+          </div>
+          <div class="testimonials" id="testimonial3">
+            <div class="testimonial-arrow" id="arrow-left">
+              <a class="left" onclick="plusSlides(-1)">
+                <img src="../img/nuoli_vasen.svg">
+              </a>
+            </div>
+            <div class="testimonial-arrow" id="arrow-right">
+              <a class="right" onclick="plusSlides(1)">
+                <img src="../img/nuoli_oikea.svg">
+              </a>
+            </div>
+            <h2 class="refeh2" id="desktoprefeh2">
+              <img src="../img/easy-to-use-2.jpg" class="refe-pic">
+              </br>
+              <div class="referer-div-margin">
+                Britta Dölling-Hasu </br>
+                Kotipalvelupäällikkö</br>
+                Kotipalvelut | Posti Oy</div>
+            </h2>
+            <div id="refeholder">
+              <img src="../img/lainausmerkki.svg" class="quotepic">
+              <div class="refeteksti" id="desktoprefe">
+                Skhole sisältää valtavan määrän tietoa ja todella on helppokäyttöinen oppimisalusta. Erityisesti mahdollisuus opiskella materiaalia
+                sekä teksti, ääni, että videomuodossa mahdollistaa erilaisten opiskelutapojen moninaisen käytön erilaisille
+                oppijoille.
+              </div>
+
+              <div class="refeteksti" id="mobile-refe-div">
+                <h2 class="refeh2" id="mobilerefeh2">
+                  <img src="../img/easy-to-use-2.jpg" class="refe-pic" id="refe-pic-mobile">
+                  </br>
+                </h2>
+                Britta Dölling-Hasu </br>
+                Kotipalvelupäällikkö</br>
+                Kotipalvelut | Posti Oy </br>
+                </br>
+                </br>
+                </br>
+                Skhole sisältää valtavan määrän tietoa ja todella on helppokäyttöinen oppimisalusta. Erityisesti mahdollisuus opiskella materiaalia
+                sekä teksti, ääni, että videomuodossa mahdollistaa erilaisten opiskelutapojen moninaisen käytön erilaisille
+                oppijoille.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buy-form-holder" id="refe-buy">
+          <div class="desktop-button-buy">
+            <button class="primary buy" id="buy-skhole-button" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+          </div>
+          <div class="buy-text-holder">Haluan parempaa, enemmän ja halvemalla</div>
+          <div class="mobile-button-buy">
+            <button class="primary buy" id="buy-skhole-button" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="section-start-anytime">
+      <div class="start-anytime-holder">
+        <img src="img/start-anytime.jpg" class "study-image" style="width: 100%; height: auto;">
+      </div>
+      <div class="start-anytime">
+        <div class="start-anytime-text">
+          <h2 class="buy-skhole-h2" id="study-everywhere-h2">Opiskele missä vain ja milloin vain</h2>
+          <div class="border-buy"></div>
+          <div class="start-anytime-small">
+            <p class="basic-text-css">Skholessa ei ole määritettyjä kurssien aloitusajankohtia, voit itse määrittää opiskelun tahdin ja järjestyksen.</p>
+            Skholen kurssit on jaettu luentoihin, jotka ovat kestoltaan 2-20 minuuttia. Voit siis itse valita kuinka kauan käytät aikaa
+            opiskeluun kerralla. Opiskele koko kolmen luennon Käsihygienian kurssi vain alle puolessa tunnissa!
+          </div>
+        </div>
+      </div>
+
+      <div class="buy-form-holder-right" id="buy-form-buttons-and-text-holder">
+        <div class="desktop-button-buy">
+          <button class="primary buy" id="buy-form-holder-right-bu" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+        </div>
+        <div class="buy-text-holder" id="quality-content">Haluan opiskella silloin kun minulle sopii</div>
+        <div class="mobile-button-buy" id="more-length-to-button">
+          <button class="primary buy" id="buy-form-holder-right-bu" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+        </div>
+      </div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="section-hotus-lamk">
+      <div class="hotus-lamk-holder">
+        <img src="img/hotus-lamk.jpg" class "study-image" style="width: 100%; height: auto;">
+      </div>
+      <div class="hotus-lamk-box-holder">
+        <div class="hotus-lamk-text">
+          <div class="start-anytime-big">
+            Skholen erittäin laajan ja kattavan kurssivalikoiman sisältö on tuotettu yhteistyössä alan asiantuntijoiden kanssa. Yhteistyökumppaneitamme
+            ovat mm. Hoitotyön tutkimussäätiö ja Lapin amk.
+          </div>
+          <div class="start-anytime-small" id="hotus-small">
+            <p class="basic-text-css"> Sisällöt perustuvat aina viimeisimpään, ajankohtaiseen alan tietoon. Sisällön lääketieteellisestä oikeellisuudesta
+              ja laadusta vastaavat lääketieteelliset asiantuntijamme, jotka myös osallistuvat sisällöntuotantoon.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="buy-form-holder" id="start-anytime-buy">
+        <div class="desktop-button-buy">
+          <button class="primary buy" id="buy-skhole-button" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+        </div>
+        <div class="buy-text-holder" id="i-want-quality">Haluan käyttööni ajankohtaista, laadukasta opintosisältöä</div>
+        <div class="mobile-button-buy">
+          <button class="primary buy" id="buy-skhole-button" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+        </div>
+      </div>
     </div>
 
-    <div class="flex-item">
-      <div id="wufoo-skhole-kauppa">
+    <div style="clear:both;"></div>
+    <div class="section-want-to-study">
 
-      <div id="wufoo-m1s3bssk06socjh">
-     <a href="https://skhole.wufoo.eu/forms/m1s3bssk06socjh">Kokeile!</a>.
-  </div>
-  <script type="text/javascript">var m1s3bssk06socjh;(function(d, t) {
-  var s = d.createElement(t), options = {
-  'userName':'skhole',
-  'formHash':'m1s3bssk06socjh',
-  'autoResize':true,
-  'height':'728',
-  'async':true,
-  'host':'wufoo.eu',
-  'header':'show',
-  'ssl':true};
-  s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.eu/scripts/embed/form.js';
-  s.onload = s.onreadystatechange = function() {
-  var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-  try { m1s3bssk06socjh = new WufooForm();m1s3bssk06socjh.initialize(options);m1s3bssk06socjh.display(); } catch (e) {}};
-  var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-  })(document, 'script');</script>
+      <div class="want-to-study-image" id="want-to-study-image-mobile">
+        <img src="img/always-effective.jpg" class "study-image" style="width: 100%; height: auto;">
+      </div>
+      <div class="want-to-study">
+        <h2 class="buy-skhole-h2" id="medicine-h2">Haluatko harjoitella lääkehoitoa ja lääkelaskentaa?</h2>
+        <div class="border-buy" id="medicine-border"></div>
+        <h2 class="use-skhole-h2" id="course-11-h2">
+          <p class="basic-text-css">Skholessa on 11 kurssia, jotka liittyvät lääkehoitoon mm.:</p>
+        </h2>
+        <ul class="list-ul-text">
+          <li>Suppea lääkehoito</li>
+          <li>Lääkehoito</li>
+          <li>Lääkelaskenta</li>
+          <li>Iv- ja nestehoito</li>
+          <li>Ikääntyneiden lääkehoito</li>
+          <li>Kivunhoito</li>
+          <li>Lääkeaineryhmät</li>
+        </ul>
+      </div>
 
+      <div class="want-to-study-image" id="want-to-study-image-desktop">
+        <img src="img/always-effective.jpg" class "study-image" style="width: 100%; height: auto;">
+      </div>
 
-    <script src="js/skhole.js"></script>
+      <div class="buy-form-holder-right" id="buy-holder-5">
+        <div class="desktop-button-buy">
+          <button class="primary buy" id="buy-form-holder-right-bu" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+        </div>
+        <div class="buy-text-holder" id="buy-form-holder-right-text-customers">Olen kiinnostunut lääkehoidon kursseista</div>
+        <div class="mobile-button-buy">
+          <button class="primary buy" id="buy-form-holder-right-bu" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+        </div>
+      </div>
+
 
     </div>
+    <div style="clear:both;"></div>
+    <div class="our-customers-section">
+      <div class="logo-content">
 
-  </div>
+        <h2 class="buy-skhole-h2" id="over-hundred-customers">Asiakkaamme: Skholea käyttää jo yli sata sosiaali- ja terveydenhuoltoalan yritystä</h2>
+        <div class="border-buy"></div>
+        <div class="logo-only">
+          <div class="logo-holder">
+            <img src="../img/logo-coronaria.png" class="customer-logo-img">
+          </div>
+          <div class="logo-holder">
+            <img src="../img/logo-arcada.png" class="customer-logo-img">
+          </div>
+          <div class="logo-holder">
+            <img src="img/taukokangas.png" class="customer-logo-img">
+          </div>
+          <div class="logo-holder">
+            <img src="../img/logo-lamk.png" class="customer-logo-img">
+          </div>
+          <div class="logo-holder">
+            <img src="../img/logo-lappia.png" class="customer-logo-img">
+          </div>
+          <div class="logo-holder">
+            <img src="../img/logo-primelife.png" class="customer-logo-img">
+          </div>
+          <div class="logo-holder">
+            <img src="../img/logo-xamk.png" class="customer-logo-img">
+          </div>
+          <div class="logo-holder">
+            <img src="../img/logo-carea.png" class="customer-logo-img">
+          </div>
+        </div>
+      </div>
 
-  <script>
-  (function(i, s, o, g, r, a, m) {
-  i['GoogleAnalyticsObject'] = r;
-  (i[r] =
-    i[r] ||
-    function() {
-      (i[r].q = i[r].q || []).push(arguments);
-    }),
-    (i[r].l = 1 * new Date());
-  (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-  a.async = 1;
-  a.src = g;
-  m.parentNode.insertBefore(a, m);
-})(
-  window,
-  document,
-  'script',
-  'https://www.google-analytics.com/analytics.js',
-  'ga'
-);
 
-ga('create', 'UA-82677207-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script>
-window.intercomSettings = {
-app_id: 'w5t2jh24'
-};
-</script>
-<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/w5t2jh24';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
-  <script>
-  window.intercomSettings = {
-app_id: 'w5t2jh24',
-language_override: 'fi'
-};
-</script>
-  <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/w5t2jh24';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+      <!-- <div class="buy-form-holder" id="want-to-study-buy">
+        <div class="desktop-button-buy">
+          <button class="primary buy" id="buy-skhole-button" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+        </div>
+        <div class="buy-text-holder" id="customers-buy-holder">Haluan liittyä Skholea käyttävien yritysten joukkoon</div>
+        <div class="mobile-button-buy">
+          <button class="primary buy" id="buy-skhole-button" onclick="location.href = '#kokeile-skholea-ilmaiseksi';">Kokeile ilmaiseksi</button>
+        </div>
+      </div>
+    </div> -->
+      <div style="clear:both;"></div>
+      <div id="kokeile-skholea-ilmaiseksi" class="wufoo-skhole-holder">
+<div id="wufoo-m1s3bssk06socjh" class="wufoo-form-holders">
+Fill out my <a href="https://skhole.wufoo.com/forms/m1s3bssk06socjh">online form</a>.
+</div>
+<script type="text/javascript">var m1s3bssk06socjh;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'skhole',
+'formHash':'m1s3bssk06socjh',
+'autoResize':true,
+'height':'auto',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { m1s3bssk06socjh = new WufooForm();m1s3bssk06socjh.initialize(options);m1s3bssk06socjh.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+          </div>
+      <div id="bottom-buy-margin-maker"></div>
+    </div>
+
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName('testimonials');
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+        slides[slideIndex - 1].style.display = 'block';
+      }
+    </script>
+
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        'script',
+        'https://www.google-analytics.com/analytics.js',
+        'ga'
+      );
+
+      ga('create', 'UA-82677207-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="../js/skhole.js"></script>
+    <script>
+      window.intercomSettings = {
+        app_id: 'w5t2jh24'
+      };
+    </script>
+    <script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', intercomSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Intercom = i; function l() { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/w5t2jh24'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()</script>
+    <script>
+      window.intercomSettings = {
+        app_id: 'w5t2jh24',
+        language_override: 'fi'
+      };
+    </script>
+    <script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', intercomSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Intercom = i; function l() { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/w5t2jh24'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()</script>
 </body>
+
 </html>

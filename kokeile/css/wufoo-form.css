@@ -1,0 +1,45 @@
+.wufoo input.btTxt {
+    padding: 5px 20px;
+    background:#0034a0;
+    border: #0034a0;
+    color: #ffffff;
+    float: right;
+    margin-right: 0;
+}
+
+
+.wufoo form li div label {
+display: none !important;
+}
+.info h2 {
+margin-bottom: 20px;
+}
+
+.safari select.select {
+border: 2px solid #0034a0 !important;
+}
+
+.marker {
+    display: none;
+}
+
+a {
+  color: #0034a0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
