@@ -1173,11 +1173,6 @@ and (max-width: 599px) {
     margin-left:0px;
   }
 
-  #better-holder-right {
-    width: 85%;
-    margin-left:2%;
-  }
-
   #study-everywhere-h2 {
     line-height: 40px;
     font-size: 30px;
@@ -1260,8 +1255,8 @@ and (max-width: 599px) {
   }
 
   .buy-skhole {
-    width: 80%;
-    margin-left: 10%;
+    width: 84%;
+    margin-left: 8%;
   }
   #buy-form-holder-right-text-customers {
     width: 85%;
