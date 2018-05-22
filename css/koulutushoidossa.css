@@ -9,6 +9,14 @@
   width: 800px;
 }
 
+#koulutus-hoidossa-blogi-skhole-logo {
+  width: 30%;
+}
+
+#koulutus-hoidossa-blogi-header {
+  width: 65%;
+}
+
 #buy-header {
   background: #ff9080;
   color: #FFFFFF;
@@ -72,6 +80,10 @@ button.trial {
   margin-right: 3%;
   float:right;
   width: auto;
+}
+
+.primary login {
+  display: none;
 }
 
 .customerservice {
