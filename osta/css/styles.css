@@ -43,7 +43,7 @@ img.logo {
   height: 50px;
   position: absolute;
   left: 40px;
-  top: 40px;
+  top: 20px;
 }
 
 button {
@@ -67,6 +67,11 @@ and (min-width: 1281px) {
   #alaheader {
   margin-top: 0px;
 }
+}
+
+#alaheader {
+  margin-top: 20px;
+  padding-top: 0;
 }
 
 .skhole-is-best {
@@ -127,7 +132,7 @@ and (max-width: 1100px) {
 }
 
 .buy-form-holder {
-  margin-top: 80px;
+  margin-top: 4%;
   width: 80%;
   float:left;
 }
@@ -160,7 +165,7 @@ and (max-width: 1100px) {
   margin-left: -170px;
   float:left;
   width: 63%;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .study-image {
@@ -169,7 +174,7 @@ and (max-width: 1100px) {
 }
 
   .buy-skhole {
-    margin-top:80px;
+    margin-top:40px;
     width: 45%;
     height: auto;
     background-color: #f6f6f6;
@@ -667,7 +672,7 @@ and (max-width: 1100px) {
 }
 
 .buy-skhole {
-  margin-top: 65px;
+  margin-top: 25px;
 }
 
 .start-anytime {
