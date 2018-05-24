@@ -1,5 +1,26 @@
 /* koulutushoidossa blogin oma css (koskee lähinnä headeria) */
 
+/*
+
+header
+
+<link rel="stylesheet" href="https://www.skhole.fi/css/koulutushoidossa.css">
+<link rel="stylesheet" href="https://www.skhole.fi/css/suomi.css">
+<div class="header">
+      <div class="koulutus-hoidossa" id="koulutus-hoidossa-blogi-header">
+      <a href="https://www.skhole.fi" target="_blank" style="float:left;"><img src="https://www.skhole.fi/img/LOGO.png" class="logo" id="koulutus-hoidossa-blogi-skhole-logo" />  </a>
+      <button class="primary login" style="float:right;" onclick="location.href = 'https://app.skhole.fi';"/>Kirjaudu</button>
+      <button class="primary trial" style="float:right;" id="get-trial" onclick="location.href = '/kokeile';"/>Kokeile!</button>
+      <button class="primary buy" id="buy" style="float:right;" onclick="location.href = '/osta';" />Osta!</button>
+      <a href="https://www.facebook.com/SkholeFI/" target="_blank" class="fb-link"><img class="fb-logo-pic-1" src="https://www.skhole.fi/img/FB-f-Logo__blue_50.png" alt="Skhole Facebookissa" border="0" width="25" height="25"></a>
+      <a href="https://support.skhole.fi" class="customerservice">Usein Kysyttyä</a>
+      <a href="#Skhole Courses" class="customerservice">Kurssit</a>
+      </div>
+ </div>
+
+
+ */
+
 #alaheader {
   z-index: 999999;
   margin-top: 30px;
