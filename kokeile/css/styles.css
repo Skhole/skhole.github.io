@@ -126,7 +126,7 @@ and (max-width: 1100px) {
 }
 
 .buy-form-holder {
-  margin-top: 80px;
+  margin-top: 20px;
   width: 80%;
   float:left;
 }
@@ -159,8 +159,8 @@ and (max-width: 1100px) {
 .study-image-holder {
   margin-left: -50px;
   float:left;
-  width: 54%;
-  margin-top: 50px;
+  width: 53%;
+  margin-top: 10px;
 }
 
 .better-mobile-holder {
@@ -182,7 +182,7 @@ and (max-width: 1100px) {
 }
 
   .buy-skhole {
-    margin-top:85px;
+    margin-top:45px;
     width: 45%;
     height: auto;
     background-color: #f6f6f6;
