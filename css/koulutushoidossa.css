@@ -23,7 +23,7 @@
 button.primary {
     background: #2ccac7;
     border: 2px solid #2ccac7;
-    font-family: jaf-domus;
+    font-family: "jaf-domus";
     font-weight: 600;
     font-size: 16px;
     color: #fff;
@@ -40,7 +40,7 @@ button.trial {
 }
 
 .header a {
-    font-family: jaf-domus;
+    font-family: "jaf-domus";
     font-weight: 600;
     font-size: 16px;
     color: #2ccac7;
@@ -63,7 +63,7 @@ button.trial {
 button.primary {
   background: #2ccac7;
   border: 2px solid #2ccac7;
-  font-family: jaf-domus;
+  font-family: "jaf-domus";
   font-weight: 600;
   font-size: 16px;
   color: #fff;
@@ -87,7 +87,7 @@ button.primary {
 }
 
 .header a {
-  font-family: jaf-domus;
+  font-family: "jaf-domus";
   font-weight: 600;
   font-size: 16px;
   color: #2ccac7;
@@ -156,8 +156,8 @@ button.trial {
   .site-header {
     background-size: 75%;
   }
-  
-  
+
+
 
 #alaheader {
   margin-right: 3%;
