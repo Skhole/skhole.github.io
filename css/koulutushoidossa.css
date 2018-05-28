@@ -1,26 +1,5 @@
 /* koulutushoidossa blogin oma css (koskee lähinnä headeria) */
 
-/*
-
-header
-
-<link rel="stylesheet" href="https://www.skhole.fi/css/koulutushoidossa.css">
-<link rel="stylesheet" href="https://www.skhole.fi/css/suomi.css">
-<div class="header">
-      <div class="koulutus-hoidossa" id="koulutus-hoidossa-blogi-header">
-      <a href="https://www.skhole.fi" target="_blank" style="float:left;"><img src="https://www.skhole.fi/img/LOGO.png" class="logo" id="koulutus-hoidossa-blogi-skhole-logo" />  </a>
-      <button class="primary login" style="float:right;" onclick="location.href = 'https://app.skhole.fi';"/>Kirjaudu</button>
-      <button class="primary trial" style="float:right;" id="get-trial" onclick="location.href = '/kokeile';"/>Kokeile!</button>
-      <button class="primary buy" id="buy" style="float:right;" onclick="location.href = '/osta';" />Osta!</button>
-      <a href="https://www.facebook.com/SkholeFI/" target="_blank" class="fb-link"><img class="fb-logo-pic-1" src="https://www.skhole.fi/img/FB-f-Logo__blue_50.png" alt="Skhole Facebookissa" border="0" width="25" height="25"></a>
-      <a href="https://support.skhole.fi" class="customerservice">Usein Kysyttyä</a>
-      <a href="#Skhole Courses" class="customerservice">Kurssit</a>
-      </div>
- </div>
-
-
- */
-
 #alaheader {
   z-index: 999999;
   margin-top: 30px;
@@ -80,6 +59,70 @@ button.trial {
     float: right;
 }
 
+
+/* buttonit header */
+
+button.primary {
+  background: #2ccac7;
+  border: 2px solid #2ccac7;
+  font-family: jaf-domus;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: .29px;
+  line-height: 26px;
+  padding: 10px 20px 10px 20px;
+  float: right;
+  cursor: pointer;
+}
+
+.header #buy {
+  letter-spacing: .29px;
+}
+
+.koulutus-hoidossa-blogi-skhole-logo {
+  width: 50%;
+}
+
+.header a {
+  font-family: jaf-domus;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2ccac7;
+  letter-spacing: .22px;
+  line-height: 26px;
+  text-decoration: none;
+  float: right;
+  padding: 10px 24px;
+}
+
+
+#buy {
+  background: #ff9080;
+  color: #FFFFFF;
+  border: 2px solid #ff9080;
+  margin-right: 5px;
+  margin-left: 0px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  float: right;
+}
+
+
+#get-trial {
+  margin-right: 5px;
+  margin-left: 0;
+}
+button.trial {
+  background: #0034a0;
+  border: 2px solid #0034a0;
+  margin-left: 5px;
+  float: right;
+}
+
+
+
+
 @media (max-width: 1300px) {
 
 #alaheader {
@@ -111,6 +154,12 @@ button.trial {
 .customerservice {
   display: none;
 }
+
+.koulutus-hoidossa-blogi-skhole-logo {
+  width: 150px;
+  height: auto;
+}
+
 
 }
 
