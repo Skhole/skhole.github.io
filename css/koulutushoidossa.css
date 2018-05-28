@@ -52,7 +52,8 @@ button.trial {
 }
 
 .header {
-  height: 150px;
+  margin-top: 20px;
+  height: 100px;
 }
 
 
@@ -122,6 +123,12 @@ button.trial {
 }
 
 
+.primary login {
+  margin-right: 20px;
+}
+
+
+
 
 
 @media (max-width: 1300px) {
@@ -162,6 +169,18 @@ button.trial {
 }
 
 
+button.primary {
+padding: 1px 8px 1px 8px;
+margin-top: 10px;
+}
+
+}
+
+@media (max-width: 800px) {
+.fb-link {
+  margin-top: 10px;
+
+}
 }
 
 @media (max-width: 666px) {
@@ -178,7 +197,7 @@ button.trial {
 
 button.primary {
 padding: 2px 13px;
-margin-top: 5px;
+margin-top: 10px;
 border: 1px solid #2ccac7;
 }
 
@@ -194,10 +213,22 @@ img.logo {
   margin-top: 5px !important;
   margin-left: 15px !important;
 }
+
+.fb-link {
+  display: none;
+}
+
+
+
 }
 
 
 @media (max-width: 470px) {
+
+
+  .blog-header-a {
+    width: 100px;
+  }
 
 #buy-header {
   display: none;
@@ -207,8 +238,22 @@ img.logo {
   padding: 10px 7px 0 5px;
 }
 
-img.logo {
-  margin-left: 30px !important;
+#get-trial {
+  margin-right: 20px;
+}
+
+.primary login {
+display:none;
+}
+
+
+.header a {
+  padding: 10px 5px;
+}
+
+.header {
+  height: 50px;
+  margin-top: 10px;
 }
 
 
