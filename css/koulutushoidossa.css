@@ -9,14 +9,6 @@
   width: 800px;
 }
 
-#koulutus-hoidossa-blogi-skhole-logo {
-  width: 30%;
-}
-
-#koulutus-hoidossa-blogi-header {
-  width: 80%;
-  margin: auto;
-}
 
 #buy-header {
   background: #ff9080;
@@ -62,6 +54,7 @@ button.trial {
 .header {
   height: 150px;
 }
+
 
 
 /* buttonit header */
