@@ -59,6 +59,10 @@ button.trial {
     float: right;
 }
 
+.header {
+  height: 150px;
+}
+
 
 /* buttonit header */
 
@@ -81,7 +85,11 @@ button.primary {
 }
 
 .koulutus-hoidossa-blogi-skhole-logo {
-  width: 50%;
+  width: 100%;
+}
+
+.blog-header-a {
+  width: 200px;
 }
 
 .header a {
