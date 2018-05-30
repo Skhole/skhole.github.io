@@ -128,13 +128,6 @@ button.trial {
 }
 
 
-.site-header {
-  background-size: 66%;
-}
-
-
-
-
 @media (max-width: 1300px) {
 
 #alaheader {
@@ -152,11 +145,6 @@ button.trial {
 }
 
 @media (max-width: 888px) {
-
-  .site-header {
-    background-size: 75%;
-  }
-
 
 
 #alaheader {
@@ -196,11 +184,6 @@ margin-top: 10px;
 .header a {
   padding-top: 2px;
 }
-
-.site-header {
-  background-size: 80%;
-}
-
 
 }
 
