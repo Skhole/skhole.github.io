@@ -189,10 +189,6 @@ margin-top: 10px;
 
 @media (max-width: 666px) {
 
-  .site-header {
-    background-size: 90%;
-  }
-
 #alaheader {
   margin-left: 6%;
 }
