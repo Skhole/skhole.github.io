@@ -154,6 +154,61 @@ and (max-width: 1100px) {
   font-weight: 500;
 }
 
+/* floating image here */
+
+.vinkkaa-pomolle-floatter {
+  width: 200px;
+  height: 120px;
+  position: fixed;
+  right:0;
+  bottom:50px;
+  margin:20px;
+  padding:5px;
+  z-index: 89484957495;
+}
+
+
+#vinkkaa-pomolle-mobile {
+  display: none;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  #vinkkaa-pomolle-mobile {
+  right:0;
+  position: fixed;
+  bottom:20px;
+  margin:20px;
+  padding:5px;
+  z-index: 89484957495;
+  display: block;
+  border-radius: 8px;
+  font-family: "jaf-domus";
+  background: #ff9080;
+  color: #FFFFFF;
+  border: 1px solid #ff9080;
+  }
+  .vinkkaa-pomolle-floatter {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+ 
+.vinkkaa-pomolle-floatter {
+  width: 150px;
+  height: 90px;
+  position: fixed;
+  left:0;
+  bottom:10px;
+  margin:20px;
+  padding:5px;
+
+}
+}
+
 /* section-all-starts-here css here */
 
 .study-image-holder {
@@ -1126,6 +1181,10 @@ and (max-width: 800px) {
 @media only screen
 and (max-width: 599px) {
 
+  #buy-header {
+    display: block;
+  }
+
   #what-skhole-contains {
     width: 89%;
   }
@@ -1304,6 +1363,10 @@ and (max-width: 599px) {
 
 @media only screen
 and (max-width: 399px) {
+
+  #get-trial {
+    display: none;
+  }
 
   .buy-skole-text, #buy-skhole-opener {
     margin-left: -15px;
