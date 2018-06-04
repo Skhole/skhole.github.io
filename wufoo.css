@@ -1,9 +1,5 @@
 /** Mobile **/
 
-iframe {
-  height: 888px !important;
-}
-
 @media only screen and (max-height: 678px), only screen and (max-device-height: 678px) {
 
 /*  h2 {
@@ -34,10 +30,6 @@ p.error {
 
 form li div label {
   display: none;
-}
-
-.wufoo .info div {
-  color: #ffffff
 }
 
 
