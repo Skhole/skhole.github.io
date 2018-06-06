@@ -83,7 +83,7 @@ button.primary {
 }
 
 .blog-header-a {
-  width: 300px;
+  width: 200px;
 }
 
 .header a {
@@ -145,10 +145,6 @@ button.trial {
 }
 
 @media (max-width: 888px) {
-
-  .blog-header-a {
-    width: 200px;
-  }
 
 
 #alaheader {
