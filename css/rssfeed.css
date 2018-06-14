@@ -1,8 +1,8 @@
 body{margin:auto;padding:0; max-width: 982px}
 img {border:0px;}
 .feed-container{font-size:16px;border:1px solid #CCC;}
-.feed-container .header{margin:0px;padding:5px 5px 5px 5px;color:#fff;background-color:#0034a0; font-size:24px}
-.feed-container .footer{margin:0px;padding:5px 5px 5px 5px;color:#fff;background-color:#0034a0;}
+.feed-container .header{margin:0px;padding:5px 5px 5px 5px;color:#fff;background-color:#488166; font-size:24px}
+.feed-container .footer{margin:0px;padding:5px 5px 5px 5px;color:#fff;background-color:#488166;}
 .feed-container .header .title{margin:0;padding:0;font-weight:bold;}
 .feed-container .header a:link{color:#fff;text-decoration:none;}
 .feed-container .header a:visited{color:#fff;text-decoration:none;}
@@ -10,11 +10,11 @@ img {border:0px;}
 .feed-container .header a:active{color:#fff;text-decoration:none;}
 .feed-container .content{margin:0px;padding:0 3px;background-color:#f6f6f6;}
 .feed-container .content .item{margin:0 0 7px 0;padding:0 0 7px 0;border-bottom:1px dashed #CCCCCC;}
-.feed-container .content .item .title{margin:1px 0 1px 3px;padding:1px 2px 1px 3px;color:#0034a0;font-weight:bold;}
-.feed-container .content .item .title a:link{color:#0034a0;text-decoration:none;}
-.feed-container .content .item .title a:visited{color:#0034a0;text-decoration:none;}
-.feed-container .content .item .title a:hover{color:#0034a0;text-decoration:underline;}
-.feed-container .content .item .title a:active{color:#0034a0;text-decoration:none;}
+.feed-container .content .item .title{margin:1px 0 1px 3px;padding:1px 2px 1px 3px;color:#488166;font-weight:bold;}
+.feed-container .content .item .title a:link{color:#488166;text-decoration:none;}
+.feed-container .content .item .title a:visited{color:#488166;text-decoration:none;}
+.feed-container .content .item .title a:hover{color:#488166;text-decoration:underline;}
+.feed-container .content .item .title a:active{color:#488166;text-decoration:none;}
 .feed-container .content .item .description{margin:0 0 0 3px;padding:0 2px 0 3px;color:#666;}
 .feed-container .content .item .description a{text-decoration:none;color:#9257a6;}
 .feed-container .content .item .description a:hover{text-decoration:underline;color:#cc99cc;}
