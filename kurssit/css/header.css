@@ -50,6 +50,41 @@ button.trial {
     float: right;
 }
 
+/* hamburger here */
+
+@media (max-width: 800px) {
+
+
+.skhole-menu-container {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.hamburger-fb-link {
+  padding: 0 !important;
+}
+
+#hamp-logo {
+  margin-top:15px !important;
+}
+
+#hamburger-courses, #hamburger-lang, #hamburger-blog {
+  float:right;
+  color: #2ccac7;
+}
+
+.skhole-menu {
+  width: 100%;
+}
+
+#hamp-logo {
+  width: 25px;
+  height: auto;
+}
+
+
+}
+
 @media (max-width: 1300px) {
 
 #alaheader {
@@ -81,6 +116,11 @@ button.trial {
 }
 
 @media (max-width: 666px) {
+
+  #hamp-logo {
+    margin-top:8px !important;
+  }
+  
 
 #alaheader {
   margin-left: 6%;
@@ -127,14 +167,11 @@ img.logo {
   margin-left: 30px !important;
 }
 
-
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
 
-.fb-logo-pic-1 {
-  display: none;
-}
-
-
+  #hamp-logo {
+    float: right;
+  }
 }
