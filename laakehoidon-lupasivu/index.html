@@ -1,0 +1,173 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Skhole | Lääkehoidon lupasivu</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="description" content="Lääkehoito">
+  <meta name="author" content="Skhole">
+  <meta property="og:image" content="https://www.skhole.fi/img/fb.jpg" />
+  <meta property="og:title" content="Skhole | Lääkehoidon lupasivu" />
+  <meta property="og:description" content="Lääkehoidon lupasivu" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T2PXCJ2');</script>
+  <!-- End Google Tag Manager -->
+
+  <link rel="stylesheet" href="../css/skhole.css?v=4.1">
+  <link rel="stylesheet" href="../css/suomi.css?v=2.1">
+  <link rel="stylesheet" href="../kurssit/css/header.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://use.typekit.net/ywl4mbi.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>try { Typekit.load({ async: false }); } catch (e) { }</script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '206356489913305');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=206356489913305&ev=PageView&noscript=1"
+    />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+</head>
+<script type="text/javascript">
+  _linkedin_data_partner_id = "356945";
+  </script><script type="text/javascript">
+  (function(){var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript";b.async = true;
+  b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+  s.parentNode.insertBefore(b, s);})();
+  </script>
+  <noscript>
+  <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=356945&fmt=gif" />
+  </noscript>
+
+  <a href="https://www.skhole.fi" target="_blank">
+    <img id="logopic" src="https://www.skhole.fi/img/LOGO.png" alt="Skhole" border="0" class="logo" />
+  </a>
+
+<div class="header" id="alaheader">
+
+    <div class="header-desktop">
+  <button class="primary login" style="float:right;" onclick="location.href = 'http://app.skhole.fi/kirjaudu';" />Kirjaudu</button>
+  <button class="primary trial" style="float:right;" id="get-trial" onclick="location.href = 'https://www.skhole.fi/kokeile';" />Kokeile!</button>
+  <button class="primary buy" id="buy-header" style="float:right;" onclick="location.href = 'https://www.skhole.fi/osta';" />Osta!</button>
+  <a href="https://www.facebook.com/SkholeFI/" target="_blank" class="fb-link">
+    <img class="fb-logo-pic-1" src="https://www.skhole.fi/img/FB-f-Logo__blue_50.png" alt="Skhole Facebookissa" border="0" style="height:25px; width: 25px;">
+  </a>
+  <a href="https://support.skhole.fi" class="customerservice">Usein Kysyttyä</a>
+  <a href="https://www.skhole.fi/#Skhole%20Courses" class="customerservice">Kurssit</a>
+  <a href="https://blog.skhole.fi" class="lang">Blogi</a>
+</div>
+</div>
+<div class="header-mobile">
+
+  <div class="skhole-menu-container" onclick="skholeMenuFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  <div class="skhole-menu">
+  <button class="primary login" id="hamburger-login" style="float:right;" onclick="location.href = 'https://app.skhole.fi';"/>Kirjaudu</button>
+  <button class="primary trial" style="float:right;" id="hamburger-get-trial" onclick="location.href = '/kokeile';"/>Kokeile!</button>
+  <button class="primary buy" id="hamburger-buy" style="float:right;" onclick="location.href = '/osta';" />Osta!</button>
+
+  <a href="https://www.facebook.com/SkholeFI/" target="_blank" class="hamburger-fb-link"><img class="fb-logo-pic-1" id="hamp-logo" src="https://www.skhole.fi/img/FB-f-Logo__blue_50.png" alt="Skhole Facebookissa" border="0" width="25" height="25"></a>
+  <a href="https://support.skhole.fi" class="customerservice" id="hamburger-cs">Usein Kysyttyä</a>
+  <div class="hamp-link-holder">
+  <a href="#Skhole Courses" class="customerservice" id="hamburger-courses">Kurssit</a>
+  <a href="/best-healthcare-education-in-the-world.html" class="lang" id="hamburger-lang">In English</a>
+  <a href="https://blog.skhole.fi/" class="customerservice" id="hamburger-blog">Blogi</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="skhole-laakelupa"><div class="laakelupa-left"><h3 style="margin-top: 0;">Lääkehoidon lupasivu</h3>
+        <p>
+        Skholen lääkehoidon koulutus on suunniteltu vastaamaan vuoden 2016 Turvallinen lääkehoito-oppaassa määriteltyjä kriteerejä.
+</p><p>
+        Toimintayksikön omassa lääkehoitosuunnitelmassa määritellään ne lääkehoidon tehtävät, joihin tarvitaan lääkeluvat, STM:n Turvallinen lääkehoito –oppaan antamissa rajoissa. Lääkeluvan edellytyksenä ovat Skholen oppimisjärjestelmässä (tai muulla tavalla) työntekijän pohjakoulutuksesta riippuen suoritettavat kokeet, sekä työpaikalla suoritettavat näytöt, jotka on määritelty toimintayksikön lääkehoitosuunnitelmassa.
+</p><p>
+        Vaadittavat suoritteet:
+        <ul><li>Teoriakoe</li>
+        <li>Lääkelaskennan kirjalliset kokeet ja käytännöllisen osaamisen näyttö</li>
+        <li>Kliininen lääkehoidon osaaminen: käytännön näytöt toimintayksikön näyttökriteerien mukaisesti.</li></ul>
+</p><p>
+        Sekä teoria- ja laskentakokeiden, että käytännön näyttöjen valvonnan suorittaa työyksikön määräämä kokenut ammattihenkilö, joka vahvistaa valvoneensa ja hyväksyneensä suorituksen omalla allekirjoituksellaan.
+</p>
+</div>
+        <div class="laakelupa-right"><h3 style="margin-top: 0;">Koetapahtumat</h3>
+        Kokeen voi suorittaa kerran ja tämän jälkeen koe lukittuu. Esimies voi avata lukituksen uusintaa varten. Lisätietoa koetapahtumista löydät <a target="_blank" href="https://app.skhole.fi/wp-content/uploads/2017/10/hallintatunnukset-kokeet.pdf" style="text-decoration:underline;">täältä</a>.
+
+        Kokeiden kysymysmäärät ja läpäisyprosentit
+        <ul><li>Lääkehoito teoria 10 kysymystä läpäisyprosentti 80%</li>
+        <li>Lääkehoito lääkelaskenta 5 kysymystä läpäisyprosentti 100%</li>
+        <li>Iv- ja nestehoito teoria 10 kysymystä läpäisyprosentti 80%</li>
+        <li>Iv- ja nestehoito lääkelaskenta 5 kysymystä läpäisyprosentti 100%</li>
+        <li>Suppea lääkehoito teoria 10 kysymystä läpäisyprosentti 80%</li></ul>
+
+        &nbsp;
+        Kaikkien lääkehoidon kokeiden suoritusaika on 45 minuuttia.
+
+        &nbsp;
+        <img src="https://app.skhole.fi/wp-content/uploads/2017/10/laakehoitolupa.png" alt="" border="0" style="width:30%;" />
+        </div>
+
+
+        <div class="skhole-bottom">
+
+
+          <p>
+                  Lääkelupiin liittyviä säädöksiä ja eri ammatti- ja koulutustaustan henkilöiden lääkelupia käsitellään tiivistetysti <a target="_blank" href="https://app.skhole.fi/wp-content/uploads/2017/10/laakehoidon-lupa-ja-taydennyskoulutus-tiivistetysti.pdf" style="text-decoration:underline;">tässä tiivistelmässä</a>.
+          </p><p>
+                  Lääkelupatodistuksen mallipohjat löydät täältä:
+                  <a target="_blank" href="https://www.skhole.fi/img/todistukset/todistus-laakehoidon-osaamisesta-laillistetut-ammattihenkilot.png" style="text-decoration:underline;">Laillistetut ammattihenkilöt</a> (sairaanhoitaja jne.)
+                  <a target="_blank" href="https://www.skhole.fi/img/todistukset/todistus-laakehoidon-osaamisesta-muut-kuin-laillistetut-ammattihenkilot.png" style="text-decoration:underline;">Nimikesuojatut ammattihenkilöt</a> (lähihoitaja jne.)
+                  <a target="_blank" href="https://www.skhole.fi/img/todistukset/todistus-laakehoidon-osaamisesta-laakehoitoon-kouluttamattomat-henkilot.png" style="text-decoration:underline;">Lääkehoitoon kouluttamattomat henkilöt</a> (Hoiva-avustaja jne.)
+          </p> <p>
+                  Tarkemmat tiedot löydät <a target="_blank" href="https://www.julkari.fi/bitstream/handle/10024/129969/URN_ISBN_978-952-302-577-6.pdf" style="text-decoration:underline;">THL:n turvallinen lääkehoito, opas lääkehoitosuunnitelman tekemiseen sosiaali- ja terveydenhuollossa –ohjeistuksesta</a>.
+
+                </p></div>
+
+
+
+      </div>
+
+
+
+</body>
+
+<script>
+    function skholeMenuFunction(x) {
+        x.classList.toggle("change");
+    }
+    </script>
+</html>
