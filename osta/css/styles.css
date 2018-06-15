@@ -8,6 +8,10 @@ img {
   height: auto;
 }
 
+.laakehoidon-lupasivu-h2 {
+  margin-left: 20px;
+}
+
 p {
 font-size: 19px;
 }

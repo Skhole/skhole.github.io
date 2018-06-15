@@ -11,6 +11,10 @@ p {
 font-size: 19px;
 }
 
+.laakehoidon-lupasivu-h2 {
+  margin-left: 20px;
+}
+
 .mobile-button-buy {
   display: none;
 }
@@ -196,7 +200,7 @@ and (max-width: 1100px) {
 
 
 @media only screen and (max-width: 800px) {
- 
+
 .vinkkaa-pomolle-floatter {
   width: 150px;
   height: 90px;
