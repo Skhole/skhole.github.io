@@ -58,8 +58,9 @@ and (max-width: 950px) {
 }
 
 .juhannus-left {
-  width: 50%;
+  width: 48%;
   float: left;
+  margin: 20px;
 }
 
 
