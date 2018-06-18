@@ -48,8 +48,18 @@ and (max-width: 950px) {
 .holder-top-juhannus {
   margin:auto;
   vertical-align: middle;
-  width: 80%;
+  width: 100%;
   margin-bottom: 40px;
+}
+
+.juhannus-vid {
+  float: left;
+  width: 45%;
+}
+
+.juhannus-left {
+  width: 50%;
+  float: left;
 }
 
 
@@ -107,7 +117,7 @@ and (max-width: 800px) {
         }
 
         * {
-          font-size: 0.9em;
+          font-size: 0.94em;
         }
 
 
@@ -121,6 +131,19 @@ and (max-width: 800px) {
 
        .skhole-juhannus {
         width: auto;
+      }
+
+      .holder-top-juhannus {
+        width: 90% !important;
+        margin-left: 20px !important;
+      }
+
+      .juhannus-vid {
+        width: 99%;
+      }
+
+      .juhannus-left {
+        width: 98%;
       }
 
        #wufoo-z177usn40ug3kht {
