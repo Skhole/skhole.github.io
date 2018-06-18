@@ -145,6 +145,7 @@ and (max-width: 800px) {
 
       .juhannus-left {
         width: 98%;
+        margin-left: 1px;
       }
 
        #wufoo-z177usn40ug3kht {
