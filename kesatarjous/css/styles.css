@@ -177,6 +177,10 @@ and (max-width: 1100px) {
   height: auto;
 }
 
+.orange-font {
+  color: #ff9080;
+}
+
   .buy-skhole {
     margin-top:40px;
     width: 45%;
