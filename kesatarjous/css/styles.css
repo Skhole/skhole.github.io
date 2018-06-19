@@ -183,7 +183,7 @@ and (max-width: 1100px) {
     height: auto;
     background-color: #f6f6f6;
     float: left;
-    padding: 20px 40px 30px 40px;
+    padding: 20px;
     position: relative;
     padding-bottom: 30px;
   }
