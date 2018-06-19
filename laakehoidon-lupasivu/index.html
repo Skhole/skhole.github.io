@@ -147,6 +147,83 @@
 
         <div class="skhole-bottom">
 
+          <div class="all-refes">
+
+            <h3 class="customers-are-happy">Asiakkaamme suosittelevat</h3>
+              <div class="slideshow-container">
+
+            <div class="mySlides">
+                <p class="refe-text">“Lääkelupatenttien luominen palvelussa on helppoa, ja tuo lisää joustavuutta niiden suorittamiseen.” </p>
+                <p>  Ritva Salakka, Kontulan Helykoti </p>
+
+            </div>
+
+
+            <div class="mySlides">
+                <p class="refe-text">“Verrattuna muihin tentteihin ovat Skholen tentit haastavampia. Tämä on toki meidän näkökulmasta hyvä, sillä jos nämä tentit läpäisee, on osaaminen varmasti korkealla tasolla.”
+                </p>
+                <p>    Jenika Lahti, Stella Kotipalvelut   </p>         
+              
+            </div>
+
+            <div class="mySlides">
+                <p class="refe-text">“Edullinen ja helppo tapa järjestää lääkelupatenttejä. Palvelu on yksinkertainen, lääkeosio on selkeä, ja sisältö on hyvää ja laadukasta.”
+
+                    </p>
+                    <p>      Ulla Pekkala, Alina Hoivatiimi</p>
+ 
+             </div>
+ 
+ 
+             <div class="mySlides">
+                <p class="refe-text">“Mainio tapa saada lääketietoutta henkilökunnalle.” </p>
+                <p>  Tuula Laulaja, Dementiakoti Villa Tapiola</p>
+
+             </div>
+
+             <div class="mySlides">
+                <p class="refe-text">“Lääkelupatentti on vaativampi kuin kilpailijoilla. Sisältö on monipuolinen, lukuosiot helposti löydettävissä ja tentti helppo tehdä. Lyhyelläkin käytöllä helppoa tehdä ja  normaalit tietojenkäsittelytaidot riittävät.”
+
+                    </p>
+                    <p>   Kirsi Hirvonen, Alina Hoivatiimi</p>
+ 
+             </div>
+ 
+ 
+             <div class="mySlides">
+                <p class="refe-text">“Skholen lääkelaskennan luennoissa teoria on niin yksinkertaisesti selitetty, että näistä jokainen saa varmasti kiinni! Monesti lääkelaskenta koetaan jopa hieman pelottavaksi, varsinkin, jos matematiikan opinnoista on paljon aikaa. Skholessa teoriaa saa kerrata omaan tahtiin ja se on selkeä etu.” </p>
+                <p> Riitta Ala-Korpi, Centria AMK</p>
+
+             </div>
+
+             <div class="mySlides">
+                <p class="refe-text">“Helposti, taloudellisesti ja tehokkaasti käytettävä oppimisympäristö.”
+
+                    </p>
+                    Elina Konsala, Viola-koti
+                  </p>
+             </div>
+
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                
+                <div class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                  <span class="dot" onclick="currentSlide(6)"></span> 
+                  <span class="dot" onclick="currentSlide(7)"></span> 
+                </div>
+                
+
+
+          </div>
+          <div class="links-holder">
 
           <p>
                   Lääkelupiin liittyviä säädöksiä ja eri ammatti- ja koulutustaustan henkilöiden lääkelupia käsitellään tiivistetysti <a target="_blank" href="https://app.skhole.fi/wp-content/uploads/2017/10/laakehoidon-lupa-ja-taydennyskoulutus-tiivistetysti.pdf" style="text-decoration:underline;">tässä tiivistelmässä</a>.
@@ -157,12 +234,41 @@
                   <a target="_blank" href="https://www.skhole.fi/img/todistukset/todistus-laakehoidon-osaamisesta-laakehoitoon-kouluttamattomat-henkilot.png" style="text-decoration:underline;">Lääkehoitoon kouluttamattomat henkilöt</a> (Hoiva-avustaja jne.)
           </p> <p>
                   Tarkemmat tiedot löydät <a target="_blank" href="https://www.julkari.fi/bitstream/handle/10024/129969/URN_ISBN_978-952-302-577-6.pdf" style="text-decoration:underline;">THL:n turvallinen lääkehoito, opas lääkehoitosuunnitelman tekemiseen sosiaali- ja terveydenhuollossa –ohjeistuksesta</a>.
-
-                </p></div>
+   
+                </p></div>             </div>
 
 
 
       </div>
+
+      <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
 
 
 
