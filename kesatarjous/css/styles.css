@@ -24,6 +24,10 @@ font-size: 19px;
   z-index: 999999;
 }
 
+.tarjous-ohi {
+  margin:30%;
+}
+
 
 h1, h2 {
   color: #0034a0;
