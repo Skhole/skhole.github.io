@@ -742,9 +742,8 @@ and (max-width: 1000px) {
   }
 
   .koulutus-hoidossa-video {
-    margin-left: 5%;
-    width: 90%;
-    height:400px;
+    width: 100%;
+    height: 450px;
   }
 
   .what-you-get-table {
