@@ -181,7 +181,7 @@ and (max-width: 1100px) {
 .koulutus-hoidossa-video {
   float: left;
   width: 45%;
-  margin-top: 50px;
+  margin-top: 65px;
 }
 
   .buy-skhole {
@@ -732,7 +732,7 @@ and (max-width: 1000px) {
   .koulutus-hoidossa-video {
     margin-left: 5%;
     width: 90%;
-    height:250px;
+    height:400px;
   }
 
   .what-you-get-table {
