@@ -411,15 +411,6 @@ and (max-width: 1100px) {
   .refeh2 {
     margin-left: -100px;
   }
-  .better-more-cheaper-holder {
-    width: 900px;
-  }
-
-  .better-more-cheaper {
-    width: 250px;
-    margin-right: 70px;
-
-  }
 }
   @media only screen and (max-width: 500px) and (min-width: 400px) {
     #refeholder {
@@ -674,6 +665,17 @@ width: 180px;
 
 @media only screen
 and (max-width: 1100px) {
+
+
+  .better-more-cheaper-holder {
+    width: 900px;
+  }
+
+  .better-more-cheaper {
+    width: 250px;
+    margin-right: 45px;
+
+  }
 
 
 .study-image-holder {
