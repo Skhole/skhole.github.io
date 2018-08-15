@@ -180,18 +180,18 @@ and (max-width: 1100px) {
 
 .koulutus-hoidossa-video {
   float: left;
-  width: 45%;
+  width: 55%;
   margin-top: 100px;
-  height: 280px;
+  height: 350px;
 }
 
   .buy-skhole {
     margin-top:40px;
-    width: 55%;
+    width: 45%;
     height: auto;
     background-color: #f6f6f6;
     float: right;
-    padding: 20px 40px 30px 40px;
+    padding: 10px 20px 15px 30px;
     position: relative;
     padding-bottom: 30px;
   }
@@ -220,7 +220,7 @@ and (max-width: 1100px) {
     }
 
     .better-more-cheaper-holder {
-      width: 900px;
+      width: 1100px;
       position: relative;
       margin-left: 72px;
       float:left;
@@ -228,10 +228,10 @@ and (max-width: 1100px) {
 
     .better-more-cheaper {
       margin-top: 40px;
-      width: 250px;
+      width: 280px;
       float: left;
       margin-left: 0px;
-      margin-right: 30px;
+      margin-right: 75px;
       position: relative;
       font-size: 18px;
     }
@@ -410,6 +410,15 @@ and (max-width: 1100px) {
 
   .refeh2 {
     margin-left: -100px;
+  }
+  .better-more-cheaper-holder {
+    width: 900px;
+  }
+
+  .better-more-cheaper {
+    width: 250px;
+    margin-right: 70px;
+
   }
 }
   @media only screen and (max-width: 500px) and (min-width: 400px) {
@@ -1266,6 +1275,10 @@ and (max-width: 399px) {
   line-height: 22px;
   }
 
+  .koulutus-hoidossa-video {
+    height:210px;
+  }
+
   #course-11-h2 {
     width: 99%;
   }
@@ -1304,4 +1317,8 @@ and (max-width: 345px) {
   .what-you-get-li {
     padding-left:3px;
   }
+  .koulutus-hoidossa-video {
+    height:190px;
+  }
+
 }
