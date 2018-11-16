@@ -2982,12 +2982,6 @@ $( document ).ready(function() {
     }, 400, 'easeOutSine');
   });
 
-  /* login button opens modal */
-  $("button.login").click(function(e){
-    e.preventDefault();
-    $(".login-modal").show();
-  });
-
   $(".finnish #inbound-button").click(function(e){
     e.preventDefault();
     $("#wufoo-z145jjw91794jxa").show();
@@ -3004,19 +2998,12 @@ $( document ).ready(function() {
     $('body').css('position','relative');
     $("#wufoo-z145jjw91794jxa").hide();
     $("#wufoo-m1s3bssk06socjh").hide();
-    $(".login-modal").hide();
     $(".inbound-modal").hide();
     $(".video-modal").hide();
     $(".general-modal").hide();
-    $(".all-courses-modal").hide();
   });
 
-  /* trial button opens modal */
-  $(".english button.trial").click(function(e){
-    e.preventDefault();
-    $("#wufoo-rhm39i009v8a9a").show();
-    $(".inbound-modal").show();
-  });
+
   $(".english #inbound-button").click(function(e){
     e.preventDefault();
     $("#wufoo-q14pwxh7068i1wc").show();
@@ -3032,7 +3019,6 @@ $( document ).ready(function() {
     e.preventDefault();
     $("#wufoo-q14pwxh7068i1wc").hide();
     $("#wufoo-rhm39i009v8a9a").hide();
-    $(".login-modal").hide();
     $(".inbound-modal").hide();
     $(".video-modal").hide();
     $(".general-modal").hide();
@@ -3041,12 +3027,6 @@ $( document ).ready(function() {
           src: $(this).attr("src")
       });
   });
-  });
-
-  $("button.all-courses").click(function(e){
-    e.preventDefault();
-    $('body').css('position','fixed');
-    $(".all-courses-modal").show();
   });
 
   $(".previewable-course").click(function(e){

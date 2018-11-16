@@ -222,8 +222,8 @@ fbq('track', 'PageView');
         <div class="header">
           <div class="header-desktop">
           <img src="img/LOGO.png" class="logo" />
-          <button class="primary login" style="float:right;" onclick="location.href = 'https://app.skhole.fi';"/>Kirjaudu</button>
-          <button class="primary trial" style="float:right;" id="get-trial" onclick="location.href = 'https://app.skhole.fi/?lang=fi-FI&showDialog=register&code=TRIAL';"/>Kokeile!</button>
+          <button class="primary login" style="float:right;" onclick="location.href = 'https://app.skhole.fi/?showDialog=login';"/>Kirjaudu</button>
+          <button class="primary trial" style="float:right;" id="get-trial" onclick="location.href = '/kokeile';"/>Kokeile!</button>
           <button class="primary buy" id="buy" style="float:right;" onclick="location.href = '/osta';" />Osta!</button>
 
           <a href="https://www.facebook.com/SkholeFI/" target="_blank" class="fb-link"><img class="fb-logo-pic-1" src="img/FB-f-Logo__blue_50.png" alt="Skhole Facebookissa" border="0" width="25" height="25"></a>
@@ -239,7 +239,7 @@ fbq('track', 'PageView');
           <div class="bar2"></div>
           <div class="bar3"></div>
         <div class="skhole-menu">
-        <button class="primary login" id="hamburger-login" style="float:right;" onclick="location.href = 'https://app.skhole.fi';"/>Kirjaudu</button>
+        <button class="primary login" id="hamburger-login" style="float:right;" onclick="location.href = 'https://app.skhole.fi/?showDialog=login';"/>Kirjaudu</button>
         <button class="primary trial" style="float:right;" id="hamburger-get-trial" onclick="location.href = '/kokeile';"/>Kokeile!</button>
         <button class="primary buy" id="hamburger-buy" style="float:right;" onclick="location.href = '/osta';" />Osta!</button>
 
@@ -545,7 +545,7 @@ fbq('track', 'PageView');
           </div>
 
           <div class="arrow-holder">
-            <button class="primary all-courses">Kaikki kurssit</button>
+            <button class="primary all-courses" onclick="location.href = 'https://app.skhole.fi';">Kaikki kurssit</button>
             <img src="img/arrow-left.svg" class="arrow-left" style="margin-right:30px;" />
             <img src="img/arrow-right.svg" class="arrow-right" />
 
@@ -755,7 +755,7 @@ fbq('track', 'PageView');
 
           </div>
           <div class="top-login">
-            <button class="primary login" onclick="location.href = 'https://app.skhole.fi';"/>Kirjaudu Skholeen</button>
+            <button class="primary login" onclick="location.href = 'https://app.skhole.fi/?showDialog=login';"/>Kirjaudu Skholeen</button>
             <p id="aspa-footer-2"><a href="https://support.skhole.fi" target="_blank" style="color:#2CCAC7;text-decoration:none;">Asiakaspalvelu</a></p>
             <p><a href="http://skhole.fi/osta/" target="_blank" style="color:#2CCAC7;text-decoration:none;">Osta skhole yrityksellesi</a></p>
           </div>
@@ -769,7 +769,7 @@ fbq('track', 'PageView');
 
         <div class="flex bottom-footer">
           <div class="bottom-footer-terms">
-            <a href="/docs/terms-fi.pdf">Verkkopalvelun yleiset käyttöehdot</a>
+            <a href="#" class="terms">Palvelujen yleiset käyttöehdot</a> &nbsp; &nbsp; <a href="#" class="descfile">Rekisteriseloste</a>
           </div>
           <div class="bottom-footer-inc" style="text-align:center;">
              &copy; 2018 Skhole Oy
