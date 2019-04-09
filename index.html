@@ -1,7 +1,6 @@
 
 <!doctype html>
     <head>
-
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
       <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -16,44 +15,44 @@
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script type="text/javascript">
-      function get_country_code() {
-        return new Promise((resolve, reject) => {
-          var trace = [];
-          jQuery.ajax('/cdn-cgi/trace', {
-            success: function(response) {
-              var lines = response.split('\n');
-              var keyValue;
-              for (var index = 0; index < lines.length; index++) {
-                const line = lines[index];
-                keyValue = line.split('=');
-                trace[keyValue[0]] = decodeURIComponent(keyValue[1] || '');
-                if (keyValue[0] === 'loc' && trace['loc'] !== 'XX') {
-                  return resolve(trace['loc']);
+        function get_country_code() {
+          return new Promise((resolve, reject) => {
+            var trace = [];
+            jQuery.ajax('/cdn-cgi/trace', {
+              success: function(response) {
+                var lines = response.split('\n');
+                var keyValue;
+                for (var index = 0; index < lines.length; index++) {
+                  const line = lines[index];
+                  keyValue = line.split('=');
+                  trace[keyValue[0]] = decodeURIComponent(keyValue[1] || '');
+                  if (keyValue[0] === 'loc' && trace['loc'] !== 'XX') {
+                    return resolve(trace['loc']);
+                  }
                 }
+              },
+              error: function() {
+                return reject(trace);
               }
-            },
-            error: function() {
-              return reject(trace);
-            }
+            });
           });
-        });
-      }
-      get_country_code().then((country_code) => {
-        if (country_code !== "FI") {
-          window.location.href='https://www.skhole.fi/best-healthcare-education-in-the-world.html';
         }
-      }).catch((err) => {
-          console.log('No country code detected, not redirecting...');
-      });
+        get_country_code().then((country_code) => {
+          if (country_code !== "FI") {
+            window.location.href='https://www.skhole.fi/best-healthcare-education-in-the-world.html';
+          }
+        }).catch((err) => {
+            console.log('No country code detected, not redirecting...');
+        });
       </script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <!-- Google Tag Manager -->
-<!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T2PXCJ2');</script>-->
-<!-- End Google Tag Manager -->
+      <!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T2PXCJ2');</script>-->
+      <!-- End Google Tag Manager -->
       <script>
   (function(h,o,t,j,a,r){
       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -1069,13 +1068,13 @@ fbq('track', 'PageView');
 
 
 
-    <div class="inbound-modal">
+    <!--<div class="inbound-modal">
       <div class="inbound-holder">
         <div class="close">
           <img src="img/x.svg" alt="Close" style="margin-top: 18px;"/>
         </div>
         <div class="inbound-text">
-          <!--contact-->
+
           <div id="wufoo-z145jjw91794jxa">
           Fill out my <a href="https://skhole.wufoo.eu/forms/z145jjw91794jxa">online form</a>.
           </div>
@@ -1096,7 +1095,7 @@ fbq('track', 'PageView');
           var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
           })(document, 'script');</script>
 
-          <!--trial-->
+
           <div id="wufoo-m1s3bssk06socjh">
           Fill out my <a href="https://skhole.wufoo.eu/forms/m1s3bssk06socjh">online form</a>.
           </div>
@@ -1118,7 +1117,7 @@ fbq('track', 'PageView');
           })(document, 'script');</script>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <!--<div class="all-courses-modal">
       <div class="all-courses-holder">
