@@ -14,7 +14,37 @@
       <meta property="og:image" content="https://www.skhole.fi/img/fb.jpg" />
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+      <script type="text/javascript">
+        function get_country_code() {
+          return new Promise((resolve, reject) => {
+            var trace = [];
+            jQuery.ajax('/cdn-cgi/trace', {
+              success: function(response) {
+                var lines = response.split('\n');
+                var keyValue;
+                for (var index = 0; index < lines.length; index++) {
+                  const line = lines[index];
+                  keyValue = line.split('=');
+                  trace[keyValue[0]] = decodeURIComponent(keyValue[1] || '');
+                  if (keyValue[0] === 'loc' && trace['loc'] !== 'XX') {
+                    return resolve(trace['loc']);
+                  }
+                }
+              },
+              error: function() {
+                return reject(trace);
+              }
+            });
+          });
+        }
+        get_country_code().then((country_code) => {
+          if (country_code !== "FI") {
+            window.location.href='https://www.skhole.fi/best-healthcare-education-in-the-world.html';
+          }
+        }).catch((err) => {
+            console.log('No country code detected, not redirecting...');
+        });
+      </script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <!-- Google Tag Manager -->
       <!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -1131,11 +1161,6 @@ function showSlides(n) {
 
     <script src="js/skhole.js"></script>
 
-    <script>
-    window.intercomSettings = {
-  app_id: 'w5t2jh24'
-};
-</script>
 <script>
 function skholeMenuFunction(x) {
     x.classList.toggle("change");
@@ -1148,7 +1173,6 @@ function skholeMenuFunction(x) {
   language_override: 'fi'
 };
 </script>
-      <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/w5t2jh24';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 
   </body>
 </html>
