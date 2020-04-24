@@ -1,6 +1,6 @@
 body {
   color: #0d2b5c;
-  font-family: "jaf-domus";
+  font-family: 'jaf-domus';
 }
 
 img {
@@ -13,7 +13,7 @@ img {
 }
 
 p {
-font-size: 19px;
+  font-size: 19px;
 }
 
 .mobile-button-buy {
@@ -24,8 +24,8 @@ font-size: 19px;
   z-index: 999999;
 }
 
-
-h1, h2 {
+h1,
+h2 {
   color: #0034a0;
 }
 
@@ -46,7 +46,7 @@ img.logo {
   width: 170px;
   height: 50px;
   position: absolute;
-  left: 40px;
+  left: 10px;
   top: 20px;
 }
 
@@ -61,16 +61,15 @@ button {
 
 .list-ul-text {
   font-weight: 300;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   font-size: 18px;
   margin-right: 10px;
 }
 
-@media only screen
-and (min-width: 1281px) {
+@media only screen and (min-width: 1281px) {
   #alaheader {
-  margin-top: 0px;
-}
+    margin-top: 0px;
+  }
 }
 
 #alaheader {
@@ -96,7 +95,7 @@ and (min-width: 1281px) {
   font-size: 20px;
   padding: 12px 22px 12px 22px;
   background: #ff9080;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 2px solid #ff9080;
   border-radius: 4px;
 }
@@ -107,7 +106,7 @@ and (min-width: 1281px) {
   font-size: 20px;
   padding: 12px 22px 12px 22px;
   background: #ff9080;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 2px solid #ff9080;
   border-radius: 4px;
 }
@@ -124,12 +123,11 @@ and (min-width: 1281px) {
 }
 
 .skhole-buy-education {
-max-width: 1111px;
-margin: auto;
+  max-width: 1111px;
+  margin: auto;
 }
 
-@media only screen
-and (max-width: 1100px) {
+@media only screen and (max-width: 1100px) {
   .skhole-buy-education {
     width: 100%;
   }
@@ -139,13 +137,13 @@ and (max-width: 1100px) {
   margin-top: 4%;
   margin-left: 70px;
   width: 80%;
-  float:left;
+  float: left;
 }
 
 .buy-form-holder-right {
   margin-top: 50px;
   width: 99%;
-  float:right;
+  float: right;
   margin-right: 70px;
 }
 
@@ -168,7 +166,7 @@ and (max-width: 1100px) {
 
 .study-image-holder {
   margin-left: -170px;
-  float:left;
+  float: left;
   width: 63%;
   margin-top: 10px;
 }
@@ -181,135 +179,130 @@ and (max-width: 1100px) {
 .koulutus-hoidossa-video {
   float: left;
   width: 55%;
-  margin-top: 100px;
+  margin-top: 50px;
   height: 350px;
 }
 
-  .buy-skhole {
-    margin-top:40px;
-    width: 45%;
-    height: auto;
-    background-color: #f6f6f6;
-    float: right;
-    padding: 10px 20px 15px 30px;
-    position: relative;
-    padding-bottom: 30px;
-  }
+.buy-skhole {
+  margin-top: 40px;
+  width: 45%;
+  height: auto;
+  background-color: #f6f6f6;
+  float: right;
+  padding: 10px 20px 15px 30px;
+  position: relative;
+  padding-bottom: 30px;
+}
 
-
-  .buy-skhole-h2 {
+.buy-skhole-h2 {
   width: 100%;
   font-size: 36px;
   font-weight: 300;
   line-height: 35px;
-  }
+}
 
-  .buy-skole-text {
-    margin-top: 15px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0;
-    font-size: 18px;
-    color: #003399;
-    }
+.buy-skole-text {
+  margin-top: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0;
+  font-size: 18px;
+  color: #003399;
+}
 
-    .cheaper-h2 {
-      font-weight: 600;
-      font-size: 20px;
-      letter-spacing: 1.5px;
-    }
+.cheaper-h2 {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
 
-    .better-more-cheaper-holder {
-      width: 1100px;
-      position: relative;
-      margin-left: 72px;
-      float:left;
-    }
+.better-more-cheaper-holder {
+  width: 1100px;
+  position: relative;
+  margin-left: 72px;
+  float: left;
+}
 
-    .better-more-cheaper {
-      margin-top: 40px;
-      width: 280px;
-      float: left;
-      margin-left: 0px;
-      margin-right: 75px;
-      position: relative;
-      font-size: 18px;
-    }
+.better-more-cheaper {
+  margin-top: 40px;
+  width: 280px;
+  float: left;
+  margin-left: 0px;
+  margin-right: 75px;
+  position: relative;
+  font-size: 18px;
+}
 
-  .border-buy {
-    border-bottom: 2px solid #003399;
-    padding-top: 20px;
-    width: 170px;
-  }
+.border-buy {
+  border-bottom: 2px solid #003399;
+  padding-top: 20px;
+  width: 170px;
+}
 
+/* section-to-who css here */
 
+#who-skhole-button {
+  float: left;
+}
 
+.all-courses-button-holder {
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+}
 
-  /* section-to-who css here */
+#all-courses-button {
+  float: left;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 12px 22px 12px 22px;
+  background: #2ccac7;
+  color: #ffffff;
+  border: 2px solid #2ccac7;
+  border-radius: 4px;
+  margin-left: 22px;
+}
 
-  #who-skhole-button {
-    float: left;
-  }
+.section-to-who {
+  position: relative;
+  margin-left: 50px;
+  max-width: 1111px;
+}
 
-  .all-courses-button-holder {
-    float: left;
-    width: 100%;
-    margin-top: 25px;
-  }
+.who-should-use-skhole {
+  position: relative;
+  float: left;
+  width: 24%;
+  margin-top: 45px;
+}
 
-  #all-courses-button {
-    float: left;
-    font-weight: 400;
-    font-size: 20px;
-    padding: 12px 22px 12px 22px;
-    background: #2ccac7;
-    color: #FFFFFF;
-    border: 2px solid #2ccac7;
-    border-radius: 4px;
-    margin-left: 22px;
-  }
+#what-skhole-contains {
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #003399;
+  margin-top: 20px;
+  font-weight: 400;
+  width: 504px;
+}
 
-  .section-to-who {
-    position: relative;
-    margin-left: 50px;
-    max-width: 1111px;
-  }
+.use-skhole-h2 {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
 
-  .who-should-use-skhole {
-    position: relative;
-    float: left;
-    width: 24%;
-    margin-top: 45px;
-  }
+.to-who-texts {
+  margin-left: 20px;
+  margin-top: 100px;
+}
 
-  #what-skhole-contains {
-    margin-top: 15px;
-    font-size: 20px;
-    line-height: 25px;
-    color: #003399;
-    margin-top: 20px;
-    font-weight: 400;
-    width: 504px;
-  }
-
-  .use-skhole-h2 {
-    margin-left: 20px;
-    font-weight: 600;
-    font-size: 17px;
-    letter-spacing: 1.5px;
-  }
-
-  .to-who-texts {
-    margin-left: 20px;
-    margin-top: 100px;
-  }
-
-  #to-who-plus {
-    margin-top: 15px;
-    color: #003399;
-    margin-left: 20px;
-  }
-
+#to-who-plus {
+  margin-top: 15px;
+  color: #003399;
+  margin-left: 20px;
+}
 
 /* section-start-anytime css here */
 
@@ -324,39 +317,38 @@ and (max-width: 1100px) {
   margin-left: 75px;
 }
 
+.start-anytime {
+  width: 40%;
+  float: right;
+  position: relative;
+  background-color: #f6f6f6;
+  margin-top: 80px;
+  height: 370px;
+  margin-left: 23px;
+}
 
-  .start-anytime {
-    width: 40%;
-    float: right;
-    position: relative;
-    background-color: #f6f6f6;
-    margin-top:80px;
-    height: 370px;
-    margin-left: 23px;
-  }
+.start-anytime-holder {
+  float: right;
+  margin-top: 50px;
+  width: 58%;
+  margin-right: -10px;
+}
 
-  .start-anytime-holder {
-    float: right;
-    margin-top: 50px;
-    width: 58%;
-    margin-right: -10px;
-  }
+.start-anytime-text {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
 
-  .start-anytime-text {
-    margin-left:40px;
-    margin-top: 40px;
-    margin-right: 40px;
-  }
+.start-anytime-big {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 33px;
+  color: #003399;
+  letter-spacing: 0;
+}
 
- .start-anytime-big {
-   font-size: 25px;
-   font-weight: 300;
-   line-height: 33px;
-   color: #003399;
-   letter-spacing: 0;
- }
-
- .start-anytime-small {
+.start-anytime-small {
   font-size: 18px;
   font-weight: 400;
   margin-top: 20px;
@@ -365,7 +357,6 @@ and (max-width: 1100px) {
 }
 
 /* skhole-courses css here */
-
 
 /* section-references css here */
 
@@ -412,11 +403,11 @@ and (max-width: 1100px) {
     margin-left: -100px;
   }
 }
-  @media only screen and (max-width: 500px) and (min-width: 400px) {
-    #refeholder {
+@media only screen and (max-width: 500px) and (min-width: 400px) {
+  #refeholder {
     width: 78% !important;
     margin-left: 12% !important;
-}
+  }
 }
 /* section-hotus-lamk css here */
 
@@ -456,7 +447,7 @@ and (max-width: 1100px) {
   float: right;
   position: absolute;
   background-color: #f6f6f6;
-  margin-top:90px;
+  margin-top: 90px;
   height: 370px;
   margin-left: 550px;
   margin-right: 50px;
@@ -509,7 +500,7 @@ and (max-width: 1100px) {
 .want-to-study-image {
   width: 50%;
   height: auto;
-  float:left;
+  float: left;
   margin-top: 10px;
 }
 
@@ -517,28 +508,24 @@ and (max-width: 1100px) {
   margin-left: 75px;
 }
 
-
 /* i-want-it-all-sector css here */
 
 #i-want-all-content {
-width: 190px;
-float: right;
-text-align: right;
-margin-right: 20px;
+  width: 190px;
+  float: right;
+  text-align: right;
+  margin-right: 20px;
 }
 
 .i-want-it-all-sector {
- max-width: 1111px;
- margin: auto;
-
+  max-width: 1111px;
+  margin: auto;
 }
-
 
 #what-you-get-button-holder {
   margin-top: 65px;
   margin-bottom: 15px;
 }
-
 
 .license-gives {
   margin-left: 70px;
@@ -547,8 +534,8 @@ margin-right: 20px;
   margin-top: 40px;
 }
 #what-you-get-h2 {
-line-height: 40px;
-width: 180px;
+  line-height: 40px;
+  width: 180px;
 }
 
 .get-li-x {
@@ -575,7 +562,6 @@ width: 180px;
   color: #0034a0;
   font-weight: 400;
   padding-right: 50px;
-
 }
 
 .what-you-get-li {
@@ -591,7 +577,6 @@ width: 180px;
 .grey-tr {
   background: #f6f6f6;
 }
-
 
 /* our-customers-section css starts here */
 
@@ -612,7 +597,6 @@ width: 180px;
   margin-left: -40px;
 }
 
-
 .logo-content {
   margin-left: 75px;
   margin-right: 20px;
@@ -627,7 +611,6 @@ width: 180px;
 }
 
 .customer-logo-img {
-
   margin: auto;
 }
 
@@ -636,7 +619,7 @@ width: 180px;
 }
 
 .logo-holder {
-  width:  170px;
+  width: 170px;
   height: 85px;
   float: left;
   margin: 50px 55px 25px 40px;
@@ -651,7 +634,6 @@ width: 180px;
   padding-top: 222px;
 }
 
-
 .wufoo-skhole-holder {
   max-width: 666px;
   margin: auto;
@@ -660,13 +642,9 @@ width: 180px;
   margin-top: 100px;
 }
 
-
 /* here max width 1100px min 1000 css */
 
-@media only screen
-and (max-width: 1100px) {
-
-
+@media only screen and (max-width: 1100px) {
   .better-more-cheaper-holder {
     width: 900px;
   }
@@ -674,68 +652,61 @@ and (max-width: 1100px) {
   .better-more-cheaper {
     width: 250px;
     margin-right: 45px;
-
   }
 
+  .study-image-holder {
+    width: 675px;
+  }
 
-.study-image-holder {
-  width: 675px;
+  .hotus-lamk-holder {
+    width: 666px;
+  }
+
+  .hotus-lamk-box-holder {
+    margin-top: 90px;
+  }
+
+  .hotus-lamk-text {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .buy-skhole {
+    margin-top: 25px;
+  }
+
+  .start-anytime {
+    height: 350px;
+    margin-top: 65px;
+  }
+
+  .start-anytime-text {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .what-you-get-table {
+    line-height: 26px;
+  }
+
+  #medicine-h2 {
+    width: 350px;
+  }
+
+  .logo-only {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .logo-holder {
+    margin: 50px 40px 25px 30px;
+  }
 }
-
-.hotus-lamk-holder {
-  width: 666px;
-}
-
-.hotus-lamk-box-holder {
-  margin-top: 90px;
-}
-
-.hotus-lamk-text {
-  margin-top: 20px;
-  margin-right: 30px;
-  margin-left: 30px;
-}
-
-.buy-skhole {
-  margin-top: 25px;
-}
-
-.start-anytime {
-  height: 350px;
-  margin-top: 65px;
-}
-
-.start-anytime-text {
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-right: 20px;
-}
-
-.what-you-get-table {
-  line-height: 26px;
-}
-
-#medicine-h2 {
-  width: 350px;
-}
-
-.logo-only {
-  width: 100%;
-  margin-left: 0;
-}
-
-.logo-holder {
-  margin: 50px 40px 25px 30px;
-}
-
-}
-
-
 
 /* here max width 1000px min to 800 max css, lets go mobile */
-@media only screen
-and (max-width: 1000px) {
-
+@media only screen and (max-width: 1000px) {
   .license-gives {
     width: 90%;
     line-height: 28px;
@@ -754,7 +725,6 @@ and (max-width: 1000px) {
     width: 100%;
   }
 
-
   .buy-form-holder {
     margin-top: 50px;
   }
@@ -767,7 +737,6 @@ and (max-width: 1000px) {
   }
 
   .study-image-holder {
-
     margin-left: 0px;
     width: 100%;
   }
@@ -776,7 +745,7 @@ and (max-width: 1000px) {
     width: 94%;
     margin-left: 3%;
     margin-top: 0px;
-    float:left;
+    float: left;
   }
 
   .better-more-cheaper {
@@ -856,16 +825,16 @@ and (max-width: 1000px) {
 
   .start-anytime-holder {
     width: 100%;
-    float:left;
+    float: left;
   }
 
   .start-anytime {
-    float:left;
-    width:80%;
-    margin-left:10%;
+    float: left;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 0;
     height: 240px;
-    margin-bottom: 25px
+    margin-bottom: 25px;
   }
 
   #start-anytime-buy {
@@ -881,17 +850,17 @@ and (max-width: 1000px) {
   .hotus-lamk-box-holder {
     position: relative;
     width: 80%;
-    float:left;
+    float: left;
     margin-left: 10%;
     margin-top: 0;
   }
 
-  .start-anytime-big{
+  .start-anytime-big {
     text-align: left;
   }
 
   #hotus-small {
-    float:left;
+    float: left;
   }
 
   .start-anytime-small {
@@ -905,10 +874,10 @@ and (max-width: 1000px) {
 
   #quality-content {
     width: 90%;
-     text-align: left;
-     margin-left: 0;
-     float:left;
-   }
+    text-align: left;
+    margin-left: 0;
+    float: left;
+  }
 
   #buy-form-buttons-and-text-holder {
     margin-left: 12%;
@@ -916,8 +885,8 @@ and (max-width: 1000px) {
   }
 
   #buy-form-holder-right-text-customers {
-    float:left;
-    width:90%;
+    float: left;
+    width: 90%;
     text-align: left;
   }
 
@@ -933,9 +902,7 @@ and (max-width: 1000px) {
 
   #medicine-h2 {
     width: 350px;
-
   }
-
 
   #customers-buy-holder {
     margin-left: 9%;
@@ -945,17 +912,14 @@ and (max-width: 1000px) {
 
 /* css here 800 to 600 */
 
-@media only screen
-and (max-width: 800px) {
-
+@media only screen and (max-width: 800px) {
   .start-anytime-small {
     margin-bottom: 25px;
   }
 
-#quality-content {
-  margin-top: 30px;
-}
-
+  #quality-content {
+    margin-top: 30px;
+  }
 
   #buy-form-holder-right-text {
     width: 190px;
@@ -966,11 +930,9 @@ and (max-width: 800px) {
     margin-top: 30px;
   }
 
-
   .fb-logo-pic-1 {
-    display:none;
+    display: none;
   }
-
 
   #start-anytime-buy {
     margin-left: 8%;
@@ -1010,108 +972,94 @@ and (max-width: 800px) {
     width: 100%;
   }
 
+  #want-to-study-image-mobile {
+    display: block;
+  }
 
-#want-to-study-image-mobile {
-  display: block;
+  #want-to-study-buy {
+    margin-left: 8%;
+  }
+
+  #want-to-study-image-desktop {
+    display: none;
+  }
+
+  #medicine-h2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .want-to-study {
+    width: 80%;
+    margin-left: 8%;
+  }
+
+  .use-skhole-h2 {
+    margin-left: 0;
+  }
+
+  .list-ul-text {
+    padding-left: 5%;
+  }
+
+  .logo-content {
+    margin-left: 8%;
+    width: 82%;
+    margin-top: 50px;
+  }
+
+  #over-hundred-customers {
+    margin-left: 0;
+    width: 100%;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .buy-form-holder-right {
+    margin-top: 10px;
+  }
+
+  .buy-form-holder {
+    margin-left: 50px;
+    width: 88%;
+  }
+
+  .logo-only {
+    margin-left: 10px;
+  }
+
+  #refe-buy {
+    margin-left: 12%;
+  }
+
+  #course-11-h2 {
+    margin-left: 0;
+  }
+
+  #i-want-it-all-button-shortner {
+    width: 91%;
+  }
+
+  #i-want-better-button-shortner {
+    width: 95%;
+  }
 }
-
-#want-to-study-buy {
-  margin-left: 8%;
-}
-
-
-#want-to-study-image-desktop {
-  display: none;
-}
-
-#medicine-h2 {
-  width: 100%;
-  margin-left: 0;
-
-}
-
-.want-to-study {
-  width: 80%;
-  margin-left: 8%;
-}
-
-.use-skhole-h2 {
-  margin-left: 0;
-}
-
-.list-ul-text {
-  padding-left: 5%;
-}
-
-.logo-content {
-  margin-left: 8%;
-  width: 82%;
-  margin-top: 50px;
-}
-
-#over-hundred-customers {
-  margin-left: 0;
-  width: 100%;
-  line-height: 30px;
-  font-weight: 400;
-}
-
-.buy-form-holder-right {
-  margin-top: 10px;
-}
-
-.buy-form-holder {
-  margin-left: 50px;
-  width: 88%;
-}
-
-
-
-.logo-only {
-  margin-left: 10px;
-}
-
-#refe-buy {
-  margin-left: 12%;
-}
-
-#course-11-h2 {
-  margin-left: 0;
-}
-
-#i-want-it-all-button-shortner {
-  width: 91%;
-}
-
-#i-want-better-button-shortner {
-  width: 95%;
-}
-
-
-
-}
-
-
 
 /* css here 600 to 400 */
 
-@media only screen
-and (max-width: 599px) {
-
-
+@media only screen and (max-width: 599px) {
   #what-skhole-contains {
     width: 89%;
   }
 
-
   .koulutus-hoidossa-video {
     margin-left: 0;
     width: 100%;
-    height:250px;
+    height: 250px;
   }
 
   .start-anytime {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   #to-who-plus {
@@ -1122,20 +1070,20 @@ and (max-width: 599px) {
     margin-top: 0;
   }
 
-  .hotus-lamk-box-holder, .start-anytime {
+  .hotus-lamk-box-holder,
+  .start-anytime {
     height: auto;
     width: 84%;
     margin-left: 8%;
-}
+  }
 
-#what-you-get-button-holder {
-  margin-top: 10px;
-}
+  #what-you-get-button-holder {
+    margin-top: 10px;
+  }
 
   #courses-for-everyone {
     margin-left: 0;
   }
-
 
   #all-courses-button {
     width: 83%;
@@ -1240,7 +1188,9 @@ and (max-width: 599px) {
     font-size: 26px;
   }
 
-  .start-anytime-big, .buy-skhole-h2, #medicine-h2 {
+  .start-anytime-big,
+  .buy-skhole-h2,
+  #medicine-h2 {
     font-size: 24px;
   }
 
@@ -1253,31 +1203,36 @@ and (max-width: 599px) {
     width: 80%;
   }
 
-  p,  .buy-skole-text, #course-11-h2, .start-anytime-small, .list-ul-text, #to-who-plus, #courses-for-everyone {
+  p,
+  .buy-skole-text,
+  #course-11-h2,
+  .start-anytime-small,
+  .list-ul-text,
+  #to-who-plus,
+  #courses-for-everyone {
     font-size: 16px;
   }
 
-  #what-you-get-h2, #refe-h2, #who-should-use-h2 {
+  #what-you-get-h2,
+  #refe-h2,
+  #who-should-use-h2 {
     font-size: 30px;
   }
 
   #refe-h2 {
     margin-left: 18px;
   }
-
 }
 
 /* css here 399 to inf */
 
-@media only screen
-and (max-width: 399px) {
-
+@media only screen and (max-width: 399px) {
   .what-you-get-table {
-  line-height: 22px;
+    line-height: 22px;
   }
 
   .koulutus-hoidossa-video {
-    height:210px;
+    height: 210px;
   }
 
   #course-11-h2 {
@@ -1294,7 +1249,9 @@ and (max-width: 399px) {
     font-size: 20px;
   }
 
-  .start-anytime-big, .buy-skhole-h2, #medicine-h2 {
+  .start-anytime-big,
+  .buy-skhole-h2,
+  #medicine-h2 {
     font-size: 21px;
   }
 
@@ -1305,8 +1262,7 @@ and (max-width: 399px) {
 
 /* css here iphone4 to inf */
 
-@media only screen
-and (max-width: 345px) {
+@media only screen and (max-width: 345px) {
   .hotus-lamk-text {
     margin-left: 10px;
   }
@@ -1316,10 +1272,9 @@ and (max-width: 345px) {
   }
 
   .what-you-get-li {
-    padding-left:3px;
+    padding-left: 3px;
   }
   .koulutus-hoidossa-video {
-    height:190px;
+    height: 190px;
   }
-
 }

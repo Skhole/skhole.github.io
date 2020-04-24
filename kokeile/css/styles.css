@@ -1,6 +1,6 @@
 body {
   color: #0d2b5c;
-  font-family: "jaf-domus";
+  font-family: 'jaf-domus';
 }
 
 img {
@@ -8,7 +8,7 @@ img {
   height: auto;
 }
 p {
-font-size: 19px;
+  font-size: 19px;
 }
 
 .laakehoidon-lupasivu-h2 {
@@ -22,15 +22,14 @@ font-size: 19px;
   z-index: 999999;
 }
 
-
-h1, h2 {
+h1,
+h2 {
   color: #0034a0;
 }
 
 h1 img {
   width: 100%;
 }
-
 
 hr {
   display: block;
@@ -45,7 +44,7 @@ img.logo {
   width: 170px;
   height: 50px;
   position: absolute;
-  left: 40px;
+  left: 10px;
   top: 20px;
 }
 
@@ -60,16 +59,15 @@ button {
 
 .list-ul-text {
   font-weight: 300;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   font-size: 18px;
   margin-right: 10px;
 }
 
-@media only screen
-and (min-width: 1281px) {
+@media only screen and (min-width: 1281px) {
   #alaheader {
-  margin-top: 0px;
-}
+    margin-top: 0px;
+  }
 }
 
 .skhole-is-best {
@@ -90,7 +88,7 @@ and (min-width: 1281px) {
   font-size: 20px;
   padding: 12px 22px 12px 22px;
   background: #2ccac7;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 2px solid #2ccac7;
   border-radius: 4px;
 }
@@ -101,7 +99,7 @@ and (min-width: 1281px) {
   font-size: 20px;
   padding: 12px 22px 12px 22px;
   background: #2ccac7;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 2px solid #2ccac7;
   border-radius: 4px;
 }
@@ -118,12 +116,11 @@ and (min-width: 1281px) {
 }
 
 .skhole-buy-education {
-max-width: 1111px;
-margin: auto;
+  max-width: 1111px;
+  margin: auto;
 }
 
-@media only screen
-and (max-width: 1100px) {
+@media only screen and (max-width: 1100px) {
   .skhole-buy-education {
     width: 100%;
   }
@@ -132,13 +129,13 @@ and (max-width: 1100px) {
 .buy-form-holder {
   margin-top: 20px;
   width: 80%;
-  float:left;
+  float: left;
 }
 
 .buy-form-holder-right {
   margin-top: 65px;
   width: 99%;
-  float:right;
+  float: right;
   margin-right: 85px;
 }
 
@@ -164,60 +161,54 @@ and (max-width: 1100px) {
   width: 200px;
   height: 120px;
   position: fixed;
-  right:0;
-  bottom:50px;
-  margin:20px;
-  padding:5px;
+  right: 0;
+  bottom: 50px;
+  margin: 20px;
+  padding: 5px;
   z-index: 89484957495;
 }
-
 
 #vinkkaa-pomolle-mobile {
   display: none;
-
 }
-
 
 @media only screen and (max-width: 800px) {
   #vinkkaa-pomolle-mobile {
-  right:0;
-  position: fixed;
-  bottom:20px;
-  margin:20px;
-  padding:5px;
-  z-index: 89484957495;
-  display: block;
-  border-radius: 8px;
-  font-family: "jaf-domus";
-  background: #ff9080;
-  color: #FFFFFF;
-  border: 1px solid #ff9080;
+    right: 0;
+    position: fixed;
+    bottom: 20px;
+    margin: 20px;
+    padding: 5px;
+    z-index: 89484957495;
+    display: block;
+    border-radius: 8px;
+    font-family: 'jaf-domus';
+    background: #ff9080;
+    color: #ffffff;
+    border: 1px solid #ff9080;
   }
   .vinkkaa-pomolle-floatter {
     display: none;
   }
 }
 
-
 @media only screen and (max-width: 800px) {
-
-.vinkkaa-pomolle-floatter {
-  width: 150px;
-  height: 90px;
-  position: fixed;
-  left:0;
-  bottom:10px;
-  margin:20px;
-  padding:5px;
-
-}
+  .vinkkaa-pomolle-floatter {
+    width: 150px;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    margin: 20px;
+    padding: 5px;
+  }
 }
 
 /* section-all-starts-here css here */
 
 .study-image-holder {
-  margin-left: -50px;
-  float:left;
+  margin-left: 0;
+  float: left;
   width: 53%;
   margin-top: 10px;
 }
@@ -232,7 +223,7 @@ and (max-width: 1100px) {
 }
 
 #buy-skhole-opener {
-  line-height: 40px
+  line-height: 40px;
 }
 
 .study-image {
@@ -240,155 +231,150 @@ and (max-width: 1100px) {
   height: auto;
 }
 
-  .buy-skhole {
-    margin-top:45px;
-    width: 45%;
-    height: auto;
-    background-color: #f6f6f6;
-    float: left;
-    padding: 10px 20px 0 40px;
-    position: relative;
-    padding-bottom: 30px;
-  }
+.buy-skhole {
+  margin-top: 45px;
+  width: 45%;
+  height: auto;
+  background-color: #f6f6f6;
+  float: left;
+  padding: 10px 20px 0 40px;
+  position: relative;
+  padding-bottom: 30px;
+}
 
-  #what-you-get-2w {
-    width: 100%;
-    margin-top: 0;
-  }
+#what-you-get-2w {
+  width: 100%;
+  margin-top: 0;
+}
 
-
-  .buy-skhole-h2 {
+.buy-skhole-h2 {
   width: 100%;
   font-size: 36px;
   font-weight: 300;
   line-height: 20px;
-  }
+}
 
-  .buy-skole-text {
-    font-size: 18px;
-    margin-top: 15px;
-    font-weight: 500;
-    line-height: 25px;
-    color: #003399;
-    }
+.buy-skole-text {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #003399;
+}
 
-    .cheaper-h2 {
-      font-weight: 600;
-      font-size: 17px;
-      letter-spacing: 1.5px;
-      margin-left: 20px;
-    }
+.cheaper-h2 {
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  margin-left: 20px;
+}
 
-    .better-more-cheaper-holder {
-      width: 1005px;
-      position: relative;
-      margin-left: 30px;
-    }
+.better-more-cheaper-holder {
+  width: 1005px;
+  position: relative;
+  margin-left: 30px;
+}
 
-    .better-more-cheaper {
-      margin-top: 40px;
-      width: 450px;
-      float: left;
-      margin-left: 20px;
-      position: relative;
-      font-size: 18px;
-    }
+.better-more-cheaper {
+  margin-top: 40px;
+  width: 450px;
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  font-size: 18px;
+}
 
-  .border-buy {
-    border-bottom: 2px solid #003399;
-    padding-top: 20px;
-    width: 170px;
-  }
+.border-buy {
+  border-bottom: 2px solid #003399;
+  padding-top: 20px;
+  width: 170px;
+}
 
-  #first-trial-button-holder {
-    margin-left: 40px;
-  }
+#first-trial-button-holder {
+  margin-left: 40px;
+}
 
-  .better-more-text-holder {
-    width: 100%;
-    float: left;
-  }
+.better-more-text-holder {
+  width: 100%;
+  float: left;
+}
 
-  #better-holder-right {
-    margin-top: 40px;
-    margin-left: 70px;
-  }
+#better-holder-right {
+  margin-top: 40px;
+  margin-left: 70px;
+}
 
+/* section-to-who css here */
 
+#who-skhole-button {
+  float: left;
+}
 
+.all-courses-button-holder {
+  float: left;
+  margin-top: 25px;
+  width: 100%;
+}
+#courses-for-everyone {
+  float: left;
+  text-align: left;
+  width: 500px;
+  font-size: 20px;
+  font-weight: 500;
+}
 
-  /* section-to-who css here */
+#all-courses-button {
+  float: left;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 12px 22px 12px 22px;
+  background: #ff9080;
+  color: #ffffff;
+  border: 2px solid #ff9080;
+  border-radius: 4px;
+  margin-left: 22px;
+}
 
-  #who-skhole-button {
-    float: left;
-  }
+.section-to-who {
+  position: relative;
+  margin-left: 50px;
+  max-width: 1111px;
+}
 
-  .all-courses-button-holder {
-    float: left;
-    margin-top: 25px;
-    width: 100%;
-  }
-  #courses-for-everyone {
-    float: left;
-    text-align: left;
-    width: 500px;
-    font-size: 20px;
-    font-weight: 500;
-  }
+.who-should-use-skhole {
+  position: relative;
+  float: left;
+  width: 24%;
+  margin-top: 45px;
+}
 
-  #all-courses-button {
-    float: left;
-    font-weight: 400;
-    font-size: 20px;
-    padding: 12px 22px 12px 22px;
-    background: #ff9080;
-    color: #FFFFFF;
-    border: 2px solid #ff9080;
-    border-radius: 4px;
-    margin-left: 22px;
-  }
+#what-skhole-contains {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #003399;
+  margin-top: 20px;
+  width: 504px;
+}
 
-  .section-to-who {
-    position: relative;
-    margin-left: 50px;
-    max-width: 1111px;
-  }
+.use-skhole-h2 {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
 
-  .who-should-use-skhole {
-    position: relative;
-    float: left;
-    width: 24%;
-    margin-top: 45px;
-  }
+.to-who-texts {
+  margin-left: 20px;
+  margin-top: 100px;
+}
 
-  #what-skhole-contains {
-    font-size: 20px;
-    margin-top: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    color: #003399;
-    margin-top: 20px;
-    width: 504px;
-  }
-
-  .use-skhole-h2 {
-    margin-left: 20px;
-    font-weight: 600;
-    font-size: 17px;
-    letter-spacing: 1.5px;
-  }
-
-  .to-who-texts {
-    margin-left: 20px;
-    margin-top: 100px;
-  }
-
-  #to-who-plus {
-    margin-top: 15px;
-    color: #003399;
-    margin-left: 20px;
-  }
-
+#to-who-plus {
+  margin-top: 15px;
+  color: #003399;
+  margin-left: 20px;
+}
 
 /* section-start-anytime css here */
 
@@ -407,39 +393,38 @@ and (max-width: 1100px) {
   margin-left: 75px;
 }
 
+.start-anytime {
+  width: 41%;
+  float: right;
+  position: relative;
+  background-color: #f6f6f6;
+  margin-top: 80px;
+  height: 444px;
+  margin-left: 25px;
+}
 
-  .start-anytime {
-    width: 41%;
-    float: right;
-    position: relative;
-    background-color: #f6f6f6;
-    margin-top:80px;
-    height: 444px;
-    margin-left: 25px;
-  }
+.start-anytime-holder {
+  float: right;
+  margin-top: 65px;
+  width: 63%;
+  margin-right: -90px;
+}
 
-  .start-anytime-holder {
-    float: right;
-    margin-top: 65px;
-    width: 63%;
-    margin-right: -90px;
-  }
+.start-anytime-text {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
 
-  .start-anytime-text {
-    margin-left:40px;
-    margin-top: 40px;
-    margin-right: 40px;
-  }
+.start-anytime-big {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 33px;
+  color: #003399;
+  letter-spacing: 0;
+}
 
- .start-anytime-big {
-   font-size: 25px;
-   font-weight: 300;
-   line-height: 33px;
-   color: #003399;
-   letter-spacing: 0;
- }
-
- .start-anytime-small {
+.start-anytime-small {
   font-size: 18px;
   font-weight: 400;
   margin-top: 20px;
@@ -448,7 +433,6 @@ and (max-width: 1100px) {
 }
 
 /* skhole-courses css here */
-
 
 /* section-references css here */
 
@@ -490,9 +474,9 @@ and (max-width: 1100px) {
 
 @media only screen and (max-width: 500px) and (min-width: 400px) {
   #refeholder {
-  width: 78% !important;
-  margin-left: 9% !important;
-}
+    width: 78% !important;
+    margin-left: 9% !important;
+  }
 }
 
 /* section-hotus-lamk css here */
@@ -537,7 +521,7 @@ and (max-width: 1100px) {
   float: right;
   position: absolute;
   background-color: #f6f6f6;
-  margin-top:125px;
+  margin-top: 125px;
   height: 370px;
   margin-left: 500px;
   margin-right: 50px;
@@ -560,7 +544,6 @@ and (max-width: 1100px) {
 #medicine-border {
   margin-left: 25px;
 }
-
 
 #want-to-study-image-mobile {
   display: none;
@@ -590,7 +573,7 @@ and (max-width: 1100px) {
 .want-to-study-image {
   width: 50%;
   height: auto;
-  float:left;
+  float: left;
   margin-top: 10px;
 }
 
@@ -598,20 +581,18 @@ and (max-width: 1100px) {
   margin-left: 80px;
 }
 
-
 /* i-want-it-all-sector css here */
 
 #i-want-all-content {
-width: 190px;
-float: right;
-text-align: right;
-margin-right: 20px;
+  width: 190px;
+  float: right;
+  text-align: right;
+  margin-right: 20px;
 }
 
 .i-want-it-all-sector {
- max-width: 1111px;
- margin: auto;
-
+  max-width: 1111px;
+  margin: auto;
 }
 
 .license-gives {
@@ -621,7 +602,7 @@ margin-right: 20px;
   margin-top: 40px;
 }
 #what-you-get-h2 {
-line-height: 40px;
+  line-height: 40px;
 }
 
 .get-li-x {
@@ -648,7 +629,6 @@ line-height: 40px;
   color: #0034a0;
   font-weight: 400;
   padding-right: 50px;
-
 }
 
 .what-you-get-li {
@@ -661,7 +641,6 @@ line-height: 40px;
 .grey-tr {
   background: #f6f6f6;
 }
-
 
 /* our-customers-section css starts here */
 
@@ -687,8 +666,6 @@ line-height: 40px;
   margin-left: -40px;
 }
 
-
-
 .logo-content {
   margin-left: 75px;
   margin-right: 20px;
@@ -703,8 +680,7 @@ line-height: 40px;
 }
 
 .customer-logo-img {
-margin-top: auto;
-
+  margin-top: auto;
 }
 
 #customers-buy-holder {
@@ -723,7 +699,6 @@ margin-top: auto;
 
 /* wufoo-skhole-holder-here */
 
-
 #wufoo-m1s3bssk06socjh {
   display: block !important;
 }
@@ -740,26 +715,22 @@ margin-top: auto;
   padding-top: 222px;
 }
 
-
 /* here max width 1100px min 1000 css */
 
-@media only screen
-and (max-width: 1100px) {
-
+@media only screen and (max-width: 1100px) {
   #better-holder-right {
     margin-left: 5%;
     width: 40%;
   }
 
+  .logo-only {
+    width: 100%;
+    margin-left: 0;
+  }
 
-.logo-only {
-  width: 100%;
-  margin-left: 0;
-}
-
-.logo-holder {
-  margin: 50px 40px 25px 30px;
-}
+  .logo-holder {
+    margin: 50px 40px 25px 30px;
+  }
 
   #better-holder-left-desktop {
     width: 42%;
@@ -769,52 +740,46 @@ and (max-width: 1100px) {
     width: 100%;
   }
 
-.hotus-lamk-holder {
-  width: 666px;
+  .hotus-lamk-holder {
+    width: 666px;
+  }
+
+  .hotus-lamk-box-holder {
+    margin-top: 125px;
+  }
+
+  .hotus-lamk-text {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .buy-skhole {
+    margin-top: 65px;
+  }
+
+  .start-anytime {
+    height: 385px;
+    margin-top: 90px;
+  }
+
+  .start-anytime-text {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .what-you-get-table {
+    line-height: 26px;
+  }
+
+  #medicine-h2 {
+    width: 350px;
+  }
 }
-
-.hotus-lamk-box-holder {
-  margin-top: 125px;
-}
-
-.hotus-lamk-text {
-  margin-top: 20px;
-  margin-right: 30px;
-  margin-left: 30px;
-}
-
-.buy-skhole {
-  margin-top: 65px;
-}
-
-.start-anytime {
-  height: 385px;
-  margin-top: 90px;
-}
-
-.start-anytime-text {
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-right: 20px;
-}
-
-.what-you-get-table {
-  line-height: 26px;
-}
-
-#medicine-h2 {
-  width: 350px;
-}
-
-
-
-}
-
 
 /* here max width 1000px min to 800 max css, lets go mobile */
-@media only screen
-and (max-width: 1000px) {
-
+@media only screen and (max-width: 1000px) {
   .license-gives {
     width: 90%;
     line-height: 28px;
@@ -828,7 +793,6 @@ and (max-width: 1000px) {
     width: 100%;
   }
 
-
   .buy-form-holder {
     margin-top: 50px;
   }
@@ -841,7 +805,6 @@ and (max-width: 1000px) {
   }
 
   .study-image-holder {
-
     margin-left: 0px;
     width: 100%;
   }
@@ -933,7 +896,7 @@ and (max-width: 1000px) {
 
   .start-anytime-holder {
     width: 100%;
-    float:left;
+    float: left;
   }
 
   #buy-holder-5 {
@@ -941,12 +904,12 @@ and (max-width: 1000px) {
   }
 
   .start-anytime {
-    float:left;
-    width:80%;
-    margin-left:10%;
+    float: left;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 0;
     height: 265px;
-    margin-bottom: 25px
+    margin-bottom: 25px;
   }
 
   #start-anytime-buy {
@@ -962,17 +925,17 @@ and (max-width: 1000px) {
   .hotus-lamk-box-holder {
     position: relative;
     width: 80%;
-    float:left;
+    float: left;
     margin-left: 10%;
     margin-top: 0;
   }
 
-  .start-anytime-big{
+  .start-anytime-big {
     text-align: left;
   }
 
   #hotus-small {
-    float:left;
+    float: left;
   }
 
   .start-anytime-small {
@@ -985,11 +948,10 @@ and (max-width: 1000px) {
   }
 
   #quality-content {
-   width: 90%;
+    width: 90%;
     text-align: left;
     margin-left: 0;
-    float:left;
-
+    float: left;
   }
 
   #buy-form-buttons-and-text-holder {
@@ -998,8 +960,8 @@ and (max-width: 1000px) {
   }
 
   #buy-form-holder-right-text-customers {
-    float:left;
-    width:90%;
+    float: left;
+    width: 90%;
     text-align: left;
   }
 
@@ -1021,14 +983,11 @@ and (max-width: 1000px) {
   #want-to-study-buy {
     margin-left: 11%;
   }
-
 }
 
 /* css here 800 to 600 */
 
-@media only screen
-and (max-width: 800px) {
-
+@media only screen and (max-width: 800px) {
   .better-desktop-holder {
     display: none;
   }
@@ -1043,9 +1002,7 @@ and (max-width: 800px) {
 
   .start-anytime-small {
     margin-bottom: 25px;
-
   }
-
 
   #buy-form-holder-right-text {
     width: 190px;
@@ -1056,11 +1013,9 @@ and (max-width: 800px) {
     margin-top: 30px;
   }
 
-
   .fb-logo-pic-1 {
-    display:none;
+    display: none;
   }
-
 
   #start-anytime-buy {
     margin-left: 8%;
@@ -1093,7 +1048,7 @@ and (max-width: 800px) {
 
   #better-holder-right {
     width: 85%;
-    margin-left:0;
+    margin-left: 0;
   }
 
   #buy-form-buttons-and-text-holder {
@@ -1109,82 +1064,73 @@ and (max-width: 800px) {
     width: 100%;
   }
 
+  #want-to-study-image-mobile {
+    display: block;
+  }
 
-#want-to-study-image-mobile {
-  display: block;
+  #want-to-study-buy {
+    margin-left: 8%;
+  }
+
+  #want-to-study-image-desktop {
+    display: none;
+  }
+
+  #medicine-h2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .want-to-study {
+    width: 80%;
+    margin-left: 8%;
+  }
+
+  .use-skhole-h2 {
+    margin-left: 0;
+  }
+
+  .list-ul-text {
+    padding-left: 5%;
+  }
+
+  .logo-content {
+    margin-left: 8%;
+    width: 82%;
+    margin-top: 50px;
+  }
+
+  #over-hundred-customers {
+    margin-left: 0;
+    width: 100%;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .buy-form-holder-right {
+    margin-top: 10px;
+  }
+
+  .buy-form-holder {
+    width: 84%;
+  }
+
+  .logo-only {
+    margin-left: 10px;
+  }
+
+  #refe-buy {
+    margin-left: 8%;
+  }
+
+  #first-trial-button-holder {
+    margin-left: 0;
+  }
 }
-
-#want-to-study-buy {
-  margin-left: 8%;
-}
-
-
-#want-to-study-image-desktop {
-  display: none;
-}
-
-#medicine-h2 {
-  width: 100%;
-  margin-left: 0;
-
-}
-
-.want-to-study {
-  width: 80%;
-  margin-left: 8%;
-}
-
-.use-skhole-h2 {
-  margin-left: 0;
-}
-
-.list-ul-text {
-  padding-left: 5%;
-}
-
-.logo-content {
-  margin-left: 8%;
-  width: 82%;
-  margin-top: 50px;
-}
-
-#over-hundred-customers {
-  margin-left: 0;
-  width: 100%;
-  line-height: 30px;
-  font-weight: 400;
-}
-
-.buy-form-holder-right {
-  margin-top: 10px;
-}
-
-.buy-form-holder {
-  width: 84%;
-}
-
-
-.logo-only {
-  margin-left: 10px;
-}
-
-#refe-buy {
-  margin-left: 8%;
-}
-
-#first-trial-button-holder {
-  margin-left: 0;
-}
-
-}
-
-
 
 /* css here 600 to 400 */
 
-@media only screen
-and (max-width: 599px) {
-
+@media only screen and (max-width: 599px) {
   #buy-header {
     display: block;
   }
@@ -1214,7 +1160,7 @@ and (max-width: 599px) {
   }
 
   #courses-for-everyone {
-   width: 75%;
+    width: 75%;
   }
 
   #all-courses-button {
@@ -1226,14 +1172,13 @@ and (max-width: 599px) {
     width: 230px;
   }
 
-
   .what-you-get {
     margin-top: 20px;
   }
 
   #better-holder-left-desktop {
     width: 85%;
-    margin-left:0px;
+    margin-left: 0px;
   }
 
   #study-everywhere-h2 {
@@ -1257,7 +1202,7 @@ and (max-width: 599px) {
 
   .buy-form-holder-right {
     margin-left: 0;
-     width: 100%;
+    width: 100%;
   }
 
   #buy-form-holder-right-bu {
@@ -1301,7 +1246,8 @@ and (max-width: 599px) {
     padding-right: 10px;
   }
 
-  .better-more-cheaper, .buy-form-holder {
+  .better-more-cheaper,
+  .buy-form-holder {
     margin-left: 3%;
   }
 
@@ -1331,7 +1277,9 @@ and (max-width: 599px) {
     font-size: 26px;
   }
 
-  .start-anytime-big, .buy-skhole-h2, #medicine-h2 {
+  .start-anytime-big,
+  .buy-skhole-h2,
+  #medicine-h2 {
     font-size: 24px;
   }
 
@@ -1344,11 +1292,19 @@ and (max-width: 599px) {
     width: 82%;
   }
 
-  p,  .buy-skole-text, #course-11-h2, .start-anytime-small, .list-ul-text, #to-who-plus, #buy-form-holder-left-text {
+  p,
+  .buy-skole-text,
+  #course-11-h2,
+  .start-anytime-small,
+  .list-ul-text,
+  #to-who-plus,
+  #buy-form-holder-left-text {
     font-size: 16px;
   }
 
-  #what-you-get-h2, #refe-h2, #who-should-use-h2 {
+  #what-you-get-h2,
+  #refe-h2,
+  #who-should-use-h2 {
     font-size: 30px;
   }
 
@@ -1360,24 +1316,22 @@ and (max-width: 599px) {
     margin-left: 20px;
     margin-right: 20px;
   }
-
 }
 
 /* css here 399 to inf */
 
-@media only screen
-and (max-width: 399px) {
-
+@media only screen and (max-width: 399px) {
   #get-trial {
     display: none;
   }
 
-  .buy-skole-text, #buy-skhole-opener {
+  .buy-skole-text,
+  #buy-skhole-opener {
     margin-left: -15px;
   }
 
   .what-you-get-table {
-  line-height: 22px;
+    line-height: 22px;
   }
 
   .logo-holder {
@@ -1390,7 +1344,9 @@ and (max-width: 399px) {
     font-size: 20px;
   }
 
-  .start-anytime-big, .buy-skhole-h2, #medicine-h2 {
+  .start-anytime-big,
+  .buy-skhole-h2,
+  #medicine-h2 {
     font-size: 21px;
   }
 
