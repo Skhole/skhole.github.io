@@ -125,6 +125,20 @@ img.logo {
   padding-top: 20px;
 }
 
+.lms-flex {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lms-flex-1 {
+  width: 85%;
+}
+
+.lms-flex-2 img {
+  width: 100%;
+}
+
 @media only screen and (min-width: 1281px) {
   #alaheader {
     margin-top: 0px;
@@ -257,6 +271,9 @@ img.logo {
     width: 100%;
     margin-left: 0;
     padding: 20px 20px 40px 20px;
+  }
+  .lms-flex {
+    display: block;
   }
 }
 
