@@ -1,0 +1,163 @@
+/* alasivujen (kaikkien) header ottaa täältä tyylit */
+
+#alaheader {
+  z-index: 999999;
+  margin-top: 30px;
+  position: relative;
+  float: right;
+  width: 800px;
+}
+
+#buy-header {
+  background: #ff9080;
+  color: #ffffff;
+  border: 2px solid #ff9080;
+  margin-right: 5px;
+  margin-left: 0px;
+  letter-spacing: 0.29px;
+  z-index: 99999999;
+}
+
+button.primary {
+  background: #2ccac7;
+  border: 2px solid #2ccac7;
+  font-family: jaf-domus;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.29px;
+  line-height: 26px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+button.trial {
+  background: #0034a0;
+  border: 2px solid #0034a0;
+  margin-right: 5px;
+}
+
+.header a {
+  font-family: jaf-domus;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2ccac7;
+  letter-spacing: 0.22px;
+  line-height: 26px;
+  text-decoration: none;
+  padding: 10px 24px;
+  float: right;
+}
+
+/* hamburger here */
+
+@media (max-width: 800px) {
+  .skhole-menu-container {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .hamburger-fb-link {
+    padding: 0 !important;
+  }
+
+  #hamp-logo {
+    margin-top: 15px !important;
+  }
+
+  #hamburger-courses,
+  #hamburger-lang,
+  #hamburger-blog {
+    float: right;
+    color: #2ccac7;
+  }
+
+  .skhole-menu {
+    width: 100%;
+  }
+
+  #hamp-logo {
+    width: 25px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  #alaheader {
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 1050px) {
+  #alaheader {
+    margin-left: 6%;
+  }
+}
+
+@media (max-width: 888px) {
+  #alaheader {
+    margin-right: 3%;
+    float: right;
+    width: auto;
+  }
+
+  .customerservice {
+    display: none;
+  }
+}
+
+@media (max-width: 666px) {
+  #hamp-logo {
+    margin-top: 8px !important;
+  }
+
+  #alaheader {
+    margin-left: 6%;
+  }
+
+  #buy-header {
+    padding: 2px 13px;
+    margin-top: 5px;
+    border: 1px solid #ff9080;
+  }
+
+  button.primary {
+    padding: 2px 13px;
+    margin-top: 5px;
+    border: 1px solid #2ccac7;
+  }
+
+  button.trial {
+    background: none;
+    color: #0034a0;
+    border: 1px solid #0034a0;
+  }
+
+  img.logo {
+    width: 85px !important;
+    height: 25px !important;
+    left: 0 !important;
+    margin-top: 5px !important;
+    margin-left: 15px !important;
+  }
+}
+
+@media (max-width: 470px) {
+  #buy-header {
+    display: none;
+  }
+
+  .header a {
+    padding: 10px 7px 0 5px;
+  }
+
+  img.logo {
+    margin-left: 30px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  #hamp-logo {
+    float: right;
+  }
+}

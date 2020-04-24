@@ -1,0 +1,306 @@
+body {
+  color: #0d2b5c;
+  font-family: 'jaf-domus';
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.laakehoidon-lupasivu-h2 {
+  margin-left: 20px;
+}
+
+p {
+  font-size: 1em;
+}
+
+.mobile-button-buy {
+  display: none;
+}
+
+#logopic {
+  z-index: 999999;
+}
+
+h1,
+h2 {
+  color: #0034a0;
+}
+
+h1 img {
+  width: 100%;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #0034a0;
+  margin: 1em 0;
+  padding: 0;
+}
+
+img.logo {
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  left: 40px;
+  top: 20px;
+}
+
+button {
+  color: #fff;
+  background: #ff9080;
+  padding: 8px 15px;
+  border: 0;
+  font-size: 20px;
+  float: left;
+}
+
+.list-ul-text {
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.buy-skhole {
+  margin-top: 70px;
+  height: 410px;
+}
+
+.buy-skhole p {
+  line-height: 1.5em;
+  padding-top: 20px;
+}
+
+.buy-skhole img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 500px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.offer ul li {
+  line-height: 2em;
+}
+
+.skhole-is-best {
+  font-size: 1.1em;
+}
+
+.section-details {
+  clear: both;
+  padding: 40px 0 0 0;
+}
+
+.section-details img {
+  width: 580px;
+  padding-bottom: 25px;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+.skhole-menu {
+  width: 100%;
+}
+
+img.logo {
+  left: 10px;
+}
+
+.skhole-menu-container {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 1281px) {
+  #alaheader {
+    margin-top: 0px;
+  }
+}
+
+#alaheader {
+  margin-top: 20px;
+  padding-top: 0;
+}
+
+.skhole-is-best {
+  width: 100%;
+}
+
+.basic-text-css {
+  line-height: 26px;
+  letter-spacing: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.buy-text-holder {
+  float: left;
+  font-size: 23px;
+  margin-left: 20px;
+  width: 250px;
+  font-weight: 300;
+  margin-top: 2px;
+  line-height: 26px;
+  color: #003399;
+}
+
+.skhole-buy-education {
+  max-width: 1111px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1150px) {
+  .section-details {
+    padding: 30px 30px 0 30px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .skhole-buy-education {
+    width: 100%;
+  }
+}
+
+.koulutus-hoidossa-video {
+  float: left;
+  width: 55%;
+  margin-top: 100px;
+  height: 350px;
+}
+
+.buy-skhole {
+  width: 45%;
+
+  background-color: #f6f6f6;
+  float: right;
+  padding: 10px 20px 15px 30px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.buy-skhole-h2 {
+  width: 100%;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.border-buy {
+  border-bottom: 2px solid #003399;
+  padding-top: 20px;
+  width: 170px;
+}
+
+#bottom-buy-margin-maker {
+  padding-top: 222px;
+}
+
+/* here max width 1100px min 1000 css */
+
+@media only screen and (max-width: 1100px) {
+  .logo-only {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .logo-holder {
+    margin: 50px 40px 25px 30px;
+  }
+}
+
+/* here max width 1000px min to 800 max css, lets go mobile */
+@media only screen and (max-width: 1000px) {
+  .koulutus-hoidossa-video {
+    width: 100%;
+    height: 450px;
+    margin-top: 0;
+  }
+
+  .buy-skhole {
+    height: auto;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 0px;
+    float: left;
+  }
+
+  .buy-text-holder {
+    width: 80%;
+    margin-left: 1px;
+    float: left;
+    text-align: left;
+    margin-top: 30px;
+  }
+}
+
+/* css here 800 to 600 */
+
+@media only screen and (max-width: 800px) {
+  .border-buy {
+    display: none;
+  }
+  .buy-skhole {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px 20px 40px 20px;
+  }
+}
+
+/* css here 600 to 400 */
+
+@media only screen and (max-width: 599px) {
+  .koulutus-hoidossa-video {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+  }
+
+  .section-details img {
+    width: 100%;
+    padding-bottom: 25px;
+  }
+
+  .buy-skhole-h2 {
+    width: 100%;
+    line-height: 40px;
+  }
+
+  /* here font stuff */
+
+  .buy-text-holder {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+/* css here 399 to inf */
+
+@media only screen and (max-width: 399px) {
+  .koulutus-hoidossa-video {
+    height: 210px;
+  }
+
+  .start-anytime-big,
+  .buy-skhole-h2 {
+    font-size: 21px;
+  }
+}
+
+/* css here iphone4 to inf */
+
+@media only screen and (max-width: 345px) {
+  .koulutus-hoidossa-video {
+    height: 190px;
+  }
+}
